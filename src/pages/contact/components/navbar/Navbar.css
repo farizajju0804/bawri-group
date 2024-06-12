@@ -1,0 +1,45 @@
+.header {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-inner-container {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-logo {
+  color: white;
+  font-family: 'Skywalks', sans-serif;
+  font-size: 15px;
+  line-height: 31.8px;
+}
+
+.navigation-icon {
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+@media screen and (min-width:640px) {
+  .navigation-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .header-inner-container {
+    justify-content: space-between;
+  }
+  .company-logo{
+    font-size: 24px;
+  }
+}

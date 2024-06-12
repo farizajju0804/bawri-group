@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.quantta-Component4-div{
+    /* min-height: 93vh; */
+    width: 100%;
+    background-color: #FDDB60;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    /* align-items: center; */
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.quantta-Component4-heading{
+    color: var(--black, #262626);
+    font-family: 'Skywalks';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.quantta-Component4-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.quantta-Component4-img{
+    width: 100%;
+    max-width: 255.5px;
+}
+.quantta-Component4-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    gap:10px;
+    min-height: 50vh;
+
+}
+
+.quantta-Component4-content-1{
+    width: 100%;
+    max-width: 297px;
+    color: var(--black, #262626);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 30px;
+    /* align-items: center; */
+    text-align: left;
+}
+.quantta-Component4-content-2{
+    width: 100%;
+    max-width: 297px;
+    color: var(--black, #262626);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 30px;
+    text-align: left;
+    /* align-items: center; */
+}
+
+@media screen and (min-width: 768px) {
+        .quantta-Component4-main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;    
+            gap: 200px;
+            align-items: center;
+        }
+        .quantta-Component4-div{
+            min-height: 93vh;
+            /* padding-top: 10px; */
+        }
+        .quantta-Component4-content{
+            gap: 20px;
+            max-width: 490px;
+        }
+        .quantta-Component4-heading{
+            font-size: 52px;
+        }
+        .quantta-Component4-content-1{
+            font-size: 18px;
+            max-width: 560px;
+            text-align: left;
+        }
+        .quantta-Component4-content-2{
+            font-size: 18px;
+            max-width: 560px;
+            text-align: left;
+        }
+}

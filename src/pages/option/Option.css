@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.option-div{
+    background-color: #FEE8D0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.option-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+.option-heading{
+    color: var(--Black, #262626);
+font-family: 'Skywalks';
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.option-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.option-main-content{
+    color: var(--White, #FFF);
+font-family: 'Skywalks';
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 300px;
+background: var(--Black, #262626);
+padding: 5px;
+}
+
+.option-img{
+    width: 300px;
+}
+
+@media screen and (min-width:768px) {
+    .option-main{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .option-heading{
+        font-size: 74px;
+    }
+    .option-div{
+        max-height: 100vh;
+
+    }
+}

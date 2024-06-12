@@ -1,0 +1,221 @@
+.antiques-Component5-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.antiques-Component5-div{
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+   
+}
+.antiques-Component5-heading{
+
+    /* width: 100%; */
+    color: var(--white, white);
+    background-color: #262626;
+    font-family: 'Skywalks';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+
+.antiques-Component5-img{
+    width: 100%;
+}
+.antiques-Component5-div2{
+    /* min-height: 30vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap : 30px;
+    align-items: center;
+    background-color: #262626;
+    /* height: 40vh; */
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    top: -35px;
+    padding-bottom: 15px;
+    max-width: 300px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.antiques-Component5-div2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+.antiques-Component5-div2-1-1{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+   
+}
+
+.antiques-Component5-text{
+        color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Skywalks';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1px;
+    align-items: left;
+    text-align: left;
+    white-space: nowrap;
+}
+
+
+.antiques-Component5-div2-1-2{
+    color: var(--white, #FFF);
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    /* padding-left: 10px; */
+    padding-right: 10px;
+}
+
+.antiques-Component5-div2-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    min-height: 7vh;
+
+}
+
+.antiques-Component5-div2-2-1{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10.5px; /* 58.333% */
+}
+
+.antiques-Component5-div2-2-2{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.5px; /* 58.333% */
+}
+@media screen and (min-width: 424px) {
+    /* .antiques-Component5-div{
+        min-height: 100vh;
+    } */
+    .antiques-Component5-div2{
+        max-width: 350px;
+    }
+
+}
+@media screen and (min-width:768px) {
+
+     .antiques-Component5-div2-1-2{
+        padding-left: 10px;
+    }
+    .antiques-Component5-text{
+        font-size: 30px;
+    }
+    .antiques-Component5-heading{
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .antiques-Component5-div2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 900px;
+        /* height: 50vh; */
+        position: relative;
+        top: -107px;
+        padding-bottom: 20px;
+    }
+    .antiques-Component5-div2-2{
+        gap: 0px;
+    }
+
+    .antiques-Component5-div2-2-1{
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Lato;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 58.333% */
+        margin-bottom: 30px;
+    }
+
+    .antiques-Component5-div2-1-2{
+        color: var(--white, #FFF);
+        font-family: 'Inter';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        max-width: 387px;
+    }
+    .antiques-Component5-img{
+        max-width: 1000px;
+    }
+
+    .antiques-Component5-div2-1{
+        justify-content: center;
+        gap: 20px;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .antiques-Component5-div2-1-1{
+        font-size: 28px;
+        padding-top: 20px;
+        padding-left: 8px;
+    }
+    .antiques-Component5-div2-2-2{
+        font-size: 32px;
+    }
+    .antiques-Component5-div2-2-1{
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 1000px)  {
+    .antiques-Component5-div2{
+        top: -70px
+    }
+   
+}

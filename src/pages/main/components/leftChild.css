@@ -1,0 +1,44 @@
+.child {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.left-image-div {
+    border-radius: 99999px 0 0 99999px;
+    overflow: hidden;
+    height: 250px;
+    width: 125px;
+}
+
+.left-image {
+    border-radius: 99999px 0 0 99999px;
+    height: 250px;
+    width: 125px;
+    object-fit: fill;
+}
+
+.left-content-div {
+    height: 200px;
+    width: 100px;
+    background: white;
+    border-radius: 0 9999px 9999px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.left-content {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    word-wrap: break-word;
+    text-align: center;
+}
+.left-content:link{
+    text-decoration: none;
+}

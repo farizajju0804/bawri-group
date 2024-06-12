@@ -1,0 +1,135 @@
+.retail-Component3-div {
+    /* min-height: 130vh; */
+    width: 100%;
+    background-image: url('../assets/retailmain.jpeg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.retail-Component3-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.retail-Component3-heading {
+    color: var(--white, #262626);
+    font-family: 'Skywalks';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.retail-Component3-div2 {
+    max-width: 856px;
+    border-radius: 20px;
+    background-color: #262626;
+    padding: 20px;
+    margin-left: 23px;
+    margin-right: 23px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+
+
+.retail-Component3-div2-text {
+    color: white;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+
+
+
+.retail-Component3-img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 180px; */
+    align-items: center;
+    /* gap: 80px; */
+}
+.retail-Component3-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.retail-Component3-img{
+    width: 70px;
+}
+/* .retail-Component3-left {
+    width: 140px;
+}
+
+.retail-Component3-right {
+    width: 140px;
+} */
+
+
+
+@media screen and (min-width : 768px) {
+    .retail-Component3-div {
+        min-height: 100vh;
+    }
+
+    .retail-Component3-heading {
+        font-size: 52px;
+    }
+    .retail-Component3-img{
+        width: 250px;
+    }
+    /* .retail-Component3-left {
+        width: 250px
+    }
+
+    .retail-Component3-right {
+        width: 250px
+    } */
+    
+    
+    .retail-Component3-div2 {
+        max-width: 700px;
+        width: 100%;
+    }
+    .retail-Component3-img-container{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 742px) and (max-width: 970px){
+    /* .retail-Component3-left {
+    width: 215px;
+}
+
+.retail-Component3-right {
+    width: 215px;
+} */
+
+.retail-Component3-img-container{
+    justify-content: space-between;
+}
+.retail-Component3-img{
+    width: 215px;
+}
+}

@@ -1,0 +1,135 @@
+.think-Component3-div {
+    /* min-height: 130vh; */
+    width: 100%;
+    background-image: url('../assets/thinkmain.jpeg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.think-Component3-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.think-Component3-heading {
+    color: var(--white, #262626);
+    font-family: 'Skywalks';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.think-Component3-div2 {
+    max-width: 856px;
+    border-radius: 20px;
+    background-color: #FEE8D0;
+    padding: 20px;
+    margin-left: 23px;
+    margin-right: 23px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+
+
+.think-Component3-div2-text {
+    color:#262626;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+
+
+
+.think-Component3-img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 180px; */
+    align-items: center;
+    /* gap: 80px; */
+}
+.think-Component3-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.think-Component3-img{
+    width: 70px;
+}
+/* .think-Component3-left {
+    width: 140px;
+}
+
+.think-Component3-right {
+    width: 140px;
+} */
+
+
+
+@media screen and (min-width : 768px) {
+    .think-Component3-div {
+        min-height: 100vh;
+    }
+
+    .think-Component3-heading {
+        font-size: 72px;
+    }
+    .think-Component3-img{
+        width: 250px;
+    }
+    /* .think-Component3-left {
+        width: 250px
+    }
+
+    .think-Component3-right {
+        width: 250px
+    } */
+    
+    
+    .think-Component3-div2 {
+        max-width: 700px;
+        width: 100%;
+    }
+    .think-Component3-img-container{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 742px) and (max-width: 970px){
+    /* .think-Component3-left {
+    width: 215px;
+}
+
+.think-Component3-right {
+    width: 215px;
+} */
+
+.think-Component3-img-container{
+    justify-content: space-between;
+}
+.think-Component3-img{
+    width: 215px;
+}
+}

@@ -1,0 +1,143 @@
+.parent-container {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--yellow, #FDDB60);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1180px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-image {
+  width: 100%;
+  max-width: 300px;
+  object-fit: contain;
+}
+
+.mail-input-parent-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.mail-input-title {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.wrapper {
+  width: 100%;
+  background: #fff;
+}
+
+
+.wrapper .input-data {
+  width: 100%;
+  position: relative;
+}
+
+.wrapper .input-data input {
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+  font-family: 'Lato', sans-serif;
+}
+
+.top-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.input-data input:focus~label,
+.input-data input:valid~label {
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: #4158d0;
+}
+
+
+.wrapper .input-data label {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: grey;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+
+
+.submit-button {
+  border: none;
+  padding: 13px 25px;
+  background-color: #3B44F6;
+  color: white;
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 7.5px;
+  text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    flex-direction: row;
+    padding: 100px;
+    gap: 20px;
+  }
+
+  .mail-input-title {
+    font-size: 54px;
+  }
+
+  .top-input-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .top-input-container {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .input-container {
+    gap: 40px;
+  }
+}

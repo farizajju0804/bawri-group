@@ -1,0 +1,217 @@
+.quantta-Component5-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.quantta-Component5-div{
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+   
+}
+.quantta-Component5-heading{
+
+    /* width: 100%; */
+    color: #262626;
+    background-color: #FDDB60 ;
+    font-family: 'Skywalks';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 15px 8px 15px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+
+.quantta-Component5-img{
+    width: 100%;
+}
+.quantta-Component5-div2{
+    /* min-height: 30vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap : 25px;
+    align-items: center;
+    background-color: #262626;
+    /* height: 40vh; */
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    top: -35px;
+    padding-bottom: 15px;
+    max-width: 300px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+.quantta-Component5-div2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.quantta-Component5-text{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Skywalks';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    /* white-space: nowrap; */
+}
+
+
+.quantta-Component5-div2-1-2{
+    color: var(--white, #FFF);
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    /* padding-left: 10px; */
+    padding-right: 10px;
+    text-align: center;
+}
+
+.quantta-Component5-div2-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    min-height: 7vh;
+
+}
+
+.quantta-Component5-div2-2-1{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10.5px; /* 58.333% */
+}
+
+.quantta-Component5-div2-2-2{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.5px; /* 58.333% */
+    white-space: nowrap;
+}
+@media screen and (min-width: 424px) {
+    /* .quantta-Component5-div{
+        min-height: 100vh;
+    } */
+    /* .quantta-Component5-div2{
+        max-width: 350px;
+    } */
+
+}
+@media screen and (min-width:768px) {
+
+     .quantta-Component5-div2-1-2{
+        padding-left: 10px;
+    }
+    .quantta-Component5-text{
+        font-size: 30px;
+    }
+    .quantta-Component5-heading{
+        margin-top: 15px;
+        padding: 10px 15px 10px 15px;
+    }
+    .quantta-Component5-text{
+        padding-left: 6px;
+    }
+    .quantta-Component5-div2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 900px;
+        /* height: 50vh; */
+        position: relative;
+        top: -107px;
+        padding-bottom: 20px;
+    }
+    .quantta-Component5-div2-2{
+        gap: 0px;
+    }
+
+    .quantta-Component5-div2-2-1{
+        color: var(--white, #FFF);
+        text-align: center;
+        font-family: Lato;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 58.333% */
+        margin-bottom: 30px;
+    }
+
+    .quantta-Component5-div2-1-2{
+        color: var(--white, #FFF);
+        font-family: 'Inter';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        max-width: 387px;
+        text-align: left;
+    }
+    .quantta-Component5-img{
+        max-width: 1000px;
+    }
+
+    .quantta-Component5-div2-1{
+        justify-content: center;
+        gap: 5px;
+        align-items: flex-start;
+        text-align: left;
+    }
+   
+    .quantta-Component5-div2-2-2{
+        font-size: 32px;
+
+    }
+    .quantta-Component5-div2-2-1{
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 1000px)  {
+    .quantta-Component5-div2{
+        top: -70px
+    }
+   
+}
