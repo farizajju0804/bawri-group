@@ -8,6 +8,14 @@ import image6 from "./assets/6.png";
 import './main.css';
 
 const Main = () => {
+  const items = [
+    { title: "Education", image: image1, path: "/non-profit/bawri-school" },
+    { title: "Knowledge", image: image2, path: "/non-profit/ideopedia" },
+    { title: "Economic Growth", image: image6, path: "/non-profit/growth" },
+    { title: "National Unity", image: image4, path: "/non-profit/think" },
+    { title: "Healthcare", image: image5, path: "/non-profit/bawri-eye-hospital" }
+  ];
+
   return (
     <div className="page">
       <div className="main">
@@ -23,56 +31,18 @@ const Main = () => {
           </div>
         </div>
         <div className="circle-container">
-          <Link to="/non-profit/bawri-school" style={{ textDecoration: 'none' }}>
-            <div className="child-1">
-              <div className="left-image-div">
-                <img className="left-image" src={image1} alt="Education" />
+          {items.map((item, index) => (
+            <Link to={item.path} style={{ textDecoration: 'none' }} key={index}>
+              <div className={`child ${index % 2 === 0 ? 'left-child' : 'right-child'}`}>
+                <div className={`image-div ${index % 2 === 0 ? 'left-image-div' : 'right-image-div'}`}>
+                  <img className="image" src={item.image} alt={item.title} />
+                </div>
+                <div className={`content-div ${index % 2 === 0 ? 'left-content-div' : 'right-content-div'}`}>
+                  <div className="content">{item.title}</div>
+                </div>
               </div>
-              <div className="left-content-div">
-                <div className="left-content">Education</div>
-              </div>
-            </div>
-          </Link>
-          <Link to="/non-profit/ideopedia" style={{ textDecoration: 'none' }}>
-            <div className="right-child">
-              <div className="right-content-div">
-                <div className="right-content">Knowledge</div>
-              </div>
-              <div className="right-image-div">
-                <img className="right-image" src={image2} alt="Knowledge" />
-              </div>
-            </div>
-          </Link>
-          <Link to="/non-profit/growth" style={{ textDecoration: 'none' }}>
-            <div className="child-1">
-              <div className="left-image-div">
-                <img className="left-image" src={image6} alt="Economic Growth" />
-              </div>
-              <div className="left-content-div">
-                <div className="left-content">Economic Growth</div>
-              </div>
-            </div>
-          </Link>
-          <Link to="/non-profit/think" style={{ textDecoration: 'none' }}>
-            <div className="right-child">
-              <div className="right-content-div">
-                <div className="right-content">National Unity</div>
-              </div>
-              <div className="right-image-div">
-                <img className="right-image" src={image4} alt="National Unity" />
-              </div>
-            </div>
-          </Link>
-          <Link to="/non-profit/bawri-eye-hospital" style={{ textDecoration: 'none' }}>
-            <div className="child-1">
-              <div className="left-image-div">
-                <img className="left-image" src={image5} alt="Healthcare" />
-              </div>
-              <div className="left-content-div">
-                <div className="left-content">Healthcare</div>
-              </div>
-            </div>
-          </Link>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const sections = [
   { id: 1, link: "/vinay", image: "left.png", title: "Vinay" },
   { id: 2, link: "/thaella", image: "left2.png", title: "Thaella" },
-  { id: 3, link: "/plywood", image: "left3.png", title: "Plywood" },
+  { id: 3, link: "/profit/nagaland-plywoods", image: "left3.png", title: "Plywood" },
   { id: 4, link: "/retail", image: "left4.png", title: "Retail" },
   { id: 5, link: "/cijen", image: "left5.png", title: "Cijen" },
   { id: 6, link: "/antiques", image: "left6.png", title: "Antiques" },

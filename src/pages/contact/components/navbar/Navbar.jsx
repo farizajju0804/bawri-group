@@ -62,7 +62,7 @@ const FullScreenNav = () => {
               <ul className="dropdown">
                 <li><a href="/mission" onClick={closeNav}>Mission</a></li>
                 <li><a href="/values" onClick={closeNav}>Values</a></li>
-                <li><a href="/team" onClick={closeNav}>Team</a></li>
+                {/* <li><a href="/team" onClick={closeNav}>Team</a></li> */}
                 <li><a href="/story" onClick={closeNav}>Story</a></li>
               </ul>
             )}
