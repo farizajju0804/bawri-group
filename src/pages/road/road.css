@@ -1,15 +1,126 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
-.road-main{
-    scroll-snap-type: y mandatory;
-    max-height: 100vh;
-    overflow-y: scroll;
-    
-}
-.child{
-    scroll-snap-align: start;
-}
+  .road-main {
+    overflow: hidden;
+    background-color: #FDDB60;
+  }
+  
+  .road-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #FDDB60;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .road-header-text1,
+  .road-header-text2,
+  .road-header-text3 {
+    color: #262626;
+    text-align: center;
+    font-family: 'Skywalks', sans-serif;
+  }
+  
+  .road-header-text1 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* letter-spacing: 1.333px; */
+    font-family: 'Lato';
+  }
+  
+  .road-header-text2 {
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+   
+  }
+  
+  .road-header-text3 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  
+  .road-container {
+    position: relative;
+    min-height: 100vh; 
+  }
+  
+  .road-image {
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .road-section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .road-section.left .road-board {
+    position: absolute;
+    left: 60%;
+    z-index: 4;
+
+  }
+  
+  .road-section.right .road-board {
+    position: absolute;
+    right: 60%;
+    z-index: 4;
+  }
+  
+  .road-board {
+    position: absolute;
+    top: 60%;
+    transform: translateY(50%);
+  }
+  
+  .road-board a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+  .fp-category-title{
+    background-color: white;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  .road-board img {
+    width: 120px;
+    height: auto;
+  }
+  
+
+
+ @media screen and (max-width: 768px){
+    .road-header{
+        height: 50vh;
+    }
+    .road-header-text1 {
+      font-size: 32px;
+    }
+    .road-header-text2 {
+      font-size: 48px;
+    }
+    .road-header-text3 {
+      font-size: 64px;
+    }
+
+    .road-image{
+        height: 100%;
+    }
+ }

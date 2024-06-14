@@ -1,0 +1,59 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .road-main {
+    scroll-snap-type: y mandatory;
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+  
+  .child {
+    scroll-snap-align: start;
+  }
+  
+  .road-section-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 100vh;
+  }
+  
+  .link {
+    display: flex;
+  }
+  
+  .road-section-left,
+  .road-section-right {
+    width: 120px;
+  }
+  
+  .road-section-left {
+    align-self: flex-end;
+    padding-bottom: 100px;
+    padding-left: 20px;
+  }
+  
+  .road-section-right {
+    align-self: flex-start;
+    padding-top: 40px;
+    padding-right: 20px;
+  }
+  
+  .road-section-middle {
+    width: 50vw;
+  }
+  
+  @media screen and (max-width: 540px) {
+    .road-section-left,
+    .road-section-right {
+      width: 100px;
+    }
+    .road-section-middle {
+      width: 52vw;
+    }
+  }
+   */
