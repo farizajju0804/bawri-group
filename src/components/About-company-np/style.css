@@ -1,0 +1,91 @@
+
+
+.about-np-div{
+    width: 100%;
+    background-color: #3B44F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    /* padding-top: 45px; */
+    padding: 45px 20px;
+}
+
+.about-np-content-heading{
+    color: white;
+    font-family: 'Skywalks';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.about-np-content-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.about-np-img{
+    max-width: 700px;
+    width: 100%;
+    border-radius: 12px;
+}
+.about-np-content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    gap:10px;
+
+}
+
+.about-np-content{
+    width: 100%;
+    max-width: 700px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    .about-np-div{
+        gap:20px;
+    }
+        .about-np-content-main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;    
+            align-items: center;
+        }
+       
+        .about-np-content-box{
+            gap: 20px;
+            max-width: 490px;
+        }
+        .about-np-content-heading{
+            font-size: 32px;
+        }
+        
+       .about-np-content{
+            font-size: 14px;
+            line-height: 25px;
+            max-width: 80%;
+       }
+
+        .about-np-img{
+            max-width: 80%;
+            height: 150px;
+
+        }
+}

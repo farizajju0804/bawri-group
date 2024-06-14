@@ -1,0 +1,100 @@
+.how-we-started-outer-div {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-bottom: 45px; */
+    padding: 30px 20px;
+}
+
+.how-we-started-heading {
+    /* color: var(--white, #262626); */
+    font-family: 'Skywalks';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+    
+}
+
+.how-we-started-content-box {
+    max-width: 800px;
+    border-radius: 20px;
+    background-color: #FEE8D0;
+    padding: 24px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.how-We-started-content {
+    color: black;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+
+
+
+.side-images-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 180px; */
+    align-items: center;
+}
+
+.left-image {
+    width: 20%;
+    aspect-ratio: 16 / 9;
+}
+
+.right-image {
+   width: 20%;
+   aspect-ratio: 16 / 9;
+}
+
+
+
+@media screen and (max-width : 768px) {
+    /* .how-we-started-outer-div {
+       padding: 30px 40px;
+    } */
+
+    .how-we-started-heading {
+        font-size: 32px;
+    }
+    
+    .left-image {
+        width: 40%;
+        aspect-ratio: 16 / 9;
+    }
+    
+    .right-image {
+       width: 40%;
+       aspect-ratio: 16 / 9;
+    }
+   
+    
+    .how-we-started-content-box {
+        max-width: 700px;
+        width: 100%;
+    }
+    .how-We-started-content {
+        font-size: 16px;
+    }
+}
+

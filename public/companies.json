@@ -1,0 +1,88 @@
+{
+    "forProfit": [
+      {
+        "id": "nagaland-plywoods",
+        "categoryName": "Plywood",
+        "companyName": "Nagaland Plywoods",
+        "year": "2002",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287793/Bawri%20Group/Plywood/intro-plywood_uqb6ne.webp",
+        "testimonial": {
+          "authorName": "Rajesh Bhagra",
+          "content": [
+            "I am an avid antique enthusiast. Saroj plywood' fine eye for identifying and finding a range of global plywood, customer service, and reverence for history really stand out.",
+            "The quality of their collection is exemplary. They are honest and knowledgeable professionals with a passion for plywood. Each interaction has been wonderful."
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "It was an​ ordinary day​ that turned out to be extraordinary. A serendipitous find​ at a book fair -​ a ​pristine ​leather-bound antique atlas priced at a mere dollar​ ​​sparked an unforeseen bidding war among potential buyers.",
+            "It resulted in a 300-fold return. ​This ​was beyond the realm of imagination​. It ​​was a pivotal moment that unveiled the potential of the antique​s​ industry. Saroj plywood was born shortly thereafter."
+          ],
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287515/Bawri%20Group/Plywood/wooden-666afc1c0043b_ehckiz.webp",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287367/Bawri%20Group/Plywood/bed1_lkmy2x.png",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287375/Bawri%20Group/Plywood/table1_eqgg8r.png",
+          "headingColor": "white"
+        },
+        "aboutCompany": {
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718286633/Bawri%20Group/Plywood/about-plywood_lgknv8.png",
+          "content": [
+            "Before setting up Nagaland Plywood, we realized manufacturers were using only two types of timber (makai and halong) to make plywood. We pioneered using underexplored varieties of timber. Plywood was made in 3, 5, or 7 layers.",
+            "Manufacturers used the same quality of timber for the inner and outer layers, and made all the layers equal in thickness. We innovated using superior timber only for the outer layers and also pioneered making the inner layers of timber twice as thick as the outer layers."
+          ],
+          "companyName" :"Nagaland Plywoods"
+        },
+        "highlightMoment": {
+          "year": "2012",
+          "location": "Kolkata, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta."
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287327/Bawri%20Group/Plywood/highlight-moment-plywoord_q8sqzl.webp"
+        }
+      },
+      {
+        "id": "deluxe-furnitures",
+        "categoryName": "Furniture",
+        "companyName": "Deluxe Furnitures",
+        "year": "2010",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718197781/email%20images/2150797654-66699e03d8ec3_ghri8n.webp",
+        "testimonial": {
+          "authorName": "Anita Mehra",
+          "content": [
+            "Deluxe Furnitures provides exceptional quality and service. Their attention to detail and commitment to customer satisfaction is unparalleled.",
+            "Each piece of furniture is a work of art, blending functionality with aesthetics perfectly. Highly recommended."
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Deluxe Furnitures began with a vision to redefine furniture design. Our journey started in a small workshop with a handful of craftsmen dedicated to creating innovative and stylish furniture pieces.",
+            "Today, we are proud to be a leader in the furniture industry, known for our unique designs and superior quality."
+          ],
+          "bgImageUrl": "./assets/wooden.jpeg",
+          "leftImageUrl": "./assets/bed1.png",
+          "rightImageUrl": "./assets/table1.png",
+          "headingColor": "white"
+        },
+        "aboutCompany": {
+          "aboutImg": "./assets/furniturelogo.svg",
+          "content": [
+            "At Deluxe Furnitures, we believe in pushing the boundaries of design. Our team of skilled artisans and designers work tirelessly to create furniture that not only looks good but also stands the test of time.",
+            "We use a mix of traditional craftsmanship and modern techniques to bring our designs to life, ensuring each piece is of the highest quality."
+          ],
+          "companyName" :"Deluxe Furnitures"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Our flagship store in Mumbai was a major milestone for us. It showcased our entire range of products and provided customers with an immersive experience of our brand.",
+            "The grand opening event was a resounding success, further establishing our presence in the market."
+          ],
+          "momentName": "Flagship Store Opening",
+          "highlightImg": "./assets/grandopening.png"
+        }
+      }
+    ]
+  }
+  

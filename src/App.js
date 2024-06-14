@@ -1,5 +1,5 @@
 import Timber from "./pages/timber/Timber";
-import Plywood from './pages/plywood/Plywood'
+// import Plywood from './pages/plywood/Plywood'
 import { Route, Routes} from 'react-router-dom';
 import Antiques from "./pages/antiques/Antiques";
 import Thaella from "./pages/thaella/Thaella";
@@ -25,7 +25,9 @@ import Education from "./pages/education/Education";
 import Contact from "./pages/contact/Contact"
 import Navbar from "./pages/contact/components/navbar/Navbar";
 import Main from './pages/main/main'
-
+import Plywood from './pages/for-profit-companies/plywood/plywood'
+import CompanyPage from "./pages/CompanyPage";
+import NonProfitCompanyPage from "./pages/NonProfitCompanyPage";
 function App() {
   return (
      <>
@@ -56,6 +58,8 @@ function App() {
         <Route path='/education' element={<Education/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='non-profit' element={<Main/>}/>
+        <Route path='/for-profit/:id' element={<CompanyPage/>} />
+        <Route path='/non-profit/:id' element={<NonProfitCompanyPage/>} />
       </Routes>
 
     </>

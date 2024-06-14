@@ -1,0 +1,50 @@
+.header-background-box {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Added */
+}
+
+@media screen and (max-width: 1024px) {
+    .header-background-box {
+        height: 400px;
+    }
+}
+
+.overlay-intro-company {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Added */
+    top: 0; /* Added */
+    left: 0; /* Added */
+    display: flex; /* Added */
+    justify-content: center; /* Added */
+    align-items: center; /* Added */
+}
+
+.company-category {
+    color: white;
+    font-family: 'Lato';
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.8px;
+    position: relative; /* Added */
+    z-index: 1; /* Added */
+}
+
+@media screen and (max-width: 767px) {
+    .company-category {
+        font-size: 3rem;
+    }
+}

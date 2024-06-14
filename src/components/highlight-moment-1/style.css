@@ -1,0 +1,170 @@
+.highlight-moment-fp-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.highlight-moment-fp-div{
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    align-items: center;
+    padding: 5%;
+   
+}
+.highlight-Moment-fp-heading{
+
+    /* width: 100%; */
+    color: var(--white, white);
+    background-color: #262626;
+    font-family: 'Skywalks';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 30px;
+    text-align: center;
+     padding: 10px 30px;
+}
+
+.highlight-moment-fp-img{
+    width: 100%;
+}
+.highlight-moment-fp-content-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap : 30px; */
+    align-items: center;
+    background-color: #262626;
+    /* height: 40vh; */
+    border-radius: 16px;
+    width: 100%;
+    margin-top: -10%;
+    padding: 30px;
+    max-width: 800px;
+   
+}
+.highlight-moment-fp-para-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    align-items: flex-start;
+    width: 75%;
+}
+
+
+.highlight-moment-fp-moment-name{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Skywalks';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1px;
+    align-items: left;
+    text-align: left;
+}
+
+.highlight-moment-content-text{
+    font-size: 16px;
+    font-family: "Lato";
+    color: var(--white, #FFF);
+    font-weight: 200;
+    line-height: 1.5;
+}
+.fp-metadata-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    /* width: 30%; */
+    font-family: "Lato";
+
+}
+
+.fp-metadata-box-year{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fp-metadata-box-location{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media screen and (max-width:768px) {
+    .highlight-moment-fp-div{
+        padding: 30px;
+    }
+   
+    .highlight-moment-fp-moment-name{
+        font-size: 30px;
+    }
+    .highlight-Moment-fp-heading{
+        font-size: 32px;
+        padding: 5px 10px;
+    }
+   
+    .highlight-moment-fp-content-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 100%;
+        margin-top: 30px;
+        padding: 20px;
+        gap: 30px;
+
+    }
+    .highlight-moment-fp-para-content{
+    
+        width: 100%;
+       
+    }
+    
+    .fp-metadata-box{
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    
+
+
+    .highlight-moment-fp-para-content{
+        justify-content: center;
+        gap: 10px;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .highlight-moment-content-text{
+        font-size: 14px;
+    }
+   
+    .highlight-moment-fp-moment-name{
+        font-size: 24px;
+       
+    }
+
+}
+
+
