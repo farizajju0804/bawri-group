@@ -5,9 +5,9 @@ import CompanyImageHeader from '../components/company-image-header/company-image
 import TestimonialCompany from '../components/testimonial-company/testimonialCompany';
 import HowWeStarted from '../components/how-we-started/howWeStarted';
 
-import HighlightMomentprofit from '../components/highlight-moment-1/highlightMomentprofit';
 import AboutCompanyNp from '../components/About-company-np/aboutCompanynp';
 import TitleAndYearNp from '../components/titleAndYearNp/titleAndYearNp';
+import HighlightMomentNonprofit from '../components/highlight-moment-2/highlightMomentNonprofit';
 
 const NonProfitCompanyPage = () => {
   const { id } = useParams();
@@ -57,7 +57,7 @@ const NonProfitCompanyPage = () => {
         companyName={company.companyName}
         content={company.aboutCompany.content}
       />
-      <HighlightMomentprofit
+      <HighlightMomentNonprofit
         year={company.highlightMoment.year}
         location={company.highlightMoment.location}
         content={company.highlightMoment.content}

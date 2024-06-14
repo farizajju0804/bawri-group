@@ -1,25 +1,17 @@
 import "./main.css"
-import LeftChild from "./components/leftChild";
-import RightChild from "./components/rightChild"
+import LeftChild from "./leftChild1";
+import RightChild from "./rightChild1"
 import image1 from "./assets/1.png"
 import image2 from "./assets/2.png";
 import image4 from "./assets/4.png";
 import image5 from "./assets/5.png";
 import image6 from "./assets/6.png";
-import { Link } from "react-router-dom";
-
+// import nav_icon from "../assets/nav-icon.svg"
+import {Link} from "react-router-dom";
 const NonProfit = () => {
   return (
     <div className="page">
-      {/* <div className="header">
-        <div>
-          <p className="header-logo">BawriGroup</p>
-        </div>
-        <div>
-          <img className="navigation-icon" src={nav_icon} alt="Your SVG" />
-        </div>
-      </div> */}
-
+  
       <div className="main">
         <div className="heading-container">
           <div className="heading-1-container">
@@ -35,22 +27,20 @@ const NonProfit = () => {
           </div>
         </div>
         <div className="circle-container">
-          <Link to="/education" style={{textDecoration: 'none'}}>
-            <LeftChild image={image1} title="Education" />
+          <Link to="/non-profit/bawri-school" style={{textDecoration: 'none'}}>
+          <LeftChild image={image1} title="Education" />
           </Link>
-          <Link to="/idea" style={{textDecoration: 'none'}}>          
-              <RightChild image={image2} title="Knowledge" />
+          <Link to="/non-profit/ideopedia" style={{textDecoration: 'none'}}>
+          <RightChild image={image2} title="Knowledge" />
           </Link>
-          <Link to="/growth" style={{textDecoration: 'none'}}>
-            <LeftChild image={image6} title="Economic Growth" />
-
+          <Link to="/non-profit/growth" style={{textDecoration: 'none'}}>
+          <LeftChild image={image6} title="Economic Growth" />
           </Link>
-
-          <Link to='/think' style={{textDecoration: 'none'}}>         
-             <RightChild image={image4} title="National Unity" />
+          <Link to="/non-profit/think" style={{textDecoration: 'none'}}>
+          <RightChild image={image4} title="National Unity" />
           </Link>
-          <Link to="/health" style={{textDecoration: 'none'}}>         
-           <LeftChild image={image5} title="Healthcare" />
+          <Link to="/non-profit/bawri-eye-hospital" style={{textDecoration: 'none'}}>
+          <LeftChild image={image5} title="Healthcare" />
           </Link>
         </div>
       </div>
