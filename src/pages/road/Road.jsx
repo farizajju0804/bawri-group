@@ -27,7 +27,7 @@ const Road = () => {
     sections.forEach((section, index) => {
       gsap.fromTo(
         `#board-${section.id}`,
-        { y: -100, opacity: 0 },
+        { y: -0, opacity: 1 },
         {
           y: 0,
           opacity: 1,

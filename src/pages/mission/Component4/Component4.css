@@ -1,11 +1,11 @@
 .vision-Component4-div{
     background-color: #FEE8D0;
-    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
   
 }
 
@@ -19,36 +19,35 @@
 .vision-Component4-heading{
     color: var(--Black, #262626);
 font-family: 'Skywalks';
-font-size: 52px;
+font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 align-self: flex-start  ;
-margin-left: 30px;
 }
 
 .vision-Component4-content{
     color: var(--Black, #262626);
 font-family: Lato;
-font-size: 18px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 42px */
-margin-left: 75px;
-margin-right: 75px;
 text-align: left;
 align-self: center;
 }
 
 @media screen and (min-width:768px) {
     .vision-Component4-heading{
-        font-size: 100px;
+        font-size: 3rem;
     }
 
     .vision-Component4-content{
-        font-size: 28px;
-        margin-left: 150px;
-        margin-right: 150px;
+        font-size: 18px;
+       
+    }
+    .vision-Component4-div{
+    padding: 60px;
     }
 
 }

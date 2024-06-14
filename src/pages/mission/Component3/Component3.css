@@ -21,15 +21,17 @@
 .vision-Component3-content{
     color: white;
     font-family: 'Skywalks';
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    -webkit-text-stroke: 1.8px;
+    /* -webkit-text-stroke: 1.8px; */
     background-color: #282828;
     padding: 15px;
+    margin-bottom: 10vh;
+
     /* max-height: 10vh; */
 }
 
@@ -37,11 +39,12 @@
 @media screen and (min-width: 768px) {
     .vision-Component3-div{
         height: 100vh;
+       
     }
 
     .vision-Component3-content{
-        font-size: 100px;
-        padding: 30px;
+        font-size: 3rem;
+        /* padding: 30px; */
     }
 
     
