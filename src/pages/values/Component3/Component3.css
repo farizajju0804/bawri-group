@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color:  rgba(253, 219, 96, 0.60);
+    
 }
 
 .values-Component3-content{
@@ -13,20 +14,21 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 20px 40px ;
 }
 
 .values-Component3-content-left{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
+    /* justify-content: center;
+    align-items: center; */
+   
 }
 
 .values-Component3-left-1{
     color: #2F2F2F;
     font-family: Skywalks;
-    font-size: 72px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -35,53 +37,46 @@
 .values-Component3-left-2{
         color: #2F2F2F;
         font-family: Lato;
-        font-size: 20px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 35px;
+        line-height: 30px;
         text-align: left;
         
-        /* 175% */
 }
 
 .values-Component3-content-right{
-    height: 518px;
-    width: 520px;
+    width: 40%;
 }
 
-@media screen and (max-width: 928px) and (min-width:768px){
-    .values-Component3-left-1{
-       font-size: 48px;
-    }
-}
-/* 
-@media screen and (min-width: 929px) {
-    .values-Component3-left-1{
-        font-size: 72px;
-    }
-} */
 
-@media screen and (max-width:768px) {
+
+@media screen and (max-width:1024px) {
     .values-Component3-content{
         flex-direction: column-reverse;
     }
 
-    .values-Component3-left-1{
-        font-size: 33px;
-        white-space: nowrap;
+    .values-Component3-content-right{
+        width: 80%;
     }
     .values-Component3-left-2{
-        font-size: 16px;
-        text-align: center;
+        font-size: 14px;
+      
     }
+
+    .values-Component3-left-1{
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+
+    .values-Component3-div{
+        min-height: 0;
+        height: auto;
+        padding: 20px 0;
+
+     }
+ 
     
-    .values-Component3-content-left{
-        margin-right: 30px;
+    
 
-    }
-
-.values-Component3-content-right{
-    height: 370px;
-    width: 372px;
-}
 }

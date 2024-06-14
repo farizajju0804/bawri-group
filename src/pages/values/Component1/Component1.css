@@ -21,15 +21,16 @@
 .vision-Component1-content{
     color: white;
     font-family: 'Skywalks';
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    -webkit-text-stroke: 1.8px;
+    /* -webkit-text-stroke: 1.8px; */
     background-color: #282828;
     padding: 15px;
+    margin-bottom: 20vh;
     /* max-height: 10vh; */
 }
 
@@ -40,21 +41,11 @@
     }
 
     .vision-Component1-content{
-        font-size: 100px;
-        padding: 30px;
+        font-size: 3rem;
+        /* padding: 30px; */
     }
 
+
+ 
     
 }
-
-/* @media only screen and (min-width: 769px) and (max-width: 1100px) {
-    .vision-Component1-content{
-        font-size: 70px;
-    }
-
-}
-@media screen and (max-width:769px) {
-    .vision-Component1-content{
-        font-size: 60px;
-    }
-} */
