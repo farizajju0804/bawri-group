@@ -1,0 +1,84 @@
+/* PartsPage.css */
+.parts-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./assets/partspagebg.png);
+  }
+  
+  .parts-header {
+    text-align: center;
+    margin: 5% 0;
+    padding: 10px;
+  }
+  
+  .parts-header h1 {
+    font-size: 3rem;
+    color: #262626;
+    font-family: 'Skywalks';
+    font-weight: 200;
+  }
+  .parts-header p {
+    font-size: 2.4rem;
+    color: #262626;
+    font-family: 'Skywalks';
+    font-weight: 200;
+  }
+  .parts-selection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .part-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .part img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .part h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .part p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+  @media screen and (max-width: 1024px){
+    .parts-selection{
+        flex-direction: column;
+        gap: 40px;
+    
+    }
+    .parts-header h1{
+        font-size: 2rem;
+    }
+    .parts-header p{
+        font-size: 20px;
+    }
+    .parts-header{
+        margin-top: 8vh;
+    }
+  }

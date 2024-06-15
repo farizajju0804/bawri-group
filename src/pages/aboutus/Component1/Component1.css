@@ -1,9 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-.about-Component1-div{
+.about-div{
     background-image: url('../Component1/assets/heading.jpeg');
-    height: 50vh;
+    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,42 +14,28 @@
     align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-    .about-Component1-div{
-        height: 100vh;
+.about-content{
+    padding: 20px;
+font-size: 3rem;
+background-color: #262626;
+color: white;
+font-family: 'Skywalks';
+letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-div{
+        height: 40vh;
     }
 
-    .about-Component1-content{
-        font-size: 120px;
+
+    .about-content{
+        font-size: 32px;
+        padding: 10px;
     }
+   
 
     
 }
 
 
-
-.about-Component1-content{
-    color: white;
-    font-family: 'Skywalks';
-    font-size: 130px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1.8px;
-    background-color: #282828;
-    padding: 30px;
-    /* max-height: 10vh; */
-}
-@media only screen and (min-width: 769px) and (max-width: 1100px) {
-    .about-Component1-content{
-        font-size: 70px;
-    }
-
-}
-@media screen and (max-width:769px) {
-    .about-Component1-content{
-        font-size: 60px;
-    }
-}
