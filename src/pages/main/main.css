@@ -144,7 +144,7 @@ body {
     margin: 10px 0;
   }
 
-  .image-div, .image {
+  /* .image-div, .image {
     height: 150px;
     width: 75px;
   }
@@ -152,5 +152,5 @@ body {
   .content-div {
     height: 100px;
     width: 50px;
-  }
+  } */
 }

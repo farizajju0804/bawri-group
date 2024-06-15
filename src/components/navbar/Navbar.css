@@ -1,0 +1,105 @@
+/* Navbar.css */
+body {
+  overflow-x: hidden;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: none;
+  z-index: 1001;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  font-family: 'Skywalks', sans-serif;
+  font-size: 24px;
+  color: #262626;
+}
+
+.nav-toggle {
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fullscreen-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FDDB60;
+  transform: translateX(100%);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen-nav.open {
+  transform: translateX(0);
+}
+
+.nav-links {
+  list-style: none;
+  text-align: center;
+  font-size: 32px;
+}
+
+.nav-item {
+  margin: 20px 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #262626;
+  font-family: 'Skywalks', sans-serif;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+
+.dropdown {
+  list-style: none;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  text-align: left;
+  background-color: #262626;
+  border-radius: 10px;
+  
+}
+
+.dropdown li {
+  margin: 10px 0;
+}
+
+.dropdown a {
+  font-size: 20px;
+  display: block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(-10px);
+  opacity: 0;
+  color: white;
+  
+}
+
+.fullscreen-nav.open .dropdown a {
+  transform: translateY(0);
+  opacity: 1;
+}

@@ -75,7 +75,7 @@
 }
 
 .highlight-moment-content-text{
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Lato";
     color: var(--white, #FFF);
     font-weight: 200;
@@ -97,7 +97,7 @@
     color: var(--white, #FFF);
     text-align: center;
     font-family: 'Lato';
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
 }
@@ -106,7 +106,7 @@
     color: var(--white, #FFF);
     text-align: center;
     font-family: Lato;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
 }

@@ -152,7 +152,7 @@ const Social = () => {
           </div>
         </div>
       </div>
-      <div className="yellow-semicircle">
+      {/* <div className="yellow-semicircle">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#FDDB60"
@@ -173,7 +173,7 @@ const Social = () => {
             <button className="subscribe-button">Subscribe Now</button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

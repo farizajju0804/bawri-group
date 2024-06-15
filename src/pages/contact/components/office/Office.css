@@ -93,15 +93,15 @@
   }
 
   .title {
-    font-size: 72px;
+    font-size: 3rem;
   }
 
   .image-container {
-    height: 750px;
+    height: 450px;
   }
 
   .selected-image {
-    height: 750px;
+    height: 450px;
   }
 
   .options {

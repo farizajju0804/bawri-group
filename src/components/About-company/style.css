@@ -47,7 +47,7 @@
     width: 100%;
     color: var(--black, #262626);
     font-family: 'Lato';
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
@@ -67,6 +67,10 @@
         
         .about-Company-heading{
             font-size: 32px;
+        }
+        .about-company-content{
+            font-size: 14px;
+           
         }
        
        

@@ -23,12 +23,18 @@ import Mission from "./pages/mission/Mission";
 import Values from "./pages/values/Values";
 import Education from "./pages/education/Education";
 import Contact from "./pages/contact/Contact"
-import Navbar from "./pages/contact/components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import Main from './pages/main/main'
 import Plywood from './pages/for-profit-companies/plywood/plywood'
 import CompanyPage from "./pages/CompanyPage";
 import NonProfitCompanyPage from "./pages/NonProfitCompanyPage";
+import Footer from "./components/footer/footer";
+import { useLocation } from 'react-router-dom';
 function App() {
+  const location = useLocation();
+
+  // Define the routes where you don't want to show the footer
+  const noFooterRoutes = ['/profit'];
   return (
      <>
      <Navbar />
@@ -61,7 +67,7 @@ function App() {
         <Route path='/profit/:id' element={<CompanyPage/>} />
         <Route path='/non-profit/:id' element={<NonProfitCompanyPage/>} />
       </Routes>
-
+      {!noFooterRoutes.includes(location.pathname) && <Footer />}
     </>
   );
 }

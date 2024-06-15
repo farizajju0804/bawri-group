@@ -5,7 +5,6 @@ import Mail from "./components/mail/Mail";
 import Office from "./components/office/Office";
 import Social from "./components/social/Social";
 
-// import Footer from "./components/footer/footer";
 import './Contact.css';
 const Contact = () => {
   return (
@@ -13,7 +12,7 @@ const Contact = () => {
       <Hero />
       <Mail />
       <Office />
-      <Social />
+      {/* <Social /> */}
       
     </div>
   )

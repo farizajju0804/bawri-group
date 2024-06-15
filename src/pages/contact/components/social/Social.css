@@ -20,10 +20,11 @@
   line-height: 1.5;
   letter-spacing: 1px;
   text-align: center;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   z-index: 1;
   position: absolute;
-  top: -40px;
+  top: 20%;
+  left: 5%
 }
 
 .circle {
@@ -69,7 +70,7 @@
 
 .social-icon-parent {
   padding: 5px;
-  border: 1px solid #3b44f6;
+  border: 1px solid #262626;
   rotate: 45deg;
   display: flex;
   align-items: center;
