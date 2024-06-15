@@ -44,7 +44,7 @@ const StoryPage = () => {
   const years = part.stories.map(story => story.year);
 
   return (
-    <div className="story-page" style={{ height: '100%', width: '100%', overflow: 'hidden' }}>
+    <div className="story-page" style={{ height: '100%', width: '100%', overflowX: 'hidden' }}>
       <HorizontalScroll reverseScroll={true}  >
         {part.stories.map((story, index) => (
           <div id={`story-${index}`} key={index} className="story-slide">
