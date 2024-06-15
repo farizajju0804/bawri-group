@@ -5,6 +5,7 @@
     flex-direction: column;
     position: relative;
     max-height: 100vh;
+    overflow-y: none;
 }
 
 .story-img{
@@ -200,7 +201,7 @@ width: 100%;
 
 @media (max-width: 768px) {
     .story-img {
-        height: 60%;
+        height: 50%;
     } 
 
     .story-main-div {
