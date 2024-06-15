@@ -12,6 +12,7 @@
     gap: 40px;
     background-color: #fbb;
     height:100vh;
+    min-height: -webkit-fill-available;;
 }
 
 .home-Component6-heading{
