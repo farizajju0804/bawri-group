@@ -10,8 +10,8 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    background-color: white;
-    /* min-width: 100vh */
+    background-color: #fbb;
+    height:100vh;
 }
 
 .home-Component6-heading{

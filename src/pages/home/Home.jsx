@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
         <Component6/>
-        <Component7/>
+        {/* <Component7/> */}
 
     </div>
   )
