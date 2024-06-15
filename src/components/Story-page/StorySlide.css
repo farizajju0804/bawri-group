@@ -37,12 +37,13 @@
 }
 
 .story-main-div{
-   padding: 10px 30px;
+   padding: 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: flex-start;
-    height: 40%;
+    height: 30%;
+    justify-content: center;
 }
 
 .story-content-text{
@@ -53,6 +54,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 20px;
 width: 100%;
+
 }
 
 .story-heading-year{
@@ -178,7 +180,7 @@ width: 100%;
     display: block;
   }
   
-@media (max-width: 1023px) and (min-width: 767px) {
+@media (max-width: 1024px) and (min-width: 767px) {
     .story-img {
         height: 60%;
     } 
