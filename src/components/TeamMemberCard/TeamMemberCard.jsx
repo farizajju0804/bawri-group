@@ -11,7 +11,11 @@ const TeamMemberCard = ({ member, onLearnMore, isModal, onClose }) => {
         <img src={isModal ? member.yellowImage : member.blackImage} alt={`${member.name}`} className="profile-pic" />
         <div className="name-role">
           <h2 className={`member-name ${isModal ? 'modal-name' : ''}`}>{member.name}</h2>
-          <h3 className={`member-role ${isModal ? 'modal-role' : 'hide-role'}`}>{member.role}</h3>
+          {!isModal && (
+          <h3 className="member-role">{member.role}</h3>
+          )
+          }
+          {/* <h3 className={`member-role ${isModal ? 'modal-role' : 'hide-role'}`}>{member.role}</h3> */}
         </div>
       </div>
       {!isModal && (
