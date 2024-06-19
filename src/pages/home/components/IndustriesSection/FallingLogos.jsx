@@ -39,8 +39,8 @@ const FallingRectangles = () => {
         render: {
           sprite: {
             texture: texture,
-            xScale: width / 100,
-            yScale: height / 100
+            xScale: width / 150,
+            yScale: height / 150
           }
         }
       });
