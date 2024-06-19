@@ -151,10 +151,14 @@
     gap: 20px;
   }
    
-  /* .team-member-card{
-    gap: 0px;
-  } */
-
+  .team-member-card{
+    justify-content: flex-start;
+    gap: 20px;
+    min-height: 0;
+  }
+  .carousel{
+    gap:30px;
+  }
   .left-modal{
     margin-top: 12vh;
   }
