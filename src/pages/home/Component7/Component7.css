@@ -49,13 +49,10 @@ align-self: center;
     width: 100%;
 }
 
-@media screen and(min-width:768px) {
-    .home-Component7-text1{
-        font-size: 64px;
-    }
-
-    .home-Component7-text2{
-        font-size: 96px;
+@media screen and (max-width:768px) {
+    .home-Component7-div{
+        min-height: 0;
+        background-color: white;
     }
 }
 
@@ -64,7 +61,7 @@ align-self: center;
         font-size: 34px;
     }
     .home-Component7-text2{
-        font-size: 45px;
+        font-size: 2.5rem;
     }
     
 }

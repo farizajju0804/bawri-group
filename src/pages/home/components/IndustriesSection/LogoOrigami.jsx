@@ -5,7 +5,7 @@ import './style.css'
 export const DivOrigami = () => {
   return (
     <section className="origami flex h-100 w-full flex-col items-center justify-center gap-4 p-8">
-        <h1>25+ Industries</h1>
+        <h1>15+ Industries</h1>
       <LogoRolodex
         items={[
           <LogoItem key={1} className="bg-orange-300 text-neutral-900">

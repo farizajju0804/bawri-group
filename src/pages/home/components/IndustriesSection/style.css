@@ -11,6 +11,14 @@
     background-color: #3b44f6;
 }
 
+.globe-caption{
+    font-family: 'Skywalks';
+    text-align: center;
+    color: #262626;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
 @media screen and (max-width : 767px){
     .origami h1{
         font-size: 2.5rem;

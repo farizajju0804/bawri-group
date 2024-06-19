@@ -36,7 +36,7 @@ function App() {
   const location = useLocation();
 
   // Define the routes where you don't want to show the footer
-  const noFooterRoutes = ['/','/profit', '/our-story', '/our-story/:partId'];
+  const noFooterRoutes = ['/profit', '/our-story', '/our-story/:partId'];
 
   const shouldShowFooter = () => {
     return !noFooterRoutes.some(route => matchPath(route, location.pathname));
