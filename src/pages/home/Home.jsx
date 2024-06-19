@@ -9,6 +9,9 @@ import { motion } from "framer-motion";
 import './Home.css'
 import AuroraBackground from './ui/auroraYears'
 import Globe from './components/IndustriesSection/GlobeSection'
+import Gallery3d from './components/IndustriesSection/Gallery'
+import FallingLogos from './components/IndustriesSection/FallingLogos'
+import FallingRectangles from './components/IndustriesSection/FallingLogos'
 const Home = () => {
   return (
     <div className='home'>
@@ -42,10 +45,13 @@ const Home = () => {
         stat="50,000+ People"
         img={img}
         />
+        <FallingRectangles/>
+        <Gallery3d/>
         <Component7
         stat="4 Generations"
         img={img1}
         />
+
 
     </div>
   )
