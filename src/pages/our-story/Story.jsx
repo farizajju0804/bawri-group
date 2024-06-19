@@ -1,15 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
+import { motion, useTransform, useScroll } from 'framer-motion';
 import { storyData } from './assets/storyData';
 import StorySlide from '../../components/Story-page/StorySlide';
-import HorizontalScroll from 'react-scroll-horizontal';
-import './Story.css'; // Ensure this file contains necessary styles
+import './Story.css';
 
 const StoryPage = () => {
   const { partId } = useParams();
   const part = storyData[partId];
-
   const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
+  const targetRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+  });
+
+  // Calculate the width to scroll exactly to the last slide
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", `-${(100 * (part.stories.length - 1))}vw`]);
 
   const handleDotClick = (index) => {
     setCurrentStoryIndex(index);
@@ -43,26 +49,30 @@ const StoryPage = () => {
 
   const years = part.stories.map(story => story.year);
   const height = window.innerHeight;
-  console.log(height)
+
   return (
-    <div className="story-page" style={{height : `${height}px`}}>
-      <HorizontalScroll reverseScroll={true}  >
-        {part.stories.map((story, index) => (
-          <div id={`story-${index}`} key={index} className="story-slide">
-            <StorySlide
-              year={story.year}
-              name={story.name}
-              image={story.image}
-              content={story.content}
-              bgImage={part.bgImage}
-              totalStories={part.stories.length}
-              onDotClick={handleDotClick}
-              storyIndex={index}
-              years={years}
-            />
-          </div>
-        ))}
-      </HorizontalScroll>
+    <div className="story-page" style={{ height: `${height}px` }}>
+      <section ref={targetRef} className="relative h-[300vh]">
+        <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+          <motion.div style={{ x , height: `${height}px` }} className="flex h-[100vh]">
+            {part.stories.map((story, index) => (
+              <div id={`story-${index}`} key={index} className="story-slide">
+                <StorySlide
+                  year={story.year}
+                  name={story.name}
+                  image={story.image}
+                  content={story.content}
+                  bgImage={part.bgImage}
+                  totalStories={part.stories.length}
+                  onDotClick={handleDotClick}
+                  storyIndex={index}
+                  years={years}
+                />
+              </div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { IoChevronDownOutline,IoClose } from "react-icons/io5";
 import { RiMenu4Line } from "react-icons/ri";
 // import { FaBars, FaTimes } from "react-icons/fa";
 import './Navbar.css';
-
+import {Link} from 'react-router-dom'
 const FullScreenNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -36,7 +36,7 @@ const FullScreenNav = () => {
   return (
     <div>
       <div className="nav-header">
-        <div className="logo">BawriGroup</div>
+      <a href='/'><div className="logo">BawriGroup</div></a>
         <button className="nav-toggle" onClick={toggleNav}>
           {isOpen ? <IoClose size={24} /> : <RiMenu4Line size={24} />}
         </button>
