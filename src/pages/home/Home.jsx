@@ -36,7 +36,7 @@ const Home = () => {
       </motion.div>
     </AuroraBackground>
     <Globe/>
-        {/* <IndustriesSection/> */}
+        <IndustriesSection/>
         <Component7
         caption="Direct and Indirect Employment"
         stat="50,000+ People"
