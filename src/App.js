@@ -30,6 +30,7 @@ import NonProfitCompanyPage from "./pages/NonProfitCompanyPage";
 import Footer from "./components/footer/footer";
 import StoryPage from "./pages/our-story/Story";
 import PartsPage from "./pages/our-story/PartsPage";
+import TeamPage from './pages/TeamPage/TeamPage';
 
 function App() {
   const location = useLocation();
@@ -72,6 +73,7 @@ function App() {
         <Route path='/education' element={<Education />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/non-profit' element={<Main />} />
+        <Route path='/team' element={<TeamPage/>} />
         <Route path='/profit/:id' element={<CompanyPage />} />
         <Route path='/non-profit/:id' element={<NonProfitCompanyPage />} />
       </Routes>

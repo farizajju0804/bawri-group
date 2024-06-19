@@ -14,6 +14,11 @@
     object-fit: cover;
 }
 
+.story-slide{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .story-heading-content-box{
     display: flex;   
     flex-direction: row;

@@ -1,0 +1,199 @@
+.team-member-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e473;
+  width: 100vw;
+  min-height: 90vh;
+  transition: background-color 0.5s ease;
+}
+
+.modal-card {
+  background-color: #000;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-pic {
+  width: 45%;
+  transition: width 0.5s ease;
+}
+
+.name-role {
+  margin-left: 20px;
+}
+
+.name-role h2 {
+  margin: 0;
+  font-size: 2.7rem;
+  font-family: 'Skywalks';
+  font-weight: 400;
+  transition: color 0.5s ease;
+}
+
+.modal-name {
+  color: #f8e473;
+}
+
+.name-role h3 {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Lato';
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.right-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.nickname {
+  font-size: 5rem;
+  font-family: 'Angello';
+  font-weight: 400;
+}
+
+.learn-more-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: fit-content;
+  font-size: 24px;
+  font-family: 'Lato';
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #555;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  padding: 20px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-content h3 {
+  color: white;
+  font-family: 'Lato';
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+.modal-content p {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+.close-overlay-btn {
+  background: white;
+  border: none;
+  /* color: #fff; */
+  /* font-size: 2rem; */
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 2px;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.top-header-model{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width : 767px){
+  .modal-card, .team-member-card {
+    flex-direction: column;
+    /* min-height: 80vh; */
+    /* margin-top: 10vh; */
+  
+
+    gap: 30px;
+  }
+  .nickname{
+    font-size: 3rem;
+    
+  }
+  .right-section, .left-section, .modal-content{
+    width: 100%;
+    gap: 20px;
+  }
+   
+  /* .team-member-card{
+    gap: 0px;
+  } */
+
+  .left-modal{
+    margin-top: 12vh;
+  }
+  .modal-content{
+    padding: 10px;
+    width: 90%;
+  }
+  .modal-content h3 {
+    color: white;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    font-size: 24px;
+  }
+  
+  .modal-content p {
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    padding: 20px;
+  }
+
+  .hide-scroll{
+    display: none;
+  }
+  
+  .modal-content{
+    gap: 0px;
+  }
+  .top-header-model{
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+
+  
+  .learn-more-btn{
+    font-size: 18px;
+  }
+  
+   
+  
+}
