@@ -52,9 +52,9 @@ const StoryPage = () => {
 
   return (
     <div className="story-page" style={{ height: `${height}px` }}>
-      <section ref={targetRef} className="relative h-[300vh]">
+      <section ref={targetRef} className="relative h-[400vh]">
         <div className="sticky top-0 flex items-center overflow-hidden" style={{ height: `${height}px` }}>
-          <motion.div style={{ x , height: `${height}px` }} className="flex h-[100vh]">
+          <motion.div style={{ x , height: `${height}px` }} className="flex">
             {part.stories.map((story, index) => (
               <div id={`story-${index}`} key={index} className="story-slide">
                 <StorySlide
