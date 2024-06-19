@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
-import './IndustriesSection/style.css'
+import './style.css'
 export const DivOrigami = () => {
   return (
     <section className="origami flex h-100 w-full flex-col items-center justify-center gap-4 p-8">

@@ -1,5 +1,5 @@
 import React from 'react'
-import { DivOrigami } from '../LogoOrigami'
+import { DivOrigami } from './LogoOrigami'
 import './style.css'
 const IndustriesSection = () => {
   return (
