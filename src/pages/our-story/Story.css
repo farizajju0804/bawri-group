@@ -6,7 +6,7 @@ body, html {
 
 .story-page {
     /* height: 100vh; */
-    max-height: 100vh;
+    max-height: 100%;
     width: 100%;
     /* overflow-x: hidden; */
     /* scroll-snap-type: x mandatory; */
@@ -15,7 +15,7 @@ body, html {
 .story-slide {
     width: 100vw;
     height: 100%;
-    max-height: 100vh;
+    max-height: 100%;
     scroll-snap-align: start;
 }
 

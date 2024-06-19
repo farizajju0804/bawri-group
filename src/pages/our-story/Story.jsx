@@ -62,7 +62,7 @@ const StoryPage = () => {
   const years = part.stories.map(story => story.year);
 
   return (
-    <div className="story-page" style={{ height: `${height}px` }}>
+    <div className="story-page" style={{ height: `${height}px`, maxHeight : `${height}px` }}>
       <section ref={targetRef} className="relative" style={{ height: `${height * (part.stories.length - 1)}px` }}>
         <div className="sticky top-0 flex h-screen items-center overflow-hidden" style={{ height: `${height}px` }}>
           <motion.div style={{ x, height: `${height}px` }} className="flex">
