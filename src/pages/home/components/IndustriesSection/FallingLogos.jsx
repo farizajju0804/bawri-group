@@ -4,6 +4,8 @@ import Matter from 'matter-js';
 
 const FallingRectangles = () => {
   const sceneRef = useRef(null);
+  const observerRef = useRef(null);
+  const hasDropped = useRef(false); // To ensure dropRectangles is called only once
 
   useEffect(() => {
     // create an engine
@@ -68,8 +70,6 @@ const FallingRectangles = () => {
       });
     };
 
-    dropRectangles();
-
     // add mouse control
     const mouse = Matter.Mouse.create(render.canvas);
     const mouseConstraint = Matter.MouseConstraint.create(engine, {
@@ -111,6 +111,20 @@ const FallingRectangles = () => {
     // run the renderer
     Matter.Render.run(render);
 
+    // Intersection Observer to trigger dropRectangles
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !hasDropped.current) {
+          dropRectangles();
+          hasDropped.current = true; // Ensure it only drops once
+        }
+      });
+    });
+
+    if (observerRef.current) {
+      observer.observe(observerRef.current);
+    }
+
     // Clean up
     return () => {
       Matter.Render.stop(render);
@@ -118,6 +132,7 @@ const FallingRectangles = () => {
       Matter.Engine.clear(engine);
       render.canvas.remove();
       render.textures = {};
+      observer.disconnect();
     };
   }, []);
 
@@ -136,7 +151,9 @@ const FallingRectangles = () => {
       }}>
         25+ Companies
       </h1>
-      <div ref={sceneRef} style={{ width: '100%', height: '100%' }} />
+      <div ref={observerRef}>
+        <div ref={sceneRef} style={{ width: '50%', height: '50%' }} />
+      </div>
     </div>
   );
 };
