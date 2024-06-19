@@ -10,12 +10,24 @@ const StoryPage = () => {
   const part = storyData[partId];
   const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
   const targetRef = useRef(null);
+  const [height, setHeight] = useState(window.innerHeight);
   const { scrollYProgress } = useScroll({
     target: targetRef,
   });
 
   // Calculate the width to scroll exactly to the last slide
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", `-${(100 * (part.stories.length - 1))}vw`]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", `-${100 * (part.stories.length - 1)}vw`]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setHeight(window.innerHeight);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const handleDotClick = (index) => {
     setCurrentStoryIndex(index);
@@ -48,15 +60,14 @@ const StoryPage = () => {
   }
 
   const years = part.stories.map(story => story.year);
-  const height = window.innerHeight;
 
   return (
     <div className="story-page" style={{ height: `${height}px` }}>
-      <section ref={targetRef} className="relative h-[400vh]">
-        <div className="sticky top-0 flex items-center overflow-hidden" style={{ height: `${height}px` }}>
-          <motion.div style={{ x , height: `${height}px` }} className="flex">
+      <section ref={targetRef} className="relative" style={{ height: `${height * part.stories.length}px` }}>
+        <div className="sticky top-0 flex h-screen items-center overflow-hidden" style={{ height: `${height}px` }}>
+          <motion.div style={{ x, height: `${height}px` }} className="flex">
             {part.stories.map((story, index) => (
-              <div id={`story-${index}`} key={index} className="story-slide">
+              <div id={`story-${index}`} key={index} className="story-slide" style={{ height: `${height}px` }}>
                 <StorySlide
                   year={story.year}
                   name={story.name}
