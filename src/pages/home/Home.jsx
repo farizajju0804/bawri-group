@@ -49,7 +49,7 @@ const Home = () => {
         stat="50,000+ People"
         img={img}
         />
-        {/* <FallingRectangles/> */}
+        <FallingLogos/>
         <Gallery3d/>
         <Component7
         stat="4 Generations"
