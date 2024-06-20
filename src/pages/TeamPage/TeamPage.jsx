@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import TeamMemberCard from '../../components/TeamMemberCard/TeamMemberCard';
+import ModalCardSection from '../../components/TeamMemberCard/ModalCardSection';
 import teamData from '../../data/teamData';
 import './TeamPage.css';
 
@@ -33,15 +34,10 @@ const TeamPage = () => {
         ))}
       </div>
       {selectedMember && (
-        <div className="modal-overlay" onClick={handleCloseModal}>
-          <div className="modal-content-wrapper" onClick={(e) => e.stopPropagation()}>
-            <TeamMemberCard 
-              member={selectedMember} 
-              isModal={true} 
-              onClose={handleCloseModal} 
-            />
-          </div>
-        </div>
+        <ModalCardSection 
+          member={selectedMember} 
+          onClose={handleCloseModal} 
+        />
       )}
     </div>
   );
