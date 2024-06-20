@@ -4,42 +4,45 @@ import teamData from '../../data/teamData';
 import './TeamPage.css';
 
 const TeamPage = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedMember, setSelectedMember] = useState(null);
 
-  const handleDotClick = (index) => {
-    setCurrentIndex(index);
-  };
-
-  const handleLearnMoreClick = () => {
-    setIsModalOpen(true);
+  const handleLearnMoreClick = (member) => {
+    setSelectedMember(member);
   };
 
   const handleCloseModal = () => {
-    setIsModalOpen(false);
+    setSelectedMember(null);
   };
 
   return (
     <div className="team-page">
-      <div className={`carousel ${isModalOpen ? 'modal-active' : ''}`}>
-        <TeamMemberCard 
-          member={teamData[currentIndex]} 
-          onLearnMore={handleLearnMoreClick} 
-          isModal={isModalOpen} 
-          onClose={handleCloseModal}
-        />
-        {!isModalOpen && (
-          <div className="dots">
-            {teamData.map((_, index) => (
-              <span
-                key={index}
-                className={`dot ${index === currentIndex ? 'active' : ''}`}
-                onClick={() => handleDotClick(index)}
-              ></span>
-            ))}
-          </div>
-        )}
+      <div className="intro-section">
+        <h1 className="team-title">Our Team</h1>
+        <p className="team-description">
+          Welcome to our team page! Meet the amazing people who make everything possible.
+        </p>
       </div>
+      <div className="team-grid">
+        {teamData.map((member, index) => (
+          <TeamMemberCard 
+            key={index} 
+            member={member} 
+            onLearnMore={() => handleLearnMoreClick(member)} 
+            isModal={false}
+          />
+        ))}
+      </div>
+      {selectedMember && (
+        <div className="modal-overlay" onClick={handleCloseModal}>
+          <div className="modal-content-wrapper" onClick={(e) => e.stopPropagation()}>
+            <TeamMemberCard 
+              member={selectedMember} 
+              isModal={true} 
+              onClose={handleCloseModal} 
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

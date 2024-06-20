@@ -2,42 +2,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100vw;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: #f8e473;
   transition: background-color 0.5s ease;
 }
 
-.carousel {
-  position: relative;
-  transition: transform 0.5s ease;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.intro-section {
+  width: 100%;
+  background-color: white;
+  color: #262626;
+  padding: 20px;
+  text-align: center;
+  margin-top: 8vh;
 }
 
-/* .modal-active {
-  transform: scale(1.12);
-} */
-
-.dots {
-  display: flex;
-  justify-content: center;
+.team-title {
+  font-family: 'Skywalks';
+  font-size: 3rem;
+  /* margin: 0 0 20px 0; */
 }
 
-.dot {
-  height: 15px;
-  width: 15px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0 5px;
-  cursor: pointer;
+.team-description {
+  font-family: 'Lato';
+  font-size: 18px;
+  margin: 0;
 }
 
-.dot.active {
-  background-color: #333;
+.team-grid {
+  display: grid;
+  row-gap: 60px;
+  column-gap: 30px;
+  padding: 40px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .modal-overlay {
@@ -63,9 +62,6 @@
   flex-direction: column;
   align-items: center;
   animation: fadeIn 0.5s ease;
-  position: absolute;
-  top: 2%;
-  right: 4%;
   z-index: 1001;
 }
 
@@ -74,20 +70,13 @@
   to { opacity: 1; }
 }
 
-/* .close-overlay-btn {
-  position: absolute;
-  top: 2%;
-  right: 5%;
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 2rem;
-  cursor: pointer;
-} */
+@media screen and (max-width: 767px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .team-description {
+    font-size: 14px;
 
-
-@media screen and(max-width:767px) {
-  .carousel{
-    gap: 10px;
   }
 }

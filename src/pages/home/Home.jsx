@@ -38,7 +38,7 @@ const Home = () => {
         </button> */}
       </motion.div>
     </AuroraBackground>
-    <Globe/>
+    {/* <Globe/> */}
         <IndustriesSection/>
         <Component7
         caption="Direct and Indirect Employment"
