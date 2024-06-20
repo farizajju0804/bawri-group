@@ -12,6 +12,8 @@ import Globe from './components/IndustriesSection/GlobeSection'
 import Gallery3d from './components/IndustriesSection/Gallery'
 import FallingLogos from './components/IndustriesSection/FallingLogos'
 import FallingRectangles from './components/IndustriesSection/FallingLogos'
+import Founder from './components/IndustriesSection/Founder'
+import VideoSection from './components/IndustriesSection/Video'
 const Home = () => {
   return (
     <div className='home'>
@@ -38,6 +40,8 @@ const Home = () => {
         </button> */}
       </motion.div>
     </AuroraBackground>
+    <VideoSection/>
+    {/* <Founder/> */}
     {/* <Globe/> */}
         <IndustriesSection/>
         <Component7
@@ -45,7 +49,7 @@ const Home = () => {
         stat="50,000+ People"
         img={img}
         />
-        <FallingRectangles/>
+        {/* <FallingRectangles/> */}
         <Gallery3d/>
         <Component7
         stat="4 Generations"
