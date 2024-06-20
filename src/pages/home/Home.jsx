@@ -11,10 +11,55 @@ import AuroraBackground from './ui/auroraYears'
 import Globe from './components/IndustriesSection/GlobeSection'
 import Gallery3d from './components/IndustriesSection/Gallery'
 import FallingLogos from './components/IndustriesSection/FallingLogos'
-import FallingRectangles from './components/IndustriesSection/FallingLogos'
 import Founder from './components/IndustriesSection/Founder'
 import VideoSection from './components/IndustriesSection/Video'
+import ImageCardMarquee from './components/IndustriesSection/ImageCardMarquee'
 const Home = () => {
+  const cardsLeft = [
+    {
+      imageSrc: "https://picsum.photos/200",
+      title: "Project 1",
+      
+    },
+    {
+      imageSrc: "https://picsum.photos/200",
+      title: "Project 2",
+     
+    },
+    {
+      imageSrc: "https://picsum.photos/200",
+      title: "Project 3",
+      
+    },
+    {
+      imageSrc: "https://picsum.photos/200",
+      title: "Project 4",
+     
+    },
+  ];
+  
+  const cardsRight = [
+    {
+      imageSrc: "https://picsum.photos/200",
+      title: "Project 5",
+      
+    },
+    {
+      imageSrc: "https://picsum.photos/200",
+      title: "Project 6",
+     
+    },
+    {
+      imageSrc: "https://picsum.photos/200",
+      title: "Project 7",
+      
+    },
+    {
+      imageSrc: "https://picsum.photos/200",
+      title: "Project 8",
+   
+    },
+  ];
   return (
     <div className='home'>
     <AuroraBackground>
@@ -43,7 +88,9 @@ const Home = () => {
     <VideoSection/>
     <Founder/>
     {/* <Globe/> */}
-        <IndustriesSection/>
+        {/* <IndustriesSection/>
+         */}
+         <ImageCardMarquee cards={cardsLeft}  />
         <Component7
         caption="Direct and Indirect Employment"
         stat="50,000+ People"
