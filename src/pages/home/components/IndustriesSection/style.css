@@ -26,11 +26,17 @@
     }
 }
 
-
 .marquee {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 220px; /* Match the card height */
+}
+
+.marquee-inner {
   display: flex;
-  width: calc(200px * 4); /* width of one card * number of cards * 2 + spacing */
-  animation: marquee 30s linear infinite;
+  animation: marquee 10s linear infinite;
+  width: calc(200px * 4 * 2 + 8px * 8); /* Adjust this based on the number of cards and spacing */
 }
 
 @keyframes marquee {
@@ -38,29 +44,20 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(calc(-200px * 4 - 8px * 4)); /* Adjust this based on the number of cards and spacing */
   }
 }
+
 /* Mobile Specific */
 @media (max-width: 767px) {
-  .marquee {
+  .marquee-inner {
     animation-duration: 8s;
   }
-
-  /* .marquee div {
-    width: 300px;
-    height: 400px;
-  } */
 }
 
 /* Desktop Specific */
 @media (min-width: 768px) {
-  .marquee {
+  .marquee-inner {
     animation-duration: 12s;
   }
-
-  /* .marquee div {
-    width: 250px;
-    height: 350px;
-  } */
 }

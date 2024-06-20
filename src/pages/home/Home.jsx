@@ -18,48 +18,27 @@ const Home = () => {
   const cardsLeft = [
     {
       imageSrc: "https://picsum.photos/200",
-      title: "Project 1",
+      title: "Education",
       
     },
     {
       imageSrc: "https://picsum.photos/200",
-      title: "Project 2",
+      title: "Economic Growth",
      
     },
     {
       imageSrc: "https://picsum.photos/200",
-      title: "Project 3",
+      title: "Construction",
       
     },
     {
       imageSrc: "https://picsum.photos/200",
-      title: "Project 4",
+      title: "Manufacturing",
      
     },
   ];
   
-  const cardsRight = [
-    {
-      imageSrc: "https://picsum.photos/200",
-      title: "Project 5",
-      
-    },
-    {
-      imageSrc: "https://picsum.photos/200",
-      title: "Project 6",
-     
-    },
-    {
-      imageSrc: "https://picsum.photos/200",
-      title: "Project 7",
-      
-    },
-    {
-      imageSrc: "https://picsum.photos/200",
-      title: "Project 8",
-   
-    },
-  ];
+  
   return (
     <div className='home'>
     <AuroraBackground>

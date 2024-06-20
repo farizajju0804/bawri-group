@@ -17,7 +17,7 @@ const ImageCardMarquee = ({ cards }) => {
       <div className="relative w-full h-full flex-1 p-4 overflow-hidden">
         <div className="marquee">
           <div className="marquee-inner flex space-x-8">
-            {cards.map((card, index) => (
+            {cards.concat(cards).map((card, index) => (
               <div
                 key={index}
                 className="inline-block bg-white px-2 pt-2 rounded-xl shadow-lg transform transition-transform duration-300"
@@ -26,7 +26,7 @@ const ImageCardMarquee = ({ cards }) => {
                 <img
                   src={card.imageSrc}
                   alt={card.title}
-                  className="w-full h-2/3  rounded-lg"
+                  className="w-full h-2/3 rounded-lg"
                 />
                 <div className="px-2 py-4">
                   <p style={Lato} className="text-[#262626] text-base font-semibold">{card.title}</p>
