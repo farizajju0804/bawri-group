@@ -41,7 +41,7 @@ const Home = () => {
       </motion.div>
     </AuroraBackground>
     <VideoSection/>
-    {/* <Founder/> */}
+    <Founder/>
     {/* <Globe/> */}
         <IndustriesSection/>
         <Component7
