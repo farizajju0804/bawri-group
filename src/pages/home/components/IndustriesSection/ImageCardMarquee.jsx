@@ -20,8 +20,8 @@ const ImageCardMarquee = ({ cards }) => {
             {cards.concat(cards).map((card, index) => (
               <div
                 key={index}
-                className="inline-block bg-white px-2 pt-2 rounded-xl shadow-lg transform transition-transform duration-300"
-                style={{ width: '200px', height: '220px' }}
+                className="inline-block px-2 pt-2 transform transition-transform duration-300"
+                style={{ width: '500px', height: '520px' }}
               >
                 <img
                   src={card.imageSrc}
@@ -29,7 +29,7 @@ const ImageCardMarquee = ({ cards }) => {
                   className="w-full h-2/3 rounded-lg"
                 />
                 <div className="px-2 py-4">
-                  <p style={Lato} className="text-[#262626] text-base font-semibold">{card.title}</p>
+                  <p style={Lato} className="text-[#262626] text-center text-lg font-semibold">{card.title}</p>
                 </div>
               </div>
             ))}

@@ -34,7 +34,7 @@ const FallingLogos = () => {
         containerRef.current.appendChild(logoElement);
 
         setTimeout(() => {
-          const topPosition = isMobile ? `${index * 130 + 30}px` : '15vh';
+          const topPosition = isMobile ? `${index * 130 + 30}px` : '10vh';
           logoElement.style.top = topPosition;
         }, 100);
 

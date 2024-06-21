@@ -28,6 +28,8 @@
   font-family: 'Lato';
   font-size: 18px;
   margin: 0;
+  text-align: left;
+  padding: 16px;
 }
 
 .team-grid {
