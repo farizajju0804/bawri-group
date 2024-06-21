@@ -10,7 +10,7 @@ const Component2 = () => {
                     1. Respect & Diversity
                 </p>
                 <p className='values-Component2-left-2'>
-                    We believe that a diverse and inclusive workplace is essential for innovation and growth. We respect and value differences in people, ideas, and perspectives, and create an environment where everyone feels valued, heard, and supported. 
+                We embrace and celebrate the unique perspectives and backgrounds of our team and clients, fostering an inclusive environment where everyone feels valued and respected. By promoting diversity, we enhance our creativity and problem-solving abilities, ensuring a richer and more innovative approach to our work.
                 </p>
             </div>
             <img className='values-Component2-content-right' src={main}/>

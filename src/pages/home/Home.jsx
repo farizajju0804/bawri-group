@@ -17,25 +17,55 @@ import ImageCardMarquee from './components/IndustriesSection/ImageCardMarquee'
 const Home = () => {
   const cardsLeft = [
     {
-      imageSrc: "https://picsum.photos/200",
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718963675/Bawri%20Group/Landing%20Page/15%20Industries%20Section/6640_vdtswx.jpg",
       title: "Education",
       
     },
     {
-      imageSrc: "https://picsum.photos/200",
-      title: "Economic Growth",
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718962921/Bawri%20Group/Landing%20Page/15%20Industries%20Section/eye_hospital_z9lo3d.webp",
+      title: "Healthcare",
      
     },
     {
-      imageSrc: "https://picsum.photos/200",
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718962918/Bawri%20Group/Landing%20Page/15%20Industries%20Section/cement_goyfka.webp",
       title: "Construction",
       
     },
     {
-      imageSrc: "https://picsum.photos/200",
-      title: "Manufacturing",
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718962917/Bawri%20Group/Landing%20Page/15%20Industries%20Section/plywood_zfi5i0.webp",
+      title: "Plywood",
      
     },
+    {
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718962921/Bawri%20Group/Landing%20Page/15%20Industries%20Section/antiques_b0dczk.webp",
+      title: "Antiques",
+     
+    },
+    {
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718962920/Bawri%20Group/Landing%20Page/15%20Industries%20Section/retial_uqizwj.webp",
+      title: "Retail",
+     
+    },
+    {
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718962918/Bawri%20Group/Landing%20Page/15%20Industries%20Section/fashion_p5jmwl.webp",
+      title: "Fashion Design",
+     
+    },
+    {
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718963336/Bawri%20Group/Landing%20Page/15%20Industries%20Section/search_jrkznt.webp",
+      title: "Saas",
+     
+    },
+    {
+      imageSrc: "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718963897/Bawri%20Group/Landing%20Page/15%20Industries%20Section/analytics_hzep9m.jpg",
+      title: "Analytics",
+     
+    },
+    // {
+    //   imageSrc: "",
+    //   title: "Analytics",
+     
+    // },
   ];
   
   

@@ -6,7 +6,11 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
   const bgStyle = {
     backgroundImage: `url(${bgImage})`
   };
+  const bgStyle2 = {
+    backgroundImage: `url(${image})`,
+  };
 
+  const textClass = (year === '1939' || year === '1948') ? 'story-content-text-short' : 'story-content-text';
   return (
     <div className='story-outer-div'>
       <div className='story-heading-div'>
@@ -17,10 +21,11 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
       </div>
 
       <div className='story-main' style={bgStyle}>
-        <img className='story-img' src={image} alt='story' />
+        <div className='story-img' style={bgStyle2}></div>
+        {/* <img className='story-img' src={image} alt='story' /> */}
         <div className='story-main-div'>
           {content.map((item, index) => (
-            <p key={index} className='story-content-text'>{item}</p>
+            <p key={index} className={textClass}>{item}</p>
           ))}
         </div>
         <Timeline 

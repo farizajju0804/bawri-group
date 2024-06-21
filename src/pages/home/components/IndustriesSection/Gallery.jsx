@@ -54,20 +54,23 @@ const Gallery3d = () => {
         }}
       >
         <Gallery>
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294273/Bawri%20Group/Non%20Profit/Education/educationlogo_wu4ikr.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294273/Bawri%20Group/Non%20Profit/Education/educationlogo_wu4ikr.jpg", e)} />
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287327/Bawri%20Group/Plywood/highlight-moment-plywoord_q8sqzl.webp" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287327/Bawri%20Group/Plywood/highlight-moment-plywoord_q8sqzl.webp", e)} />
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287515/Bawri%20Group/Plywood/wooden-666afc1c0043b_ehckiz.webp" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287515/Bawri%20Group/Plywood/wooden-666afc1c0043b_ehckiz.webp", e)} />
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287603/Bawri%20Group/Plywood/intro-plywood_wxzfdr.webp" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287603/Bawri%20Group/Plywood/intro-plywood_wxzfdr.webp", e)} />
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294480/Bawri%20Group/Non%20Profit/Education/educationbg-666b0c43de640_bo7gvj.webp" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294480/Bawri%20Group/Non%20Profit/Education/educationbg-666b0c43de640_bo7gvj.webp", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970614/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0020_ld31dw.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970614/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0020_ld31dw.jpg", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970616/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0021_gclrdy.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970616/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0021_gclrdy.jpg", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970609/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0010_gbeoll.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970609/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0010_gbeoll.jpg", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970612/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0014_p6vsbh.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970612/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0014_p6vsbh.jpg", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970610/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0011_cy4ou4.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970610/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0011_cy4ou4.jpg", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970613/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0019_sea5jl.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970613/Bawri%20Group/Landing%20Page/glimpses/IMG-20230526-WA0019_sea5jl.jpg", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970610/Bawri%20Group/Landing%20Page/glimpses/IMG-20230521-WA0006_m3ax90.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718970610/Bawri%20Group/Landing%20Page/glimpses/IMG-20230521-WA0006_m3ax90.jpg", e)} />
+          
         </Gallery>
       </GalleryScene>
 
       {selectedImage && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50" onClick={closeModal}>
-          <div className="relative bg-white p-4" onClick={(e) => e.stopPropagation()}>
+          <div className="relative bg-white p-2" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={closeModal}
-              className="absolute top-2 right-2 text-xl"
+              className="absolute top-3 right-3 text-xl bg-white p-1"
             >
               <AiOutlineClose />
             </button>

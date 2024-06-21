@@ -10,7 +10,8 @@ const Component3 = () => {
                     2. Innovation & Creativity
                 </p>
                 <p className='values-Component3-left-2'>
-                We believe that a diverse and inclusive workplace is essential for innovation and growth. We respect and value differences in people, ideas, and perspectives, and create an environment where everyone feels valued, heard, and supported.                </p>
+                We drive progress by encouraging creative thinking and innovative solutions. Our commitment to pushing the boundaries of what’s possible enables us to develop cutting-edge products and services that meet the evolving needs of our clients and communities.
+                  </p>
             </div>
             <img className='values-Component3-content-right' src={main}/>
         </div>

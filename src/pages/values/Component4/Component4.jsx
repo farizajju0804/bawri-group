@@ -10,7 +10,8 @@ const Component4 = () => {
                 3. Integrity & Trust
             </p>
             <p className='values-Component4-left-2'>
-            We believe that a diverse and inclusive workplace is essential for innovation and growth. We respect and value differences in people, ideas, and perspectives, and create an environment where everyone feels valued, heard, and supported.                </p>
+            We uphold the highest standards of honesty and transparency, building strong, trust-based relationships with our stakeholders through consistent ethical practices. Our dedication to integrity ensures that we act with accountability and responsibility in all our endeavors, fostering trust and reliability.
+              </p>
         </div>
         <img className='values-Component4-content-right' src={main}/>
     </div>

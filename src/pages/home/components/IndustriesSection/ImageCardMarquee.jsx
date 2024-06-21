@@ -21,7 +21,7 @@ const ImageCardMarquee = ({ cards }) => {
               <div
                 key={index}
                 className="inline-block px-2 pt-2 transform transition-transform duration-300"
-                style={{ width: '500px', height: '520px' }}
+                style={{ width: '450px', height: '420px' }}
               >
                 <img
                   src={card.imageSrc}

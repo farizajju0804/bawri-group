@@ -8,7 +8,7 @@ const Component4 = () => {
                 Vision
             </p>
             <p className='vision-Component4-content'>
-            Lorem ipsum dolor sit amet consectetur. Tortor massa in nunc ultrices pellentesque tempor odio odio ac. Purus ultrices dolor nibh nulla mattis mauris tellus. Cras ipsum non proin vitae scelerisque integer viverra curabitur diam. Vestibulum pretium nam tellus a fermentum nisi id ut sed. Enim aliquet nisl sed ullamcorper ut sed vulputate diam proin. Quam pretium adipiscing egestas in eget donec purus at felis. Sed in integer volutpat leo. Ultricies in libero risus malesuada nunc aliquam.
+            Our vision is to be a global leader in diverse sectors, pioneering transformative solutions that inspire positive change and sustainable growth. We aspire to foster a future where our initiatives contribute to the well-being and progress of society, creating a more inclusive and equitable world. Through strategic innovation and collaboration, we aim to set new standards of excellence, driving forward-thinking approaches that benefit both people and the planet.
             </p>
         </div>
     </div>
