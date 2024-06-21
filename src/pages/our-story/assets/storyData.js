@@ -209,23 +209,169 @@ export const storyData = {
       bgImage: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718456110/Bawri%20Group/Story/parts-background/part3bg_czog7o.jpg',
       stories: [
           {
-              year: '1990',
+              year: '1986',
               content: [
-                  'Story content for 1990...',
-                  'More details about the story in 1990...'
+                  "In a decisive stride forward, BB, with his keen vision for market potential, planted the seeds for the pioneering Vinay Cements in Assam. This marked the first private sector cement factory in the region.",
+                  "The company was more than a business venture—it was a testament to the Bawri Group's commitment to community development, job creation, and economic growth in Assam. "
               ],
-              name: 'Modernization',
-              image: 'https://via.placeholder.com/150',
+              name: 'Vinay Cements: Cementing a Legacy',
+              image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976833/Bawri%20Group/Story/part-3/part-3-17_xjuudz.webp',
           },
           {
-              year: '2000',
-              content: [
-                  'Story content for 2000...',
-                  'More details about the story in 2000...'
-              ],
-              name: 'Global Expansion',
-              image: 'https://via.placeholder.com/150',
-          },
+            year: '1986',
+            content: [
+                "The Group’s most transformative undertaking was a non-profit school called Jamuna Devi Shiksha in Assam. The school was a beacon of hope for children who, until then, had no access to education.",
+                "The school provided education and fostered an environment where every student could dream, learn and aspire for a better future. It was a testament to the Group's conviction that businesses should enrich the communities they serve. Some of the students have become IAS officers"
+            ],
+            name: 'Smt. Jamuna Devi Saraswati Vidya Mandir',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976841/Bawri%20Group/Story/part-3/part-3-2_mgfumu.webp',
+        },
+        {
+            year: '1988',
+            content: [
+                "In a move to further their foothold in the cement industry, they launched Saroj Cements. The venture underscored the Bawri Group's commitment to sustainable development and creating value for society",
+                "This further enhanced the Group's reputation as pioneers of industry and commerce in the private sector."
+            ],
+            name: 'Building Dreams with Saroj Cements',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976835/Bawri%20Group/Story/part-3/part-3-16_d8jcdu.webp',
+        },
+        {
+            year: '1998',
+            content: [
+                "The Group’s most transformative undertaking was a non-profit school called Jamuna Devi Shiksha in Assam. This wasn’t merely a school; it was a beacon of hope for children who, until then, had no access to education.",
+                "The Group’s most transformative undertaking was a non-profit school called Jamuna Devi Shiksha in Assam. This wasn’t merely a school; it was a beacon of hope for children who, until then, had no access to education."
+            ],
+            name: 'Oleoresin',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976828/Bawri%20Group/Story/part-3/part-3-3_f4q0s4.webp',
+        },
+        {
+            year: '2001',
+            content: [
+                "The Group’s most transformative undertaking was a non-profit school called Jamuna Devi Shiksha in Assam. This wasn’t merely a school; it was a beacon of hope for children who, until then, had no access to education.",
+                "The Group’s most transformative undertaking was a non-profit school called Jamuna Devi Shiksha in Assam. This wasn’t merely a school; it was a beacon of hope for children who, until then, had no access to education."
+            ],
+            name: 'Cijen',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976827/Bawri%20Group/Story/part-3/part-3-4_ljqje9.webp',
+        },
+        {
+            year: '2002',
+            content: [
+                "Healthcare was a natural next step. The Bawri Nethralaya Eye Care Center was established in Shillong, giving sight to the visually impaired and illuminating countless lives. ",
+                "The hospital is a non-profit and it has become a beacon of hope for thousands and a testament to the family's dedication to community welfare. BB very generously donated his large private home to start the hospital."
+            ],
+            name: 'Bawri Nethralaya Eye Care Centre ',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976825/Bawri%20Group/Story/part-3/part-3-5_ruxchy.webp',
+        },
+        
+       
+        {
+            year: '2002',
+            content: [
+                "With an appreciation for art and heritage, the Group ventured into the world of luxury goods. PrideNPrecious was India's first luxury retail store that showcased the finest global artifacts and home goods from over 50 countries.",
+                
+            ],
+            name: 'PrideNPrecious: Luxury Retail',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976824/Bawri%20Group/Story/part-3/part-3-6_wxqzaa.webp',
+        },
+        {
+            year: '2003',
+            content: [
+                "With Saroj Antiques, they ventured into the realm of history, carefully curating timeless pieces. Each artifact in their collection was a bridge between the past and present, underlining the Bawri Group's deep respect for heritage.",
+                " Saroj Antiques created a lasting impression on connoisseurs of antique artifacts."
+            ],
+            name: 'Saroj Antiques: Crafting A Legacy',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976822/Bawri%20Group/Story/part-3/part-3-7_xzqjvi.webp',
+        },
+        {
+            year: '2003',
+            content: [
+                "In their endless pursuit of excellence, the Bawri Group added yet another feather to their cap with a luxury fashion brand. Ikaya redefined fashion and offered haute couture that perfectly melded global trends with a touch of traditional charm.",
+                
+            ],
+            name: 'Ikaaya: Unveiling Elegance',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976832/Bawri%20Group/Story/part-3/part-3-18_qfl8gj.webp',
+        },
+        {
+            year: '2004',
+            content: [
+                "As the new millennium dawned, the Group scaled their presence in the cement industry by starting Calcom Cements. Calcom was the largest private sector company in the north-east and the first company with overseas investors.",
+                "It provided direct and indirect employment to over 25,000 people. Calcom created incredible social upliftment in Umranghshu, Assam."
+            ],
+            name: 'Calcom Cement: The Dawn of A Millennium ',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976830/Bawri%20Group/Story/part-3/part-3-1_ipfcny.webp',
+        },
+        {
+            year: '2004',
+            content: [
+                "My Home India, a social initiative, was launched to foster a sense of unity and belonging among students from the north-east.",
+                
+            ],
+            name: 'My Home India: United by Diversity',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976821/Bawri%20Group/Story/part-3/part-3-8_brdynk.webp',
+        },
+       
+        {
+            year: '2005',
+            content: [
+                "Ideopedia, a non-profit was established to foster innovation and creative thinking among the top 5000 influencers in India"
+            ],
+            name: "Ideopedia: Empowering India's Leaders",
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976819/Bawri%20Group/Story/part-3/part-3-11_mwas7b.webp',
+        },
+        {
+            year: '2006',
+            content: [
+                "The Bawri Group entered the data analytics market with Quantta, a venture committed to harnessing the power of data for better decision-making. With Quantta, they continued to break new ground, staying ahead of the curve in the rapidly evolving tech landscape."
+                
+            ],
+            name: 'Thaella',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976811/Bawri%20Group/Story/part-3/part-3-13_beotin.webp',
+        },
+        {
+            year: '2009',
+            content: [
+                "In a globalized world BB recognized the need for India to think ahead, think differently. He launched Think India, a non-profit think-tank, to foster innovative solutions to India’s pressing challenges.",
+                
+            ],
+            name: 'Think India: Thinking Ahead',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976810/Bawri%20Group/Story/part-3/part-3-12_oedgd2.webp',
+        },
+        {
+            year: '2010',
+            content: [
+                "Emphasizing their commitment to development, the Bawri Group stepped into the world of construction. They aimed to build not just structures, but dreams, transforming landscapes and lives in the process.",
+                
+            ],
+            name: 'Building A Better Tomorrow: Construction',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976820/Bawri%20Group/Story/part-3/part-3-9_l6kcrl.webp',
+        },
+        {
+            year: '2012',
+            content: [
+                "The Bawri Group entered the data analytics market with Quantta, a venture committed to harnessing the power of data for better decision-making. With Quantta, they continued to break new ground, staying ahead of the curve in the rapidly evolving tech landscape."
+            ],
+            name: 'Quantta: Quantifying Success',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976838/Bawri%20Group/Story/part-3/part-3-15_x7eq1k.webp',
+        },
+        {
+            year: '2014',
+            content: [
+                "Ideopedia, a non-profit was established to foster innovation and creative thinking among the top 5000 influencers in India",
+                ""
+            ],
+            name: 'Diduce',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976817/Bawri%20Group/Story/part-3/part-3-10_xybxcb.webp',
+        },
+        {
+            year: '2015',
+            content: [
+                "Ideopedia, a non-profit was established to foster innovation and creative thinking among the top 5000 influencers in India",
+                ""
+            ],
+            name: 'Atal Innovation Mission',
+            image: 'https://res.cloudinary.com/drlyyxqh9/image/upload/v1718976839/Bawri%20Group/Story/part-3/part-3-14_r5u3uk.webp',
+        },
+         
       ],
   },
 };

@@ -77,7 +77,7 @@ width: 100%;
 .story-heading-year{
     color: var(--white, #FFF);
     font-family: 'Lato';
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 1px;
@@ -91,11 +91,11 @@ width: 100%;
 .story-heading-name{
     color: var(--black, #262626);
     font-family: Skywalks;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     background-color: white;
-    padding: 5px 15px;
+    padding: 5px 10px;
     text-wrap: nowrap;
 }
 
@@ -220,7 +220,7 @@ width: 100%;
     } 
 
     .story-main-div {
-        height: 30%;
+        height: 40%;
         padding: 0px 40px;
         justify-content: center;
     }

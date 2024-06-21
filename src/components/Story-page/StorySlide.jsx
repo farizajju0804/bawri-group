@@ -10,7 +10,8 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
     backgroundImage: `url(${image})`,
   };
 
-  const textClass = (year === '1939' || year === '1948') ? 'story-content-text-short' : 'story-content-text';
+  const isMobile = window.innerWidth < 768;
+  const textClass = 'story-content-text';
   return (
     <div className='story-outer-div'>
       <div className='story-heading-div'>
@@ -28,12 +29,17 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
             <p key={index} className={textClass}>{item}</p>
           ))}
         </div>
-        <Timeline 
-          totalStories={totalStories} 
-          currentStoryIndex={storyIndex} 
-          onDotClick={onDotClick} 
-          years={years}
-        />
+        {
+          !isMobile && (
+            <Timeline 
+            totalStories={totalStories} 
+            currentStoryIndex={storyIndex} 
+            onDotClick={onDotClick} 
+            years={years}
+          />
+          )
+        }
+        
       </div>
     </div>
   );

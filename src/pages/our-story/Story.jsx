@@ -14,9 +14,23 @@ const StoryPage = () => {
   const { scrollYProgress } = useScroll({
     target: targetRef,
   });
-  
   const isMobile = window.innerWidth < 768;
-  const widthCal = isMobile ? 103 : 100 ;
+  const getWidthCal = (part, isMobile) => {
+    if (isMobile) {
+      switch (partId) {
+        case 'part1':
+          return 101.5;
+        case 'part2':
+          return 100.7;
+        default:
+          return 100.5;
+      }
+    } else {
+      return 100;
+    }
+  };
+
+  const widthCal = getWidthCal(part, isMobile);
  
   // Calculate the width to scroll exactly to the last slide
   const x = useTransform(scrollYProgress, [0, 1], ["0%", `-${widthCal * (part.stories.length - 1)}vw`]);
