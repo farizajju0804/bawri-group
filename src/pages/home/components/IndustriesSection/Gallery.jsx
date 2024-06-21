@@ -11,8 +11,12 @@ const Gallery3d = () => {
   const isMobile = window.innerWidth < 767;
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const handleImageClick = (src) => {
-    setSelectedImage(src);
+  const handleImageClick = (src, event) => {
+    event.stopPropagation();
+    console.log('clickedImage', src);
+    if (!selectedImage) {
+      setSelectedImage(src);
+    }
   };
 
   const closeModal = () => {
@@ -50,17 +54,17 @@ const Gallery3d = () => {
         }}
       >
         <Gallery>
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294273/Bawri%20Group/Non%20Profit/Education/educationlogo_wu4ikr.jpg" onClick={() => handleImageClick("https://picsum.photos/1280/720")} />
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287327/Bawri%20Group/Plywood/highlight-moment-plywoord_q8sqzl.webp" onClick={() => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287327/Bawri%20Group/Plywood/highlight-moment-plywoord_q8sqzl.webp")} />
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287515/Bawri%20Group/Plywood/wooden-666afc1c0043b_ehckiz.webp" onClick={() => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287515/Bawri%20Group/Plywood/wooden-666afc1c0043b_ehckiz.webp")} />
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287603/Bawri%20Group/Plywood/intro-plywood_wxzfdr.webp" onClick={() => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287603/Bawri%20Group/Plywood/intro-plywood_wxzfdr.webp")} />
-          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294480/Bawri%20Group/Non%20Profit/Education/educationbg-666b0c43de640_bo7gvj.webp" onClick={() => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294480/Bawri%20Group/Non%20Profit/Education/educationbg-666b0c43de640_bo7gvj.webp")} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294273/Bawri%20Group/Non%20Profit/Education/educationlogo_wu4ikr.jpg" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294273/Bawri%20Group/Non%20Profit/Education/educationlogo_wu4ikr.jpg", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287327/Bawri%20Group/Plywood/highlight-moment-plywoord_q8sqzl.webp" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287327/Bawri%20Group/Plywood/highlight-moment-plywoord_q8sqzl.webp", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287515/Bawri%20Group/Plywood/wooden-666afc1c0043b_ehckiz.webp" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287515/Bawri%20Group/Plywood/wooden-666afc1c0043b_ehckiz.webp", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287603/Bawri%20Group/Plywood/intro-plywood_wxzfdr.webp" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287603/Bawri%20Group/Plywood/intro-plywood_wxzfdr.webp", e)} />
+          <ImageItem src="https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294480/Bawri%20Group/Non%20Profit/Education/educationbg-666b0c43de640_bo7gvj.webp" onClick={(e) => handleImageClick("https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294480/Bawri%20Group/Non%20Profit/Education/educationbg-666b0c43de640_bo7gvj.webp", e)} />
         </Gallery>
       </GalleryScene>
 
       {selectedImage && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50" onClick={closeModal}>
-          <div className="relative bg-white p-4">
+          <div className="relative bg-white p-4" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={closeModal}
               className="absolute top-2 right-2 text-xl"
