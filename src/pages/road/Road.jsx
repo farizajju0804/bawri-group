@@ -6,18 +6,19 @@ import './road.css';
 gsap.registerPlugin(ScrollTrigger);
 
 const sections = [
-  { id: 1, link: "/vinay", image: "left.png", title: "Vinay" },
-  { id: 2, link: "/thaella", image: "left2.png", title: "Thaella" },
-  { id: 3, link: "/profit/nagaland-plywoods", image: "left3.png", title: "Plywood" },
-  { id: 4, link: "/retail", image: "left4.png", title: "Retail" },
-  { id: 5, link: "/cijen", image: "left5.png", title: "Cijen" },
-  { id: 6, link: "/antiques", image: "left6.png", title: "Antiques" },
-  { id: 7, link: "/antiques", image: "right.png", title: "Antiques" },
-  { id: 8, link: "/antiques", image: "right2.png", title: "Antiques" },
-  { id: 9, link: "/antiques", image: "right3.png", title: "Antiques" },
-  { id: 10, link: "/antiques", image: "right4.png", title: "Antiques" },
-  { id: 11, link: "/antiques", image: "right5.png", title: "Antiques" },
-  { id: 12, link: "/antiques", image: "right6.png", title: "Antiques" },
+  { id: 1, link: "/profit/vinay", image: "left.png", title: "Vinay Cements" },
+  { id: 13, link: "/profit/calcom", image: "left7.png", title: "Calcom Cements" },
+  { id: 2, link: "/profit/thaella", image: "left2.png", title: "Thaella" },
+  { id: 3, link: "/profit/mansions", image: "left3.png", title: "Bawri Mansions" },
+  { id: 4, link: "/profit/diduce", image: "left4.png", title: "Diduce" },
+  { id: 5, link: "/profit/oleo-resin", image: "left5.png", title: "Oleo Resin" },
+  { id: 6, link: "/profit/ikaaya", image: "left6.png", title: "Ikaaya" },
+  { id: 7, link: "/profit/nagaland-plywoods", image: "right.png", title: "Plywood" },
+  { id: 8, link: "/profit/timber", image: "right2.png", title: "Bawri Timber" },
+  { id: 9, link: "/profit/luxury", image: "right3.png", title: "PrideNPrecious" },
+  { id: 10, link: "/profit/cijen", image: "right4.png", title: "Cijen" },
+  { id: 11, link: "/profit/quantta", image: "right5.png", title: "Quantta" },
+  { id: 12, link: "/profit/antiques", image: "right6.png", title: "Saroj Antiques" },
 
 
 ];

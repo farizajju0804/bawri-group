@@ -12,7 +12,7 @@ const Main = () => {
     { title: "Education", image: image1, path: "/non-profit/bawri-school" },
     { title: "Knowledge", image: image2, path: "/non-profit/ideopedia" },
     { title: "Economic Growth", image: image6, path: "/non-profit/growth" },
-    { title: "National Unity", image: image4, path: "/non-profit/think" },
+    { title: "National Unity", image: image4, path: "/non-profit/unity" },
     { title: "Healthcare", image: image5, path: "/non-profit/bawri-eye-hospital" }
   ];
 

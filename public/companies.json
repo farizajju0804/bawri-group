@@ -42,45 +42,459 @@
         }
       },
       {
-        "id": "deluxe-furnitures",
-        "categoryName": "Furniture",
-        "companyName": "Deluxe Furnitures",
+        "id": "vinay",
+        "categoryName": "Cements",
+        "companyName": "Vinay Cements",
         "year": "2010",
-        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718197781/email%20images/2150797654-66699e03d8ec3_ghri8n.webp",
+        "bgImageUrl": "",
         "testimonial": {
-          "authorName": "Anita Mehra",
+          "authorName": "Person name",
           "content": [
-            "Deluxe Furnitures provides exceptional quality and service. Their attention to detail and commitment to customer satisfaction is unparalleled.",
-            "Each piece of furniture is a work of art, blending functionality with aesthetics perfectly. Highly recommended."
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ]
         },
         "howWeStarted": {
           "content": [
-            "Deluxe Furnitures began with a vision to redefine furniture design. Our journey started in a small workshop with a handful of craftsmen dedicated to creating innovative and stylish furniture pieces.",
-            "Today, we are proud to be a leader in the furniture industry, known for our unique designs and superior quality."
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "./assets/wooden.jpeg",
-          "leftImageUrl": "./assets/bed1.png",
-          "rightImageUrl": "./assets/table1.png",
-          "headingColor": "white"
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "./assets/furniturelogo.svg",
+          "aboutImg": "",
           "content": [
-            "At Deluxe Furnitures, we believe in pushing the boundaries of design. Our team of skilled artisans and designers work tirelessly to create furniture that not only looks good but also stands the test of time.",
-            "We use a mix of traditional craftsmanship and modern techniques to bring our designs to life, ensuring each piece is of the highest quality."
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "companyName" :"Deluxe Furnitures"
+          "companyName" :"Vinay Cements"
         },
         "highlightMoment": {
           "year": "2018",
           "location": "Mumbai, India",
           "content": [
-            "Our flagship store in Mumbai was a major milestone for us. It showcased our entire range of products and provided customers with an immersive experience of our brand.",
-            "The grand opening event was a resounding success, further establishing our presence in the market."
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "momentName": "Flagship Store Opening",
-          "highlightImg": "./assets/grandopening.png"
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "calcom",
+        "categoryName": "Cements",
+        "companyName": "Calcom Cements",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Calcom Cements"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "thaella",
+        "categoryName": "Fashion Design",
+        "companyName": "Thealla",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Thealla"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "mansions",
+        "categoryName": "Real Estate",
+        "companyName": "Bawri Mansions",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Bawri Mansions"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "diduce",
+        "categoryName": "Email Search",
+        "companyName": "Diduce",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Diduce"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "oleo-resin",
+        "categoryName": "Food & Beverage",
+        "companyName": "Oleo Resin",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Oleo Resin"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "ikaaya",
+        "categoryName": "Haute Couture",
+        "companyName": "Ikaaya",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Ikaaya"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "timber",
+        "categoryName": "Timber",
+        "companyName": "Bawri Timber",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Bawri Timber"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "luxury",
+        "categoryName": "Luxury Retail",
+        "companyName": "PrideNPrecious",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"PrideNPrecious"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "cijen",
+        "categoryName": "Saas",
+        "companyName": "Cijen",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :""
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "quantta",
+        "categoryName": "Analytics",
+        "companyName": "Quantta",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Quantta"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "antiques",
+        "categoryName": "Antiques",
+        "companyName": "Saroj Antiques",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person name",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "companyName" :"Saroj Antiques"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
         }
       }
     ]

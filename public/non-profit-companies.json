@@ -29,7 +29,7 @@
             "Before setting up Nagaland Plywood, we realized manufacturers were using only two types of timber (makai and halong) to make plywood. We pioneered using underexplored varieties of timber. Plywood was made in 3, 5, or 7 layers.",
             "Manufacturers used the same quality of timber for the inner and outer layers, and made all the layers equal in thickness. We innovated using superior timber only for the outer layers and also pioneered making the inner layers of timber twice as thick as the outer layers."
           ],
-          "companyName" :"Nagaland Plywoods"
+          "companyName" :"Jamuna Devi Saraswati Vidya Mandir"
         },
         "highlightMoment": {
           "year": "2012",
@@ -43,44 +43,154 @@
       },
       {
         "id": "ideopedia",
-        "categoryName": "Furniture",
-        "companyName": "Deluxe Furnitures",
+        "categoryName": "Knowledge",
+        "companyName": "Ideopedia",
         "year": "2010",
-        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718197781/email%20images/2150797654-66699e03d8ec3_ghri8n.webp",
+        "bgImageUrl": "",
         "testimonial": {
-          "authorName": "Anita Mehra",
+          "authorName": "Person Name",
           "content": [
-            "Deluxe Furnitures provides exceptional quality and service. Their attention to detail and commitment to customer satisfaction is unparalleled.",
-            "Each piece of furniture is a work of art, blending functionality with aesthetics perfectly. Highly recommended."
+           "“Lorem ipsum dolor sit amet consectetur. Enim lectus ornare sit volutpat cras sit.”"
           ]
         },
         "howWeStarted": {
           "content": [
-            "Deluxe Furnitures began with a vision to redefine furniture design. Our journey started in a small workshop with a handful of craftsmen dedicated to creating innovative and stylish furniture pieces.",
-            "Today, we are proud to be a leader in the furniture industry, known for our unique designs and superior quality."
+           "Lorem ipsum dolor sit amet consectetur. Eget ipsum tincidunt pellentesque nec. Quam amet tempor vestibulum phasellus a velit. A placerat vitae nisl tincidunt ac nec imperdiet. Porttitor malesuada malesuada etiam pellentesque sed lacus odio. Ut vitae magna porta proin orci augue. In eget etiam aliquet enim ultrices. Blandit in enim volutpat morbi malesuada nec nisl phasellus volutpat. Scelerisque vestibulum nunc cursus etiam euismod a non. Tristique elit erat placerat ultrices. Ultricies tempus libero eget at egestas. Sed dolor donec habitasse pharetra risus fames iaculis in. Nunc fusce convallis nunc molestie. Nibh sit porttitor risus phasellus. Pretium magna donec sed ut bibendum adipiscing porttitor pellentesque eu. Aliquam suspendisse arcu id quam metus lectus integer in. Enim consequat ac est etiam porttitor blandit dui. Odio."
           ],
-          "bgImageUrl": "./assets/wooden.jpeg",
-          "leftImageUrl": "./assets/bed1.png",
-          "rightImageUrl": "./assets/table1.png",
-          "headingColor": "white"
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "./assets/furniturelogo.svg",
+          "aboutImg": "",
           "content": [
-            "At Deluxe Furnitures, we believe in pushing the boundaries of design. Our team of skilled artisans and designers work tirelessly to create furniture that not only looks good but also stands the test of time.",
-            "We use a mix of traditional craftsmanship and modern techniques to bring our designs to life, ensuring each piece is of the highest quality."
+            "Lorem ipsum dolor sit amet consectetur. Neque eros vitae mattis orci cursus. Consequat massa sed eu maecenas. Sagittis lectus quis adipiscing faucibus maecenas. Sed vulputate placerat a nunc cursus. Ullamcorper risus gravida in orci. Eget et bibendum at consequat vel et elit vitae id. Malesuada tincidunt auctor a amet in ultricies sit id. Aliquet tortor pellentesque convallis faucibus feugiat dictum augue. Morbi sed diam viverra."
           ],
-          "companyName" :"Deluxe Furnitures"
+          "companyName" :"Ideopedia"
         },
         "highlightMoment": {
           "year": "2018",
           "location": "Mumbai, India",
           "content": [
-            "Our flagship store in Mumbai was a major milestone for us. It showcased our entire range of products and provided customers with an immersive experience of our brand.",
-            "The grand opening event was a resounding success, further establishing our presence in the market."
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "momentName": "Flagship Store Opening",
-          "highlightImg": "./assets/grandopening.png"
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "unity",
+        "categoryName": "National Unity",
+        "companyName": "Ideopedia",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person Name",
+          "content": [
+           "“Lorem ipsum dolor sit amet consectetur. Enim lectus ornare sit volutpat cras sit.”"
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+           "Lorem ipsum dolor sit amet consectetur. Eget ipsum tincidunt pellentesque nec. Quam amet tempor vestibulum phasellus a velit. A placerat vitae nisl tincidunt ac nec imperdiet. Porttitor malesuada malesuada etiam pellentesque sed lacus odio. Ut vitae magna porta proin orci augue. In eget etiam aliquet enim ultrices. Blandit in enim volutpat morbi malesuada nec nisl phasellus volutpat. Scelerisque vestibulum nunc cursus etiam euismod a non. Tristique elit erat placerat ultrices. Ultricies tempus libero eget at egestas. Sed dolor donec habitasse pharetra risus fames iaculis in. Nunc fusce convallis nunc molestie. Nibh sit porttitor risus phasellus. Pretium magna donec sed ut bibendum adipiscing porttitor pellentesque eu. Aliquam suspendisse arcu id quam metus lectus integer in. Enim consequat ac est etiam porttitor blandit dui. Odio."
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. Neque eros vitae mattis orci cursus. Consequat massa sed eu maecenas. Sagittis lectus quis adipiscing faucibus maecenas. Sed vulputate placerat a nunc cursus. Ullamcorper risus gravida in orci. Eget et bibendum at consequat vel et elit vitae id. Malesuada tincidunt auctor a amet in ultricies sit id. Aliquet tortor pellentesque convallis faucibus feugiat dictum augue. Morbi sed diam viverra."
+          ],
+          "companyName" :"Ideopedia"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "growth",
+        "categoryName": "Economic Growth",
+        "companyName": "Think India",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person Name",
+          "content": [
+           "“Lorem ipsum dolor sit amet consectetur. Enim lectus ornare sit volutpat cras sit.”"
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+           "Lorem ipsum dolor sit amet consectetur. Eget ipsum tincidunt pellentesque nec. Quam amet tempor vestibulum phasellus a velit. A placerat vitae nisl tincidunt ac nec imperdiet. Porttitor malesuada malesuada etiam pellentesque sed lacus odio. Ut vitae magna porta proin orci augue. In eget etiam aliquet enim ultrices. Blandit in enim volutpat morbi malesuada nec nisl phasellus volutpat. Scelerisque vestibulum nunc cursus etiam euismod a non. Tristique elit erat placerat ultrices. Ultricies tempus libero eget at egestas. Sed dolor donec habitasse pharetra risus fames iaculis in. Nunc fusce convallis nunc molestie. Nibh sit porttitor risus phasellus. Pretium magna donec sed ut bibendum adipiscing porttitor pellentesque eu. Aliquam suspendisse arcu id quam metus lectus integer in. Enim consequat ac est etiam porttitor blandit dui. Odio."
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. Neque eros vitae mattis orci cursus. Consequat massa sed eu maecenas. Sagittis lectus quis adipiscing faucibus maecenas. Sed vulputate placerat a nunc cursus. Ullamcorper risus gravida in orci. Eget et bibendum at consequat vel et elit vitae id. Malesuada tincidunt auctor a amet in ultricies sit id. Aliquet tortor pellentesque convallis faucibus feugiat dictum augue. Morbi sed diam viverra."
+          ],
+          "companyName" :"Think India"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
+        }
+      },
+      {
+        "id": "bawri-eye-hospital",
+        "categoryName": "healthcare",
+        "companyName": "Bawri Nethralaya",
+        "year": "2010",
+        "bgImageUrl": "",
+        "testimonial": {
+          "authorName": "Person Name",
+          "content": [
+           "“Lorem ipsum dolor sit amet consectetur. Enim lectus ornare sit volutpat cras sit.”"
+          ]
+        },
+        "howWeStarted": {
+          "content": [
+           "Lorem ipsum dolor sit amet consectetur. Eget ipsum tincidunt pellentesque nec. Quam amet tempor vestibulum phasellus a velit. A placerat vitae nisl tincidunt ac nec imperdiet. Porttitor malesuada malesuada etiam pellentesque sed lacus odio. Ut vitae magna porta proin orci augue. In eget etiam aliquet enim ultrices. Blandit in enim volutpat morbi malesuada nec nisl phasellus volutpat. Scelerisque vestibulum nunc cursus etiam euismod a non. Tristique elit erat placerat ultrices. Ultricies tempus libero eget at egestas. Sed dolor donec habitasse pharetra risus fames iaculis in. Nunc fusce convallis nunc molestie. Nibh sit porttitor risus phasellus. Pretium magna donec sed ut bibendum adipiscing porttitor pellentesque eu. Aliquam suspendisse arcu id quam metus lectus integer in. Enim consequat ac est etiam porttitor blandit dui. Odio."
+          ],
+          "bgImageUrl": "",
+          "leftImageUrl": "",
+          "rightImageUrl": "",
+          "headingColor": "black"
+        },
+        "aboutCompany": {
+          "aboutImg": "",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. Neque eros vitae mattis orci cursus. Consequat massa sed eu maecenas. Sagittis lectus quis adipiscing faucibus maecenas. Sed vulputate placerat a nunc cursus. Ullamcorper risus gravida in orci. Eget et bibendum at consequat vel et elit vitae id. Malesuada tincidunt auctor a amet in ultricies sit id. Aliquet tortor pellentesque convallis faucibus feugiat dictum augue. Morbi sed diam viverra."
+          ],
+          "companyName" :"Bawri Nethralaya"
+        },
+        "highlightMoment": {
+          "year": "2018",
+          "location": "Mumbai, India",
+          "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+          ],
+          "momentName": "Moment Name",
+          "highlightImg": ""
         }
       }
     ]
