@@ -23,33 +23,47 @@ code {
   /* overflow-x: scroll; */
 }
 
-@font-face {
-  font-family: "Skywalks";
-  src: local("skywalks"),
-    url("../src/fonts/skywalks.ttf") format("truetype");
-  font-weight: normal;
-}
 
-@font-face {
-  font-family: "Angello";
-  src: local("Angello"),
-    url("../src/fonts/Angello.ttf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "DidoneRoomNumbers";
-  src: local("DidoneRoomNumbers"),
-    url("../src/fonts/DidoneRoomNumbers.otf") format("truetype");
-  font-weight: normal;
-}
-
+@layer base {
+  @font-face {
+    font-family: "Skywalks";
+    src: local("skywalks"),
+      url("../src/fonts/skywalks.ttf") format("truetype");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Angello";
+    src: local("Angello"),
+      url("../src/fonts/Angello.ttf") format("truetype");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "DidoneRoomNumbers";
+    src: local("DidoneRoomNumbers"),
+      url("../src/fonts/DidoneRoomNumbers.otf") format("truetype");
+    font-weight: normal;
+  }
+  
 @font-face {
   font-family: "Lato";
   src: local("Lato"),
   url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap') format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Pacifico";
+  src: local("Pacifico"),
+  url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap') format("truetype");
+  font-weight: normal;
+}
+  
+}
+
+
+
+
+
 *{
   margin: 0px;
   padding: 0px;

@@ -14,6 +14,7 @@ import FallingLogos from './components/IndustriesSection/FallingLogos'
 import Founder from './components/IndustriesSection/Founder'
 import VideoSection from './components/IndustriesSection/Video'
 import ImageCardMarquee from './components/IndustriesSection/ImageCardMarquee'
+import Testimonial from './components/IndustriesSection/Testimonial'
 const Home = () => {
   const cardsLeft = [
     {
@@ -86,7 +87,7 @@ const Home = () => {
         <div className="py-2 year-stat">
           The Bawri Group
         </div>
-        <div className="py-2 year-desc">
+        <div className="py-2 year-desc text-[#3b44f6]">
         A Legacy of Fortitude, Resilience, and Triumph
         </div>
          <div className="text-center year-caption">
@@ -113,6 +114,7 @@ const Home = () => {
         stat="Impacting 4 Generations"
         img={img1}
         />
+        <Testimonial/>
         <Gallery3d/>
         
 

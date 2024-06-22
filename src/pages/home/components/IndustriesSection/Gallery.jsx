@@ -79,7 +79,7 @@ const Gallery3d = () => {
         height: isMobile ? '70vh' : '120vh'
       }}
     >
-      <h1 style={Skywalks} className='text-5xl py-8'>
+      <h1 style={Skywalks} className='text-5xl pt-8 text-center'>
         Glimpses To Remember
       </h1>
       
@@ -108,16 +108,16 @@ const Gallery3d = () => {
       </GalleryScene>
 
       {selectedImage && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50" onClick={closeModal}>
-          <div className="relative bg-white p-2" onClick={(e) => e.stopPropagation()}>
+        <div className="fixed inset-0 flex items-center  justify-center bg-black bg-opacity-50 z-50" onClick={closeModal}>
+          <div  className="relative flex flex-col w-fulll bg-white p-2" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={closeModal}
               className="absolute top-3 right-3 text-xl bg-white p-1"
             >
               <AiOutlineClose />
             </button>
-            <img src={selectedImage} alt="Selected" style={{ maxHeight: '80vh', maxWidth: '80vw' }} />
-            <p style={{ marginTop: '10px', fontSize: '16px', color: '#333' }}>{selectedText}</p>
+            <img src={selectedImage} alt="Selected" style={{ maxHeight: '80vh', maxWidth: '100vw' }} />
+            <p className='px-4' style={{ marginTop: '10px', fontSize: '16px', color: '#333' }}>{selectedText}</p>
           </div>
         </div>
       )}
