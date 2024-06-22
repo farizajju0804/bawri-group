@@ -65,7 +65,7 @@ const Testimonial = () => {
                     <div className="mb-6 lg:mb-10 w-full flex gap-[10%] transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${activeSlide * 110}%)` }}>
                         {slides.map((slide, index) => (
                             <div key={index} ref={slideRefs[index]} className="w-full flex-shrink-0">
-                                <div className="px-2 lg:px-4 py-6 bg-[#fddb60] rounded-3xl">
+                                <div className="py-6 rounded-3xl">
                                     <div className="flex flex-wrap ">
                                         <div className="w-full md:w-2/5 px-4 mb-6 lg:mb-0">
                                             <img className="h-[200px] lg:h-[400px] block w-full  object-cover rounded-3xl" src={slide.image} alt="" />
