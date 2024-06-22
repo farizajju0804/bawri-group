@@ -43,7 +43,10 @@ const HowWeStarted = ({ content, leftImageUrl, rightImageUrl, bgImageUrl, headin
   }, []);
 
   const imageStyle = {
-    backgroundImage: `url(${bgImageUrl})`
+    backgroundImage: `url(${bgImageUrl})`,
+    backgroundSize : "cover",
+    objectFit : 'cover',
+    backgroundPosition : 'center'
   };
   const colorStyle = {
     color: headingColor
@@ -58,8 +61,18 @@ const HowWeStarted = ({ content, leftImageUrl, rightImageUrl, bgImageUrl, headin
         ))}
       </div>
       <div className='side-images-box'>
+        {
+          leftImageUrl && (
         <img ref={leftImageRef} className='left-image' src={leftImageUrl} alt='bed' />
+              
+          )
+        }
+        {
+          rightImageUrl && (
         <img ref={rightImageRef} className='right-image' src={rightImageUrl} alt='table' />
+              
+          )
+        }
       </div>
     </div>
   );

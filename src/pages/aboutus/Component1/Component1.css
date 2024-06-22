@@ -1,11 +1,13 @@
 
 
 .about-div{
+    margin-top: 8vh;
     background-image: url('../Component1/assets/heading.jpeg');
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
     background-position: center;
     /* position: relative; */
     display: flex;

@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        aurora: "aurora 60s linear infinite",
+        aurora: "aurora 120s linear infinite",
       },
       keyframes: {
         aurora: {

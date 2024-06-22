@@ -9,12 +9,12 @@ const Footer = () => {
             {/* <a className="footer-link" href="/profit">
               Our Companies
             </a> */}
-            <a className="footer-link" href="/story">
+            <a className="footer-link" href="/our-story">
               Our Story
             </a>
-            {/* <a className="footer-link" href="">
+            <a className="footer-link" href="/about">
               About Us
-            </a> */}
+            </a>
             <a className="footer-link" href="/contact">
               Contact Us
             </a>
@@ -30,7 +30,9 @@ const Footer = () => {
         </div>
         <hr className="hr"/>
         <div className="footer-company-container">
+        <a className="footer-link" href="/">
           <p className="footer-name">Bawri Group</p>
+          </a>
           <p className="footer-copyright">© 2024 Bawri Group. All rights reserved.</p>
         </div>
       </div>

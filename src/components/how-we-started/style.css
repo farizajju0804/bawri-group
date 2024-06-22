@@ -6,7 +6,7 @@
     justify-content: space-around;
     align-items: center;
     /* padding-bottom: 45px; */
-    padding: 30px 20px;
+    padding: 30px 30px;
 }
 
 .how-we-started-heading {
@@ -58,12 +58,14 @@
 }
 
 .left-image {
-    width: 20%;
+margin-top: 20px;
+    width: 25%;
     aspect-ratio: 16 / 9;
 }
 
 .right-image {
-   width: 20%;
+margin-top: 20px;
+   width: 25%;
    aspect-ratio: 16 / 9;
 }
 
