@@ -86,6 +86,9 @@ const Home = () => {
         <div className="py-2 year-stat">
           The Bawri Group
         </div>
+        <div className="py-2 year-desc">
+        A Legacy of Fortitude, Resilience, and Triumph
+        </div>
          <div className="text-center year-caption">
           Established 1872
         </div>
@@ -106,12 +109,12 @@ const Home = () => {
         img={img}
         />
         <FallingLogos/>
-        <Gallery3d/>
         <Component7
-        stat="4 Generations"
+        stat="Impacting 4 Generations"
         img={img1}
         />
-
+        <Gallery3d/>
+        
 
     </div>
   )

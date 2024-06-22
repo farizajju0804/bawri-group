@@ -29,7 +29,7 @@ const ImageCardMarquee = ({ cards }) => {
                   className="w-full h-2/3 rounded-lg"
                 />
                 <div className="px-2 py-4">
-                  <p style={Lato} className="text-[#262626] text-center text-lg font-semibold">{card.title}</p>
+                  <p style={Lato} className="text-[#262626] text-center lg:text-2xl text-xl font-semibold">{card.title}</p>
                 </div>
               </div>
             ))}

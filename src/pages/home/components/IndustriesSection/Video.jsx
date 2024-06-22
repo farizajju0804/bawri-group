@@ -11,7 +11,7 @@ const VideoSection = () => {
     <section className="relative w-full overflow-hidden">
       <div className="relative z-10 bg-[#FDDB60] text-white py-2">
         <div className="text-center p-2">
-          <h1 style={Skywalk} className="text-2xl md:text-6xl font-bold">The Journey Of Bawri Group</h1>
+          <h1 style={Skywalk} className="text-2xl md:text-6xl font-bold">Our Journey</h1>
         </div>
       </div>
       <div className="flex p-4 justify-center items-center w-full overflow-hidden bg-[#FDDB60]">
