@@ -114,12 +114,12 @@ const Home = () => {
         <Component7
         caption="Direct and Indirect Employment"
         stat="50,000+ People"
-        img={img}
+        img="https://res.cloudinary.com/drlyyxqh9/image/upload/v1719244944/Bawri%20Group/Landing%20Page/DALL_E_2024-06-24_21.31.57_-_A_minimal_subtle_and_abstract_collage_image_depicting_people_in_direct_and_indirect_employment._On_one_side_illustrate_direct_employment_with_a_gro_bhuozf.webp"
         />
         <FallingLogos/>
         <Component7
         stat="Impacting 4 Generations"
-        img={img1}
+        img="https://res.cloudinary.com/drlyyxqh9/image/upload/v1719244764/Bawri%20Group/Landing%20Page/DALL_E_2024-06-24_21.25.10_-_A_horizontal_image_in_a_16_9_ratio_representing_four_generations_of_people_with_a_whiter_subtle_background._On_the_far_left_an_elderly_person_using_kxh5sh.webp"
         />
         <Testimonial/>
         <Gallery3d/>
