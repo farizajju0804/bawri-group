@@ -11,10 +11,20 @@ const StoryPage = () => {
   const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
   const targetRef = useRef(null);
   const [height, setHeight] = useState(window.innerHeight);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-  });
-  const isMobile = window.innerWidth < 768;
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setHeight(window.innerHeight);
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const getWidthCal = (part, isMobile) => {
     if (isMobile) {
       switch (partId) {
@@ -31,20 +41,12 @@ const StoryPage = () => {
   };
 
   const widthCal = getWidthCal(part, isMobile);
- 
-  // Calculate the width to scroll exactly to the last slide
+
+  const { scrollYProgress } = useScroll({
+    target: targetRef,
+  });
+
   const x = useTransform(scrollYProgress, [0, 1], ["0%", `-${widthCal * (part.stories.length - 1)}vw`]);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setHeight(window.innerHeight);
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   const handleDotClick = (index) => {
     setCurrentStoryIndex(index);
@@ -66,11 +68,13 @@ const StoryPage = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [currentStoryIndex]);
+    if (!isMobile) {
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
+  }, [currentStoryIndex, isMobile]);
 
   if (!part) {
     return <div>Part not found</div>;
@@ -79,28 +83,48 @@ const StoryPage = () => {
   const years = part.stories.map(story => story.year);
 
   return (
-    <div className="story-page overscroll-none" style={{ height: `100lvh`}}>
-      <section ref={targetRef} className="relative overscroll-none" style={{ height: `${100*(part.stories.length - 1) }lvh` }}>
-        <div className="sticky top-0 flex h-screen items-center overflow-hidden overscroll-none" style={{ height: '100lvh' }}>
-          <motion.div style={{ x, height: `100lvh` }} className="flex">
-            {part.stories.map((story, index) => (
-              <div id={`story-${index}`} key={index} className="story-slide" style={{ height: `100lvh` }}>
-                <StorySlide
-                  year={story.year}
-                  name={story.name}
-                  image={story.image}
-                  content={story.content}
-                  bgImage={part.bgImage}
-                  totalStories={part.stories.length}
-                  onDotClick={handleDotClick}
-                  storyIndex={index}
-                  years={years}
-                />
-              </div>
-            ))}
-          </motion.div>
+    <div className="story-page" style={{ background: `url(${part.bgImage}) no-repeat center center / cover` }}>
+      {isMobile ? (
+        <div className="vertical-story-container">
+          {part.stories.map((story, index) => (
+            <div id={`story-${index}`} key={index} className="story-slide" >
+              <StorySlide
+                year={story.year}
+                name={story.name}
+                image={story.image}
+                content={story.content}
+                bgImage={part.bgImage}
+                totalStories={part.stories.length}
+                onDotClick={handleDotClick}
+                storyIndex={index}
+                years={years}
+              />
+            </div>
+          ))}
         </div>
-      </section>
+      ) : (
+        <section ref={targetRef} className="relative" style={{ height: `${100 * (part.stories.length - 1)}vh` }}>
+          <div className="sticky top-0 flex h-screen items-center overflow-hidden" style={{ height: '100vh' }}>
+            <motion.div style={{ x, height: `100vh` }} className="flex">
+              {part.stories.map((story, index) => (
+                <div id={`story-${index}`} key={index} className="story-slide" style={{ height: `100vh` }}>
+                  <StorySlide
+                    year={story.year}
+                    name={story.name}
+                    image={story.image}
+                    content={story.content}
+                    bgImage={part.bgImage}
+                    totalStories={part.stories.length}
+                    onDotClick={handleDotClick}
+                    storyIndex={index}
+                    years={years}
+                  />
+                </div>
+              ))}
+            </motion.div>
+          </div>
+        </section>
+      )}
     </div>
   );
 };
