@@ -64,7 +64,7 @@ const Founder = () => {
           <p style={Lato} className='px-2 mt-4 text-base'>
             Id ut elementum pellentesque vel in. In sodales facilisis vitae magnis sed convallis. Elit quis in phasellus cum nec. A est in sapien ullamcorper purus facilisi. Adipiscing amet platea tempor nibh.
           </p>
-          <div className='w-fit p-2 lg:text-xl bg-white mt-4'>
+          <div className='w-fit p-2 text-xl bg-white mt-8'>
             <p style={Skywalks}>Mr. Binod Kumar Bawri</p>
           </div>
         </motion.div>

@@ -63,6 +63,7 @@ const Testimonial = () => {
 
   return (
     <section className="relative py-8 lg:py-14 2xl:py-30">
+      <img src={quote} className='w-14 absolute top-[10%] left-[6%]' alt="" srcset="" />
       <div className="container px-4 mx-auto">
         <div className="max-w-5xl mx-auto">
           <div className="w-full px-4 mb-6 text-center">
