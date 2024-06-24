@@ -13,7 +13,7 @@ const ImageCardMarquee = ({ cards }) => {
 
   return (
     <div className="w-full bg-[#FEE8D0] text-[#262626] flex flex-col items-center py-10">
-      <h1 style={Skywalks} className="text-3xl lg:text-5xl font-bold mb-8 z-10">15+ Industries</h1>
+      <h1 style={Skywalks} className="text-5xl font-bold mb-8 z-10">15+ Industries</h1>
       <div className="relative w-full h-full flex-1 p-4 overflow-hidden">
         <div className="marquee">
           <div className="marquee-inner flex space-x-8">

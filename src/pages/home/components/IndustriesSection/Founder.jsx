@@ -29,7 +29,7 @@ const Founder = () => {
   return (
     <div className='w-full bg-white pt-4 lg:py-8 flex flex-col'>
       <div className='w-full pt-2 lg:py-4'>
-        <h1 style={Skywalks} className='text-3xl md:text-5xl w-full text-center tracking-wide'>
+        <h1 style={Skywalks} className='text-5xl w-full text-center tracking-wide'>
           Our Founder
         </h1>
       </div>

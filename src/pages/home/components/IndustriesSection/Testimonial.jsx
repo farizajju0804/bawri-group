@@ -69,7 +69,7 @@ const Testimonial = () => {
             <h1 style={Skywalks} className="text-5xl text-[#262626]">Testimonials</h1>
           </div>
           <div className="flex flex-wrap items-center -mx-4 mb-8 lg:flex-row flex-col-reverse rounded-2xl p-8">
-            <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
+            <div className="w-full lg:w-1/2 px-4 lg:mb-0">
               <motion.div
                 key={currentSlide}
                 initial={{ opacity: 0, x: 100 }}
