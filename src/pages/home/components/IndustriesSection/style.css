@@ -51,3 +51,145 @@
 
 
 
+
+.text-line {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: dash 5s linear infinite, filling 5s ease-in infinite;
+}
+
+.text-line text {
+  font-family: 'Skywalks';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes filling {
+  0%, 90% { fill: #262626; fill-opacity: 0; }
+  100% { fill: #262626; fill-opacity: 1; }
+}
+
+
+
+
+
+
+/* HeroSection.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #212121;
+  position: relative;
+}
+
+.video-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+#video-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  transform: rotate(180deg);
+}
+
+.font-skywalks {
+  font-family: 'Skywalks';
+}
+.font-lato {
+  font-family: 'Lato';
+}
+
+.content {
+  z-index: 2;
+}
+
+.hero-title {
+  font-family: 'Skywalks';
+  font-size: 7rem;
+  line-height: 1em;
+  font-weight: 900;
+  mix-blend-mode: difference !important;
+  color: #efefef;
+  position: relative;
+}
+
+.blend {
+  mix-blend-mode: difference !important;
+  color: #efefef;
+  position: relative;
+  z-index: 2;
+}
+
+.desktop-line {
+  display: none;
+}
+
+.mobile-line {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .desktop-line {
+    display: block;
+  }
+  .mobile-line {
+    display: none;
+  }
+}
+
+/* 
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 75vh;
+  }
+
+  #video-bg {
+    object-position: 0 5vw;
+  }
+} */
+/* 
+@media screen and (max-width: 1199px) {
+  .hero {
+    height: 75vh;
+  }
+
+  #video-bg {
+    object-position: 0 15vw;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hero {
+    min-height: 600px;
+    height: 600px;
+  }
+
+  .hero-title {
+    font-size: 12vw;
+  }
+
+  #video-bg {
+    object-position: 0 30vw;
+  }
+} */
+
+

@@ -9,6 +9,12 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        gold: {
+          100: '#fdf4e3',
+          300: '#fde0b3',
+        },
+      },
       animation: {
         aurora: "aurora 120s linear infinite",
       },

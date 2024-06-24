@@ -15,6 +15,9 @@ import Founder from './components/IndustriesSection/Founder'
 import VideoSection from './components/IndustriesSection/Video'
 import ImageCardMarquee from './components/IndustriesSection/ImageCardMarquee'
 import Testimonial from './components/IndustriesSection/Testimonial'
+import TextAnimation from './components/IndustriesSection/TextAnimation'
+import HeroSection from './components/IndustriesSection/HeroSection'
+import HeroVideo from './components/IndustriesSection/HeroVideo'
 
 const Home = () => {
   const cardsLeft = [
@@ -73,6 +76,8 @@ const Home = () => {
   
   return (
     <div className='home'>
+       <HeroSection/>
+    
     <AuroraBackground>
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
@@ -84,11 +89,10 @@ const Home = () => {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
-    
-       
-        <div className="py-2 year-stat">
+       <TextAnimation/>
+        {/* <div className="py-2 year-stat">
           The Bawri Group
-        </div>
+        </div> */}
         <div className="py-2 year-desc text-[#3b44f6]">
         A Legacy of Fortitude, Resilience, and Triumph
         </div>
@@ -100,6 +104,7 @@ const Home = () => {
         </button> */}
       </motion.div>
     </AuroraBackground>
+    <HeroVideo/>
     <VideoSection/>
     <Founder/>
     {/* <Globe/> */}
