@@ -46,7 +46,7 @@
         "categoryName": "Cements",
         "companyName": "Vinay Cements",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718782751/Bawri%20Group/For-profit/Cements/vinaybg_fcqvae.jpg",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -55,28 +55,29 @@
         },
         "howWeStarted": {
           "content": [
-            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+            "In the early 1980s we were in the process of building our house. Six months later, the builder told us he had to halt construction because there was a shortage of cement.  We scoped the market but demand far outstripped supply and we had to stop construction for over three months. People say one of my strengths is ‘root-cause analysis’ and going beyond the obvious. I spent those three months understanding the reasons for the asymmetry between demand and supply; learning how cement is manufactured; and understanding the technology, processes, and logistics. I discovered Assam was a prime spot to manufacture cement.  After six months of research, brainstorming, and due diligence, opportunity beckoned. The rest is history, Vinay Cements was born the following year."
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227012/Bawri%20Group/For-profit/Cements/vinaymain_yafimn.jpg",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227004/Bawri%20Group/For-profit/Cements/left_uegsdy.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227010/Bawri%20Group/For-profit/Cements/right_so5ybv.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226744/Bawri%20Group/For-profit/Cements/vinaylogo_s4behj.svg",
           "content": [
-            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+            "Vinay Cements, championed as North-East India's trailblazer harnessed global technology through partnerships with European firms, transforming North-East India's industrial landscape. The company set up its factory in Umrangshu, an underdeveloped region in NC Hills, Assam. ",
+            "Despite infrastructural challenges, including broken roads, lack of telecommunication, and erratic power supply, the founders remained undeterred. They didn’t wait for the government to fix things. They undertook road repairs, maintained the power lines, and patiently waited six years for phone connectivity. They fostered local employment and empowerment, and established a pro bono school in an educationally barren region. Vinay Cements' journey was replete with perseverance, and an unwavering commitment to societal upliftment, providing an inspiring and engaging blueprint for corporate success."
           ],
           "companyName" :"Vinay Cements"
         },
         "highlightMoment": {
-          "year": "2018",
-          "location": "Mumbai, India",
+          "year": "2004",
+          "location": "Umrangshu, Assam",
           "content": [
-            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
+              "​The highlight of Vinay Cements’ journey was providing pro-bono education to thousands of under-priviledged children who would not be literate otherwise. "
           ],
-          "momentName": "Moment Name",
-          "highlightImg": ""
+          "momentName": "Empowering 1000’s of Children",
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226744/Bawri%20Group/For-profit/Cements/vinaybottom_uu6cc4.jpg"
         }
       },
       {
@@ -84,7 +85,7 @@
         "categoryName": "Cements",
         "companyName": "Calcom Cements",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226537/Bawri%20Group/For-profit/Cements/calcombg_qr0u9r.jpg",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -95,13 +96,13 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226543/Bawri%20Group/For-profit/Cements/calcommain_gtxzgp.png",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226540/Bawri%20Group/For-profit/Cements/left_slpkrk.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226547/Bawri%20Group/For-profit/Cements/right_xfwd2e.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226174/Bawri%20Group/For-profit/Cements/calcomlogo_unllns.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -114,7 +115,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226539/Bawri%20Group/For-profit/Cements/calcombottom_kymtur.jpg"
         }
       },
       {
@@ -122,7 +123,7 @@
         "categoryName": "Fashion Design",
         "companyName": "Thealla",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718782887/Bawri%20Group/For-profit/Fashion%20Design/thaellabg_uys21m.png",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -133,13 +134,13 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227499/Bawri%20Group/For-profit/Fashion%20Design/thaellamain_gjojxy.png",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227477/Bawri%20Group/For-profit/Fashion%20Design/left_aken3i.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227477/Bawri%20Group/For-profit/Fashion%20Design/right_jcdivw.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227496/Bawri%20Group/For-profit/Fashion%20Design/thaellalogo_vlhsfq.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -152,7 +153,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227483/Bawri%20Group/For-profit/Fashion%20Design/thaellabottom_xarfex.png"
         }
       },
       {
@@ -198,7 +199,7 @@
         "categoryName": "Email Search",
         "companyName": "Diduce",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227843/Bawri%20Group/For-profit/Email%20Search/diducebg_zzhi28.jpg",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -209,13 +210,11 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227889/Bawri%20Group/For-profit/Email%20Search/diducemain_kbmjzv.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227869/Bawri%20Group/For-profit/Email%20Search/diducelogo_fmyryf.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -228,7 +227,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227858/Bawri%20Group/For-profit/Email%20Search/diducebottom_ef1e1a.jpg"
         }
       },
       {
@@ -236,7 +235,7 @@
         "categoryName": "Food & Beverage",
         "companyName": "Oleo Resin",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719228432/Bawri%20Group/For-profit/Food/resinbg_nlxkgp.jpg",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -247,13 +246,11 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719228463/Bawri%20Group/For-profit/Food/resinmain_ojvl5m.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719228448/Bawri%20Group/For-profit/Food/resinlogo_car5ns.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -266,7 +263,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719228445/Bawri%20Group/For-profit/Food/resinbottom_v4rj17.png"
         }
       },
       {
@@ -312,7 +309,7 @@
         "categoryName": "Timber",
         "companyName": "Bawri Timber",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229729/Bawri%20Group/For-profit/timber/timberbg_plwvru.jpg",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -321,15 +318,16 @@
         },
         "howWeStarted": {
           "content": [
+            "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor ",
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229761/Bawri%20Group/For-profit/timber/woodenbg_obeu2y.png",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229777/Bawri%20Group/For-profit/timber/leftlog_ejxrmj.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229788/Bawri%20Group/For-profit/timber/rightlog_hdvby6.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229456/Bawri%20Group/For-profit/timber/timberlogo_wc131u.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -342,7 +340,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229747/Bawri%20Group/For-profit/timber/timberbottom_k3lnr2.jpg"
         }
       },
       {
@@ -426,7 +424,7 @@
         "categoryName": "Analytics",
         "companyName": "Quantta",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718782808/Bawri%20Group/For-profit/Analytics/quanttabg_oqpyuj.jpg",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -437,13 +435,12 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229555/Bawri%20Group/For-profit/Analytics/quanttamain_kr9sew.png",
+        
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229550/Bawri%20Group/For-profit/Analytics/quanttalogo_uqtwwx.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -456,7 +453,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229551/Bawri%20Group/For-profit/Analytics/quanttabottom_pktfz9.jpg"
         }
       },
       {

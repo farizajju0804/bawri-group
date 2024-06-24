@@ -81,6 +81,7 @@ letter-spacing: 10px;
    width: 100%;
 background-size: cover;
 background-position: center;
+-webkit-text-stroke: 0.5px black;
 }
 
 @media screen and (max-width : 768px) {

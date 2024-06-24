@@ -29,7 +29,7 @@ const AboutCompanyNp = ({ aboutImg, companyName, content }) => {
   return (
     <div className='about-np-div'>
     <img ref={aboutCompanyRef} src={aboutImg} className='about-np-img'  alt='education'/>
-      <p className='about-np-content-heading'>Jamuna Devi Saraswati Vidya Mandir </p>
+      <p className='about-np-content-heading'>{companyName}</p>
     <div className='about-np-content-main'>
       <div className='about-np-content-box'>
           {

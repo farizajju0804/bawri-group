@@ -15,6 +15,7 @@ import Founder from './components/IndustriesSection/Founder'
 import VideoSection from './components/IndustriesSection/Video'
 import ImageCardMarquee from './components/IndustriesSection/ImageCardMarquee'
 import Testimonial from './components/IndustriesSection/Testimonial'
+
 const Home = () => {
   const cardsLeft = [
     {
@@ -83,6 +84,7 @@ const Home = () => {
         }}
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
+    
        
         <div className="py-2 year-stat">
           The Bawri Group

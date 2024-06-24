@@ -82,9 +82,9 @@
       {
         "id": "unity",
         "categoryName": "National Unity",
-        "companyName": "Ideopedia",
+        "companyName": "Think",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225598/Bawri%20Group/Non%20Profit/National%20Unity/unity-bg_rltgry.png",
         "testimonial": {
           "authorName": "Person Name",
           "content": [
@@ -95,17 +95,17 @@
           "content": [
            "Lorem ipsum dolor sit amet consectetur. Eget ipsum tincidunt pellentesque nec. Quam amet tempor vestibulum phasellus a velit. A placerat vitae nisl tincidunt ac nec imperdiet. Porttitor malesuada malesuada etiam pellentesque sed lacus odio. Ut vitae magna porta proin orci augue. In eget etiam aliquet enim ultrices. Blandit in enim volutpat morbi malesuada nec nisl phasellus volutpat. Scelerisque vestibulum nunc cursus etiam euismod a non. Tristique elit erat placerat ultrices. Ultricies tempus libero eget at egestas. Sed dolor donec habitasse pharetra risus fames iaculis in. Nunc fusce convallis nunc molestie. Nibh sit porttitor risus phasellus. Pretium magna donec sed ut bibendum adipiscing porttitor pellentesque eu. Aliquam suspendisse arcu id quam metus lectus integer in. Enim consequat ac est etiam porttitor blandit dui. Odio."
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225498/Bawri%20Group/Non%20Profit/National%20Unity/ideamain_l78trf.jpg",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225455/Bawri%20Group/Non%20Profit/National%20Unity/topleft_llgt9o.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225466/Bawri%20Group/Non%20Profit/National%20Unity/topright_bk7qto.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225591/Bawri%20Group/Non%20Profit/National%20Unity/unity-about_wn0vef.png",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. Neque eros vitae mattis orci cursus. Consequat massa sed eu maecenas. Sagittis lectus quis adipiscing faucibus maecenas. Sed vulputate placerat a nunc cursus. Ullamcorper risus gravida in orci. Eget et bibendum at consequat vel et elit vitae id. Malesuada tincidunt auctor a amet in ultricies sit id. Aliquet tortor pellentesque convallis faucibus feugiat dictum augue. Morbi sed diam viverra."
           ],
-          "companyName" :"Ideopedia"
+          "companyName" :"Think"
         },
         "highlightMoment": {
           "year": "2018",
@@ -114,7 +114,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719071451/Bawri%20Group/Non%20Profit/National%20Unity/unity-moment_dwcafh.png"
         }
       },
       {
@@ -160,7 +160,7 @@
         "categoryName": "healthcare",
         "companyName": "Bawri Nethralaya",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225790/Bawri%20Group/Non%20Profit/Healthcare/healthbg_axeyzr.jpg",
         "testimonial": {
           "authorName": "Person Name",
           "content": [
@@ -171,13 +171,13 @@
           "content": [
            "Lorem ipsum dolor sit amet consectetur. Eget ipsum tincidunt pellentesque nec. Quam amet tempor vestibulum phasellus a velit. A placerat vitae nisl tincidunt ac nec imperdiet. Porttitor malesuada malesuada etiam pellentesque sed lacus odio. Ut vitae magna porta proin orci augue. In eget etiam aliquet enim ultrices. Blandit in enim volutpat morbi malesuada nec nisl phasellus volutpat. Scelerisque vestibulum nunc cursus etiam euismod a non. Tristique elit erat placerat ultrices. Ultricies tempus libero eget at egestas. Sed dolor donec habitasse pharetra risus fames iaculis in. Nunc fusce convallis nunc molestie. Nibh sit porttitor risus phasellus. Pretium magna donec sed ut bibendum adipiscing porttitor pellentesque eu. Aliquam suspendisse arcu id quam metus lectus integer in. Enim consequat ac est etiam porttitor blandit dui. Odio."
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225797/Bawri%20Group/Non%20Profit/Healthcare/healthmain_hpr1xr.png",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225800/Bawri%20Group/Non%20Profit/Healthcare/bottomleft_akzdst.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225782/Bawri%20Group/Non%20Profit/Healthcare/bottomright_hqvpny.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225791/Bawri%20Group/Non%20Profit/Healthcare/healthlogo_xzzbox.jpg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. Neque eros vitae mattis orci cursus. Consequat massa sed eu maecenas. Sagittis lectus quis adipiscing faucibus maecenas. Sed vulputate placerat a nunc cursus. Ullamcorper risus gravida in orci. Eget et bibendum at consequat vel et elit vitae id. Malesuada tincidunt auctor a amet in ultricies sit id. Aliquet tortor pellentesque convallis faucibus feugiat dictum augue. Morbi sed diam viverra."
           ],
@@ -190,7 +190,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719071601/Bawri%20Group/Non%20Profit/Healthcare/healthcare-moment_zkmxo2.png"
         }
       }
     ]
