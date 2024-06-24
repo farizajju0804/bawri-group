@@ -161,7 +161,7 @@
         "categoryName": "Real Estate",
         "companyName": "Bawri Mansions",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719235137/Bawri%20Group/For-profit/Real%20Estate/mansion-bg_gwidhw.png",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -172,13 +172,13 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719235118/Bawri%20Group/For-profit/Real%20Estate/mansion-story_zzgmrl.png",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719235129/Bawri%20Group/For-profit/Real%20Estate/mansion-left_ptrkhf.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719235124/Bawri%20Group/For-profit/Real%20Estate/mansion-right_pgriv9.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719235111/Bawri%20Group/For-profit/Real%20Estate/mansion-about_s7fvvb.png",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -191,7 +191,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719235118/Bawri%20Group/For-profit/Real%20Estate/mansion-moment_vziorf.png"
         }
       },
       {
@@ -271,7 +271,7 @@
         "categoryName": "Haute Couture",
         "companyName": "Ikaaya",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234771/Bawri%20Group/For-profit/haute%20couture/ikaaya-bg_fghfma.png",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -282,13 +282,13 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234746/Bawri%20Group/For-profit/haute%20couture/ikaaya-story_h4odyd.png",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234744/Bawri%20Group/For-profit/haute%20couture/ikaaya-left_jzngoc.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234740/Bawri%20Group/For-profit/haute%20couture/ikaaya-right_gwc3rn.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234500/Bawri%20Group/For-profit/haute%20couture/ikaaya-about_mi1bbr.png",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -301,7 +301,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234505/Bawri%20Group/For-profit/haute%20couture/ikaaya-bottom_z6tcqn.png"
         }
       },
       {
@@ -348,7 +348,7 @@
         "categoryName": "Luxury Retail",
         "companyName": "PrideNPrecious",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233525/Bawri%20Group/For-profit/Retail/retailbg_bvhirs.jpg",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -359,13 +359,13 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233592/Bawri%20Group/For-profit/Retail/retailmain_ewm2ex.jpg",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233495/Bawri%20Group/For-profit/Retail/bottomright_ktr4wr.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233538/Bawri%20Group/For-profit/Retail/bottomleft_t3vaft.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233567/Bawri%20Group/For-profit/Retail/retaillogo_lvlyse.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -378,7 +378,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233510/Bawri%20Group/For-profit/Retail/retailbottom_ay3vkb.jpg"
         }
       },
       {
@@ -386,7 +386,7 @@
         "categoryName": "Saas",
         "companyName": "Cijen",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233996/Bawri%20Group/For-profit/Saas/cijenbg_bb3oyp.jpg",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -397,13 +397,11 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233997/Bawri%20Group/For-profit/Saas/cijenmain_cpfykf.jpg",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233993/Bawri%20Group/For-profit/Saas/cijenlogo_c2fa3v.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -416,7 +414,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233989/Bawri%20Group/For-profit/Saas/cijenbottom_jeisz4.jpg"
         }
       },
       {
@@ -461,7 +459,7 @@
         "categoryName": "Antiques",
         "companyName": "Saroj Antiques",
         "year": "2010",
-        "bgImageUrl": "",
+        "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234084/Bawri%20Group/For-profit/Antiques/antiques_jssdzr.png",
         "testimonial": {
           "authorName": "Person name",
           "content": [
@@ -472,13 +470,13 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
-          "bgImageUrl": "",
-          "leftImageUrl": "",
-          "rightImageUrl": "",
+          "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234104/Bawri%20Group/For-profit/Antiques/antiquesbg_dka9uv.png",
+          "leftImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234202/Bawri%20Group/For-profit/Antiques/leftlogo_tavwut.png",
+          "rightImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234207/Bawri%20Group/For-profit/Antiques/rightlogo_owwcjt.png",
           "headingColor": "black"
         },
         "aboutCompany": {
-          "aboutImg": "",
+          "aboutImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234128/Bawri%20Group/For-profit/Antiques/antiqueslogo_qbaprg.svg",
           "content": [
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
@@ -491,7 +489,7 @@
             "Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor "
           ],
           "momentName": "Moment Name",
-          "highlightImg": ""
+          "highlightImg": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234111/Bawri%20Group/For-profit/Antiques/antiquesbottom_prjumx.png"
         }
       }
     ]
