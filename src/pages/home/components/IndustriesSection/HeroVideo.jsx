@@ -9,7 +9,7 @@ const HeroVideo = () => {
           loop 
           muted 
           className="absolute inset-0 w-full h-full object-cover object-right"
-          src='https://res.cloudinary.com/drlyyxqh9/video/upload/v1719311430/Bawri%20Group/Landing%20Page/background-video.mp4'
+          src='https://res.cloudinary.com/drlyyxqh9/video/upload/v1719314058/Bawri%20Group/Landing%20Page/bg._tetn2e.webm'
         >
         </video>
       </div>
