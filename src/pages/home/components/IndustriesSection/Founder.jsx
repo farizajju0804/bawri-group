@@ -33,7 +33,7 @@ const Founder = () => {
           Our Founder
         </h1>
       </div>
-      <div className='flex flex-col lg:flex-row w-full pt-6 lg:pb-6 items-center justify-center'>
+      <div className='flex flex-col w-full pt-6 lg:pb-6 items-center justify-center'>
         <motion.div
           className='w-full md:w-[70%] lg:w-[30%] flex items-center justify-center'
           initial="hidden"
@@ -44,7 +44,7 @@ const Founder = () => {
           <img src={founder} alt="Founder" />
         </motion.div>
         <motion.div
-          className='relative px-10 py-8 pb-12 w-full lg:w-[70%] flex flex-col items-center bg-[#fddb60]'
+          className='relative px-10 py-8 pb-12 w-full lg:w-[80%] flex flex-col items-center bg-[#fddb60]'
           style={{ clipPath: 'url(#minimal-blob)' }}
           initial="hidden"
           whileInView="visible"
