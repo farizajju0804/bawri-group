@@ -10,7 +10,9 @@ const FullScreenNav = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
 
   const toggleNav = () => {
+    console.log(isOpen)
     setIsOpen(!isOpen);
+  
     if (!isOpen) {
       gsap.to('.fullscreen-nav', { duration: 0.5, x: 0 });
     } else {
@@ -35,8 +37,8 @@ const FullScreenNav = () => {
 
   return (
     <div>
-      <div className="nav-header">
-      <a href='/'><div className="logo">BawriGroup</div></a>
+      <div className="nav-header z-[1002]">
+      <a href='/'><div className="logo ">BawriGroup</div></a>
         <button className="nav-toggle" onClick={toggleNav}>
           {isOpen ? <IoClose size={24} /> : <RiMenu4Line size={24} />}
         </button>

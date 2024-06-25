@@ -107,7 +107,7 @@ const Gallery3d = () => {
       </GalleryScene>
 
       {selectedImage && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-[550] transition-opacity duration-300" onClick={closeModal}>
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-[1010] transition-opacity duration-300" onClick={closeModal}>
           <div className="relative flex flex-col bg-white rounded-lg overflow-hidden shadow-lg max-w-3xl mx-4" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={closeModal}
