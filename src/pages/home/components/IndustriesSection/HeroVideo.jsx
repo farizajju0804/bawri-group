@@ -11,7 +11,7 @@ const HeroVideo = () => {
           muted 
           className="absolute inset-0 w-full h-full object-cover object-right"
         >
-          <source src="https://res.cloudinary.com/drlyyxqh9/video/upload/v1719314058/Bawri%20Group/Landing%20Page/bg._tetn2e.webm" type="video/webm" />
+          <source src="https://res.cloudinary.com/drlyyxqh9/video/upload/v1719314734/Bawri%20Group/Landing%20Page/bg._v5txeh.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="relative z-10 text-center text-white">
