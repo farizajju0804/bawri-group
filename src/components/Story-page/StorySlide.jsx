@@ -2,12 +2,13 @@ import React, { useEffect } from 'react';
 import './StorySlide.css';
 import Timeline from './Timeline'; // Adjust the import path accordingly
 
-const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotClick, storyIndex, years }) => {
+const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotClick, storyIndex, years,bgPosition }) => {
   const bgStyle = {
     backgroundImage: `url(${bgImage})`
   };
   const bgStyle2 = {
     backgroundImage: `url(${image})`,
+    backgroundPosition : bgPosition
   };
 
   const isMobile = window.innerWidth < 768;
@@ -39,7 +40,7 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
             <p key={index} className={textClass}>{item}</p>
           ))}
         </div>
-        {
+        {/* {
           !isMobile && (
             <Timeline 
               totalStories={totalStories} 
@@ -48,7 +49,7 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
               years={years}
             />
           )
-        }
+        } */}
       </div>
     </div>
   );

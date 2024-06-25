@@ -98,6 +98,7 @@ const StoryPage = () => {
                 onDotClick={handleDotClick}
                 storyIndex={index}
                 years={years}
+                bgPosition={story.bgPosition}
               />
             </div>
           ))}

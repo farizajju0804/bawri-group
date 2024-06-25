@@ -1,18 +1,32 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import gsap from 'gsap';
-import { IoChevronDownOutline,IoClose } from "react-icons/io5";
+import { IoChevronDownOutline, IoClose } from "react-icons/io5";
 import { RiMenu4Line } from "react-icons/ri";
-// import { FaBars, FaTimes } from "react-icons/fa";
+import { match } from 'path-to-regexp';
 import './Navbar.css';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 const FullScreenNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const location = useLocation();
+
+  // Define routes where the navbar should be transparent
+  const transparentRoutes = [''];
+  const dynamicRoutes = ['/our-story/:partId'];
+
+  // Function to check if the current path matches any dynamic routes
+  const isDynamicRoute = (path) => {
+    return dynamicRoutes.some((route) => match(route, { decode: decodeURIComponent })(path));
+  };
+
+  // Check if the current route is in the transparentRoutes array or matches a dynamic route
+  const isTransparent = transparentRoutes.includes(location.pathname) || isDynamicRoute(location.pathname);
 
   const toggleNav = () => {
-    console.log(isOpen)
     setIsOpen(!isOpen);
-  
+
     if (!isOpen) {
       gsap.to('.fullscreen-nav', { duration: 0.5, x: 0 });
     } else {
@@ -22,11 +36,7 @@ const FullScreenNav = () => {
   };
 
   const toggleDropdown = (dropdown) => {
-    if (activeDropdown === dropdown) {
-      setActiveDropdown(null);
-    } else {
-      setActiveDropdown(dropdown);
-    }
+    setActiveDropdown(activeDropdown === dropdown ? null : dropdown);
   };
 
   const closeNav = () => {
@@ -37,8 +47,8 @@ const FullScreenNav = () => {
 
   return (
     <div>
-      <div className="nav-header z-[1002]">
-      <a href='/'><div className="logo ">BawriGroup</div></a>
+      <div className={`nav-header z-[1002] ${isTransparent ? 'bg-transparent absolute' : 'bg-white fixed'}`}>
+        <Link to='/' className="logo">BawriGroup</Link>
         <button className="nav-toggle" onClick={toggleNav}>
           {isOpen ? <IoClose size={24} /> : <RiMenu4Line size={24} />}
         </button>
@@ -51,8 +61,8 @@ const FullScreenNav = () => {
             </a>
             {activeDropdown === 'ourCompanies' && (
               <ul className="dropdown">
-                <li><a href="/profit" onClick={closeNav}>For-Profit</a></li>
-                <li><a href="/non-profit" onClick={closeNav}>Non-Profit</a></li>
+                <li><Link to="/profit" onClick={closeNav}>For-Profit</Link></li>
+                <li><Link to="/non-profit" onClick={closeNav}>Non-Profit</Link></li>
               </ul>
             )}
           </li>
@@ -62,16 +72,16 @@ const FullScreenNav = () => {
             </a>
             {activeDropdown === 'aboutUs' && (
               <ul className="dropdown">
-                <li><a href="/about" onClick={closeNav}>About Us</a></li>
-                <li><a href="/mission" onClick={closeNav}>Mission & Vision</a></li>
-                <li><a href="/values" onClick={closeNav}>Values</a></li>
-                <li><a href="/team" onClick={closeNav}>Team</a></li>
-                <li><a href="/our-story" onClick={closeNav}>Story</a></li>
+                <li><Link to="/about" onClick={closeNav}>About Us</Link></li>
+                <li><Link to="/mission" onClick={closeNav}>Mission & Vision</Link></li>
+                <li><Link to="/values" onClick={closeNav}>Values</Link></li>
+                <li><Link to="/team" onClick={closeNav}>Team</Link></li>
+                <li><Link to="/our-story" onClick={closeNav}>Story</Link></li>
               </ul>
             )}
           </li>
           <li className="nav-item">
-            <a href="/contact" onClick={closeNav}>Contact Us</a>
+            <Link to="/contact" onClick={closeNav}>Contact Us</Link>
           </li>
         </ul>
       </div>
