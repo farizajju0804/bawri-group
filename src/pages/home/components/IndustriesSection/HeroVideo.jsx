@@ -4,7 +4,7 @@ const HeroVideo = () => {
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center bg-black">
       <div className="absolute inset-0 overflow-hidden">
-        <video  autoPlay playsInline loop muted className="absolute object-right inset-0 w-full h-full object-cover bg-center">
+        <video  autoPlay playsInline loop muted className="absolute object-right inset-0 w-full h-full object-cover bg-right">
           <source src="https://res.cloudinary.com/drlyyxqh9/video/upload/v1719304360/Bawri%20Group/Landing%20Page/flight-of-gold-bokeh-sparkling-particles-with-alph-2023-11-27-05-17-42-utc_1_enxfdy.mov" type="video/mp4" />
         </video>
       </div>
@@ -12,10 +12,10 @@ const HeroVideo = () => {
         <div className="py-2 year-stat text-3xl font-bold">
           The Bawri Group
         </div>
-        <div className="py-2 mb-4 year-desc text-2xl">
+        <div className="py-2 mb-4 text-[#fddb60] year-desc ">
           A Legacy of Fortitude, Resilience, and Triumph
         </div>
-        <div className="py-2 year-caption">
+        <div className="py-2 bg-[#fddb60] text-[#262626] mx-auto px-4 year-caption w-fit">
           Established 1872
         </div>
       </div>
