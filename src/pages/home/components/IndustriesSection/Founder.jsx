@@ -27,7 +27,7 @@ const Founder = () => {
   };
 
   return (
-    <div className='w-full bg-white pt-4 lg:py-8 flex flex-col'>
+    <div className='w-full bg-white pt-8 lg:py-8 flex flex-col'>
       <div className='w-full pt-2 lg:py-4'>
         <h1 style={Skywalks} className='text-5xl w-full text-center tracking-wide'>
           Our Founder
@@ -44,7 +44,7 @@ const Founder = () => {
           <img src={founder} alt="Founder" />
         </motion.div>
         <motion.div
-          className='relative px-10 py-8 w-full lg:w-[70%] flex flex-col items-center bg-[#fddb60]'
+          className='relative px-10 py-8 pb-12 w-full lg:w-[70%] flex flex-col items-center bg-[#fddb60]'
           style={{ clipPath: 'url(#minimal-blob)' }}
           initial="hidden"
           whileInView="visible"

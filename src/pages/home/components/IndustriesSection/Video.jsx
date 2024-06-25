@@ -9,12 +9,12 @@ const VideoSection = () => {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="relative z-10 bg-[#FDDB60] text-white py-2">
+      <div className="relative z-10 bg-[#FDDB60] pt-8 text-white">
         <div className="text-center p-2">
           <h1 style={Skywalk} className="text-5xl font-bold">Our Journey</h1>
         </div>
       </div>
-      <div className="flex p-4 justify-center items-center w-full overflow-hidden bg-[#FDDB60]">
+      <div className="flex justify-center items-center w-full overflow-hidden bg-[#FDDB60] py-8">
         <div className="px-4 pb-4 relative flex justify-center items-center w-full max-w-5xl">
           <video
             className="h-full rounded-lg shadow-lg aspect-video"

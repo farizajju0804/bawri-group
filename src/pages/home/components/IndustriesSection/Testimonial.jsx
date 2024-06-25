@@ -62,14 +62,14 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="relative py-8 lg:py-14 2xl:py-30">
-      <img src={quote} className='w-14 absolute top-[10%] left-[6%]' alt="" srcset="" />
+    <section className="relative py-16 lg:py-14 2xl:py-30">
+      <img src={quote} className='w-14 absolute top-[12%] left-[6%]' alt="" srcset="" />
       <div className="container px-4 mx-auto">
         <div className="max-w-5xl mx-auto">
           <div className="w-full px-4 mb-6 text-center">
             <h1 style={Skywalks} className="text-5xl text-[#262626]">Testimonials</h1>
           </div>
-          <div className="flex flex-wrap items-center -mx-4 mb-8 lg:flex-row flex-col-reverse rounded-2xl p-8">
+          <div className="flex flex-wrap items-center -mx-4 mb-8 lg:flex-row-reverse flex-col-reverse rounded-2xl p-8">
             <div className="w-full lg:w-1/2 px-4 lg:mb-0">
               <motion.div
                 key={currentSlide}

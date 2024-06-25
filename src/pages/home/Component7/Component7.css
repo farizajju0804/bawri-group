@@ -17,14 +17,13 @@
     justify-content: center ;
     align-items: center;
     gap: 10px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 60px 0 40px 0;
     
 }
 
 .home-Component7-text1{
 color: var(--black, #262626);
-font-family: 'Skywalks';
+font-family: 'Lato';
 font-size: 34px;
 font-style: normal;
 font-weight: 400;
@@ -45,6 +44,8 @@ align-self: center;
 }
 
 .home-Component7-img{
+    max-width: 700px;
+    margin: 0 auto;
     width: 100%;
     aspect-ratio: 16/9;
 }

@@ -76,9 +76,9 @@ const Home = () => {
   
   return (
     <div className='home'>
-       <HeroSection/>
+      
     
-    <AuroraBackground>
+    {/* <AuroraBackground>
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -90,20 +90,15 @@ const Home = () => {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
        <TextAnimation/>
-        {/* <div className="py-2 year-stat">
-          The Bawri Group
-        </div> */}
         <div className="py-2 year-desc text-[#3b44f6]">
         A Legacy of Fortitude, Resilience, and Triumph
         </div>
          <div className="text-center year-caption">
           Established 1872
         </div>
-        {/* <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
-          Debug now
-        </button> */}
+      
       </motion.div>
-    </AuroraBackground>
+    </AuroraBackground> */}
     <HeroVideo/>
     <VideoSection/>
     <Founder/>

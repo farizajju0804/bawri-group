@@ -67,7 +67,7 @@ const FallingLogos = () => {
   }, []);
 
   return (
-    <div style={{ width: '100%', overflow: 'hidden' , padding: '20px'}}>
+    <div className='py-16 bg-[#fee8d0]' style={{ width: '100%', overflow: 'hidden' }}>
       <div style={{ position: 'relative', height: '20vh', overflow: 'hidden',marginBottom: '30px' }}>
         <h1 style={{
           position: 'absolute',

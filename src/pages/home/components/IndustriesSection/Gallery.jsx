@@ -6,7 +6,6 @@ import { MeshStandardMaterial } from 'three';
 
 const Skywalks = {
   fontFamily: 'Skywalks',
-  color: "#262626",
   fontWeight: 'normal'
 };
 
@@ -74,12 +73,12 @@ const Gallery3d = () => {
 
   return (
     <main
-      className='flex items-center justify-center flex-col w-full bg-[#fee8d0] p-4'
+      className='flex items-center justify-center flex-col w-full bg-[#262626] p-4'
       style={{
         height: isMobile ? '70vh' : '120vh'
       }}
     >
-      <h1 style={Skywalks} className='text-5xl pt-8 text-center'>
+      <h1 style={Skywalks} className='text-white text-5xl pt-8 text-center'>
         Glimpses To Remember
       </h1>
       
@@ -88,7 +87,7 @@ const Gallery3d = () => {
           width: '100%',
           height: '100%'
         }}
-        backgroundColor="#FEE8D0"
+        backgroundColor="#262626"
         orbitControls={{
           enableDamping: true,
           enableZoom: false,
@@ -108,16 +107,27 @@ const Gallery3d = () => {
       </GalleryScene>
 
       {selectedImage && (
-        <div className="fixed inset-0 flex items-center  justify-center bg-black bg-opacity-50 z-50" onClick={closeModal}>
-          <div  className="relative flex flex-col w-fulll bg-white p-2" onClick={(e) => e.stopPropagation()}>
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-[550] transition-opacity duration-300" onClick={closeModal}>
+          <div className="relative flex flex-col bg-white rounded-lg overflow-hidden shadow-lg max-w-3xl mx-4" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={closeModal}
-              className="absolute top-3 right-3 text-xl bg-white p-1"
+              className="absolute top-3 right-3 text-xl text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              style={{ 
+                background: 'white',
+                borderRadius: '50%',
+                padding: '4px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
+              }}
             >
               <AiOutlineClose />
             </button>
-            <img src={selectedImage} alt="Selected" style={{ maxHeight: '80vh', maxWidth: '100vw' }} />
-            <p className='px-4' style={{ marginTop: '10px', fontSize: '16px', color: '#333' }}>{selectedText}</p>
+            <img src={selectedImage} alt="Selected" className="object-cover w-full h-[90%] max-h-[80vh]" />
+            <div className="p-4">
+              <p className="text-gray-700 text-base">{selectedText}</p>
+            </div>
           </div>
         </div>
       )}

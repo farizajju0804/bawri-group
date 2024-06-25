@@ -25,7 +25,7 @@ import StoryPage from "./pages/our-story/Story";
 import PartsPage from "./pages/our-story/PartsPage";
 import TeamPage from './pages/TeamPage/TeamPage';
 import PrivacyPolicy from './pages/home/components/IndustriesSection/PrivacyPolicy';
-import TermsOfService from './pages/home/components/IndustriesSection/TermsOfService';
+import LegalDisclaimer from './pages/home/components/IndustriesSection/TermsOfService';
 
 function App() {
   const location = useLocation();
@@ -42,11 +42,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/timber' element={<Timber />} />
-        <Route path='/antiques' element={<Antiques />} />
-        <Route path='/retail' element={<Retail />} />
-        <Route path='/quantta' element={<Quantta />} />
-        <Route path='/cijen' element={<Cijen />} />
         <Route path='/profit' element={<Road />} />
         <Route path='/our-story' element={<PartsPage />} />
         <Route path="/our-story/:partId" element={<StoryPage />} />
@@ -56,7 +51,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/non-profit' element={<Main />} />
         <Route path='/team' element={<TeamPage/>} />
-        <Route path='/terms' element={<TermsOfService/>} />
+        <Route path='/terms' element={<LegalDisclaimer/>} />
         <Route path='/privacy' element={<PrivacyPolicy/>} />
         <Route path='/profit/:id' element={<CompanyPage />} />
         <Route path='/non-profit/:id' element={<NonProfitCompanyPage />} />

@@ -36,7 +36,7 @@
 
 .marquee-inner {
   display: flex;
-  animation: marquee 40s linear infinite;
+  animation: marquee 120s linear infinite;
   width: calc(500px * 10 * 2 + 8px * 8); /* Adjust this based on the number of cards and spacing */
 }
 

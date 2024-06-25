@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './StorySlide.css';
 import Timeline from './Timeline'; // Adjust the import path accordingly
 
@@ -12,6 +12,17 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
 
   const isMobile = window.innerWidth < 768;
   const textClass = 'story-content-text';
+
+  useEffect(() => {
+    const handleResize = () => {
+      // Force re-render on window resize
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className='story-outer-div'>
       <div className='story-heading-div'>
@@ -23,7 +34,6 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
 
       <div className='story-main' style={bgStyle}>
         <div className='story-img' style={bgStyle2}></div>
-        {/* <img className='story-img' src={image} alt='story' /> */}
         <div className='story-main-div'>
           {content.map((item, index) => (
             <p key={index} className={textClass}>{item}</p>
@@ -32,14 +42,13 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
         {
           !isMobile && (
             <Timeline 
-            totalStories={totalStories} 
-            currentStoryIndex={storyIndex} 
-            onDotClick={onDotClick} 
-            years={years}
-          />
+              totalStories={totalStories} 
+              currentStoryIndex={storyIndex} 
+              onDotClick={onDotClick} 
+              years={years}
+            />
           )
         }
-        
       </div>
     </div>
   );
