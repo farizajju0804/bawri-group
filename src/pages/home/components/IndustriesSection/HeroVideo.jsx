@@ -24,7 +24,7 @@ const HeroVideo = () => {
           A Legacy of Fortitude, Resilience, and Triumph
         </div>
         <div className="py-2 bg-[#fddb60] text-[#262626] mx-auto px-4 year-caption w-fit">
-          Established 1872
+          Established 1874
         </div>
       </div>
     </section>

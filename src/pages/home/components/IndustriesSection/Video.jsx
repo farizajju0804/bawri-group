@@ -14,16 +14,20 @@ const VideoSection = () => {
           <h1 style={Skywalk} className="text-5xl font-bold">Our Journey</h1>
         </div>
       </div>
-      <div className="flex justify-center items-center w-full overflow-hidden bg-[#FDDB60] py-8">
-        <div className="px-4 pb-4 relative flex justify-center items-center w-full max-w-5xl">
-          <video
-            className="h-full rounded-lg shadow-lg aspect-video"
-            controls
-            src="https://res.cloudinary.com/drlyyxqh9/video/upload/v1718884404/Bawri%20Group/Landing%20Page/Bawri_Group_Home_Video_-_Slow_-_compressed_wiqnmf.mp4"
-            type="video/mp4"
-          >
-            Your browser does not support the video tag.
-          </video>
+      <div className="flex justify-center items-center w-full overflow-hidden bg-[#FDDB60] px-6 lg:px-12 py-8">
+        <div className="mockup mockup--laptop">
+          <div className="mockup-screen">
+            <div className="mockup-inner">
+              <video
+                className="w-full h-full object-cover"
+                controls
+                src="https://res.cloudinary.com/drlyyxqh9/video/upload/v1718884404/Bawri%20Group/Landing%20Page/Bawri_Group_Home_Video_-_Slow_-_compressed_wiqnmf.mp4"
+                type="video/mp4"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -39,3 +39,162 @@
 .bg-video{
     background: url(https://media.istockphoto.com/id/1479254244/video/speed-ramp-raindrop-falling-from-leaf-rippling-green-water-surface.mp4);
 }
+
+
+
+.mockup {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+}
+.mockup .-screen {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+.mockup .-screen:before {
+  content: "";
+  display: block;
+}
+.mockup .-screen > .-inner {
+  background-color: #111;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.mockup .-screen > .-inner iframe,
+.mockup .-screen > .-inner img {
+  border: 0;
+  display: block;
+  width: 100%;
+}
+.mockup .-screen > .-inner iframe {
+  height: 100%;
+}
+.mockup .-text {
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 4rem 2rem;
+}
+.mockup--laptop {
+  background-color: #1f1f1f;
+  border: 0.125rem solid #1f1f1f;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 0 0 0.12rem #111;
+  margin-bottom: 0.8rem;
+  width: 90%;
+  max-width: 60rem;
+}
+.mockup--laptop:after {
+  content: "";
+  background-color: #111;
+  height: 0.8rem;
+  position: absolute;
+  left: -5.8%;
+  right: -5.8%;
+  bottom: -0.8rem;
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+.mockup--laptop .-screen {
+  background-color: #000;
+  border: 0.4rem solid #000;
+  border-top-width: 2.8rem;
+  border-bottom-width: 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
+.mockup--laptop .-screen:before {
+  padding-top: 56.25%;
+}
+.mockup--laptop .-screen:after {
+  content: "R Λ Z Ξ R";
+  background-size: auto 0.7em;
+  color: #fff;
+  font-family: "Cabin", Arial, sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  bottom: -2em;
+  opacity: 0.15;
+}
+.mockup--laptop .-screen > .-inner {
+  border-radius: 0.2rem;
+}
+.mockup--smartphone {
+  background-color: #000;
+  border: 0.2rem solid #666;
+  border-radius: 1.4rem;
+  max-width: 16rem;
+}
+.mockup--smartphone:before, .mockup--smartphone:after {
+  content: "";
+  background-color: #666;
+  position: absolute;
+  width: 0.2rem;
+  right: -0.345rem;
+  border-radius: 0 0.1rem 0.1rem 0;
+}
+.mockup--smartphone:before {
+  height: 5rem;
+  top: 4rem;
+}
+.mockup--smartphone:after {
+  height: 2rem;
+  top: 10rem;
+}
+.mockup--smartphone .-screen {
+  background-color: #000;
+  border: 0.4rem solid #000;
+  border-top-width: 0.8rem;
+  border-bottom-width: 1.6rem;
+  border-radius: 1.4rem;
+}
+.mockup--smartphone .-screen:before {
+  padding-top: 190%;
+}
+.mockup--smartphone .-screen:after {
+  content: "";
+  background-color: #000;
+  border-radius: 0 0 2rem 2rem;
+  height: 0.8rem;
+  width: 1.6rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -0.8rem;
+}
+.mockup--smartphone .-screen > .-inner {
+  border-radius: 1.4rem;
+}
+
+@media (min-width: 576px) {
+  .mockup--laptop {
+    margin-bottom: 1.2rem;
+  }
+  .mockup--laptop:after {
+    height: 1.2rem;
+    bottom: -1.2rem;
+    border-radius: 0 0 1.2rem 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  .mockup--laptop {
+    margin-bottom: 1.6rem;
+  }
+  .mockup--laptop:after {
+    height: 1.6rem;
+    bottom: -1.6rem;
+    border-radius: 0 0 1.6rem 1.6rem;
+  }
+}
