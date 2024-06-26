@@ -4,7 +4,8 @@
         "id": "bawri-school",
         "categoryName": "Education",
         "companyName": "Jamuna Devi Saraswati Vidya Mandir",
-        "year": "2002",
+        "categoryImage" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719393877/Bawri%20Group/Non%20Profit/Category%20Images/1_yy51gv.png",
+        "year": "1986",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718294480/Bawri%20Group/Non%20Profit/Education/educationbg-666b0c43de640_bo7gvj.webp",
         "testimonial": {
           "authorName": "Rajesh Bhagra",
@@ -45,7 +46,8 @@
         "id": "ideopedia",
         "categoryName": "Knowledge",
         "companyName": "Ideopedia",
-        "year": "2010",
+        "categoryImage" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719393881/Bawri%20Group/Non%20Profit/Category%20Images/2_yibace.png",
+        "year": "2005",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719072250/Bawri%20Group/Non%20Profit/Knowledge/ideabg_ugvgmc.jpg",
         "testimonial": {
           "authorName": "Person Name",
@@ -82,8 +84,9 @@
       {
         "id": "unity",
         "categoryName": "National Unity",
-        "companyName": "Think",
-        "year": "2010",
+        "companyName": "My Home India",
+        "categoryImage" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719395715/Bawri%20Group/Non%20Profit/Category%20Images/unity-category_rf6y3n.png",
+        "year": "2004",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225598/Bawri%20Group/Non%20Profit/National%20Unity/unity-bg_rltgry.png",
         "testimonial": {
           "authorName": "Person Name",
@@ -105,7 +108,7 @@
           "content": [
             "Lorem ipsum dolor sit amet consectetur. Neque eros vitae mattis orci cursus. Consequat massa sed eu maecenas. Sagittis lectus quis adipiscing faucibus maecenas. Sed vulputate placerat a nunc cursus. Ullamcorper risus gravida in orci. Eget et bibendum at consequat vel et elit vitae id. Malesuada tincidunt auctor a amet in ultricies sit id. Aliquet tortor pellentesque convallis faucibus feugiat dictum augue. Morbi sed diam viverra."
           ],
-          "companyName" :"Think"
+          "companyName" :"My Home India"
         },
         "highlightMoment": {
           "year": "2018",
@@ -121,7 +124,8 @@
         "id": "growth",
         "categoryName": "Economic Growth",
         "companyName": "Think India",
-        "year": "2010",
+        "categoryImage" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719395716/Bawri%20Group/Non%20Profit/Category%20Images/growth-category_ffwzxb.png",
+        "year": "2009",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719071805/Bawri%20Group/Non%20Profit/Economic%20Growth/growthbg_zxnloa.jpg",
         "testimonial": {
           "authorName": "Person Name",
@@ -157,9 +161,10 @@
       },
       {
         "id": "bawri-eye-hospital",
-        "categoryName": "healthcare",
+        "categoryName": "Healthcare",
         "companyName": "Bawri Nethralaya",
-        "year": "2010",
+        "categoryImage" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719395714/Bawri%20Group/Non%20Profit/Category%20Images/healthcare-category_xaiiag.png",
+        "year": "2002",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719225790/Bawri%20Group/Non%20Profit/Healthcare/healthbg_axeyzr.jpg",
         "testimonial": {
           "authorName": "Person Name",

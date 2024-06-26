@@ -1,0 +1,49 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .pagination-button {
+    background-color: #fddb60;
+    color: #262626;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap; /* Prevent button text from wrapping */
+  }
+  
+
+  
+  .current-company {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+
+
+  @media screen and (max-width:767px) {
+    /* .current-company{
+        display: none;
+    } */
+    .pagination{
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .pagination-button{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+  }
+  

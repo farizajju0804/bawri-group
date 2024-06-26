@@ -4,7 +4,8 @@
         "id": "nagaland-plywoods",
         "categoryName": "Plywood",
         "companyName": "Nagaland Plywoods",
-        "year": "2002",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719391971/Bawri%20Group/For-profit/road-boards/plywood-board.png",
+        "year": "1972",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718287793/Bawri%20Group/Plywood/intro-plywood_uqb6ne.webp",
         "testimonial": {
           "authorName": "Rajesh Bhagra",
@@ -45,7 +46,8 @@
         "id": "vinay",
         "categoryName": "Cements",
         "companyName": "Vinay Cements",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719391888/Bawri%20Group/For-profit/road-boards/vinay-board.png",
+        "year": "1986",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718782751/Bawri%20Group/For-profit/Cements/vinaybg_fcqvae.jpg",
         "testimonial": {
           "authorName": "Person name",
@@ -84,7 +86,8 @@
         "id": "calcom",
         "categoryName": "Cements",
         "companyName": "Calcom Cements",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719392083/Bawri%20Group/For-profit/road-boards/calcom-board.png",
+        "year": "2004",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719226537/Bawri%20Group/For-profit/Cements/calcombg_qr0u9r.jpg",
         "testimonial": {
           "authorName": "Person name",
@@ -122,7 +125,8 @@
         "id": "thaella",
         "categoryName": "Fashion Design",
         "companyName": "Thealla",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719391890/Bawri%20Group/For-profit/road-boards/fashion-design-board.png",
+        "year": "2006",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718782887/Bawri%20Group/For-profit/Fashion%20Design/thaellabg_uys21m.png",
         "testimonial": {
           "authorName": "Person name",
@@ -160,7 +164,8 @@
         "id": "mansions",
         "categoryName": "Real Estate",
         "companyName": "Bawri Mansions",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719391896/Bawri%20Group/For-profit/road-boards/estate-board.png",
+        "year": "1983",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719235137/Bawri%20Group/For-profit/Real%20Estate/mansion-bg_gwidhw.png",
         "testimonial": {
           "authorName": "Person name",
@@ -198,7 +203,8 @@
         "id": "diduce",
         "categoryName": "Email Search",
         "companyName": "Diduce",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719391903/Bawri%20Group/For-profit/road-boards/diduce-board.png",
+        "year": "2014",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719227843/Bawri%20Group/For-profit/Email%20Search/diducebg_zzhi28.jpg",
         "testimonial": {
           "authorName": "Person name",
@@ -234,7 +240,8 @@
         "id": "oleo-resin",
         "categoryName": "Food & Beverage",
         "companyName": "Oleo Resin",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719391910/Bawri%20Group/For-profit/road-boards/resin-board.png",
+        "year": "1998",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719228432/Bawri%20Group/For-profit/Food/resinbg_nlxkgp.jpg",
         "testimonial": {
           "authorName": "Person name",
@@ -270,7 +277,8 @@
         "id": "ikaaya",
         "categoryName": "Haute Couture",
         "companyName": "Ikaaya",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719391918/Bawri%20Group/For-profit/road-boards/haute-board.png",
+        "year": "2003",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234771/Bawri%20Group/For-profit/haute%20couture/ikaaya-bg_fghfma.png",
         "testimonial": {
           "authorName": "Person name",
@@ -308,7 +316,8 @@
         "id": "timber",
         "categoryName": "Timber",
         "companyName": "Bawri Timber",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719392517/Bawri%20Group/For-profit/road-boards/timber-board.png",
+        "year": "1967",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719229729/Bawri%20Group/For-profit/timber/timberbg_plwvru.jpg",
         "testimonial": {
           "authorName": "Person name",
@@ -347,7 +356,8 @@
         "id": "luxury",
         "categoryName": "Luxury Retail",
         "companyName": "PrideNPrecious",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719392517/Bawri%20Group/For-profit/road-boards/retail-board.png",
+        "year": "2002",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233525/Bawri%20Group/For-profit/Retail/retailbg_bvhirs.jpg",
         "testimonial": {
           "authorName": "Person name",
@@ -385,7 +395,8 @@
         "id": "cijen",
         "categoryName": "Saas",
         "companyName": "Cijen",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719393507/Bawri%20Group/For-profit/road-boards/cijen-board.png",
+        "year": "2001",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719233996/Bawri%20Group/For-profit/Saas/cijenbg_bb3oyp.jpg",
         "testimonial": {
           "authorName": "Person name",
@@ -421,7 +432,8 @@
         "id": "quantta",
         "categoryName": "Analytics",
         "companyName": "Quantta",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719392551/Bawri%20Group/For-profit/road-boards/quantta-board.png",
+        "year": "2012",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1718782808/Bawri%20Group/For-profit/Analytics/quanttabg_oqpyuj.jpg",
         "testimonial": {
           "authorName": "Person name",
@@ -458,7 +470,8 @@
         "id": "antiques",
         "categoryName": "Antiques",
         "companyName": "Saroj Antiques",
-        "year": "2010",
+        "boardImg" : "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719392000/Bawri%20Group/For-profit/road-boards/antiques-board.png",
+        "year": "2003",
         "bgImageUrl": "https://res.cloudinary.com/drlyyxqh9/image/upload/v1719234084/Bawri%20Group/For-profit/Antiques/antiques_jssdzr.png",
         "testimonial": {
           "authorName": "Person name",

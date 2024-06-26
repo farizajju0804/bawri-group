@@ -7,16 +7,20 @@ import TestimonialCompany from '../components/testimonial-company/testimonialCom
 import HowWeStarted from '../components/how-we-started/howWeStarted';
 import AboutCompany from '../components/About-company/aboutCompany';
 import HighlightMomentprofit from '../components/highlight-moment-1/highlightMomentprofit';
+import Pagination from '../components/Pagination/Pagination';
 
 const CompanyPage = () => {
   const { id } = useParams();
+  const [companies, setCompanies] = useState([]);
   const [company, setCompany] = useState(null);
 
   useEffect(() => {
     fetch('/companies.json')
       .then(response => response.json())
       .then(data => {
-        const selectedCompany = data.forProfit.find(company => company.id === id);
+        const sortedData = data.forProfit.sort((a, b) => parseInt(a.year) - parseInt(b.year));
+        setCompanies(sortedData);
+        const selectedCompany = sortedData.find(company => company.id === id);
         setCompany(selectedCompany);
       });
   }, [id]);
@@ -25,18 +29,22 @@ const CompanyPage = () => {
     return <div>Company not found</div>;
   }
 
+  const currentIndex = companies.findIndex(comp => comp.id === id);
+  const prevCompany = currentIndex > 0 ? companies[currentIndex - 1] : null;
+  const nextCompany = currentIndex < companies.length - 1 ? companies[currentIndex + 1] : null;
+
   return (
     <div>
       <CompanyImageHeader
-        categoryName={company.categoryName} 
-        bgImageUrl={company.bgImageUrl} 
+        categoryName={company.categoryName}
+        bgImageUrl={company.bgImageUrl}
       />
       <TitleAndYear
-        companyName={company.companyName} 
-        year={company.year} 
-        bgImageUrl={company.bgImageUrl} 
+        companyName={company.companyName}
+        year={company.year}
+        bgImageUrl={company.bgImageUrl}
       />
-      <TestimonialCompany 
+      <TestimonialCompany
         authorName={company.testimonial.authorName}
         testimonialContent={company.testimonial.content}
       />
@@ -58,6 +66,12 @@ const CompanyPage = () => {
         content={company.highlightMoment.content}
         momentName={company.highlightMoment.momentName}
         highlightImg={company.highlightMoment.highlightImg}
+      />
+      <Pagination
+        currentCompany={company}
+        prevCompany={prevCompany}
+        nextCompany={nextCompany}
+        basePath="/profit"
       />
     </div>
   );

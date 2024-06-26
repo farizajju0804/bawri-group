@@ -1,20 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import image1 from "./assets/1.png";
-import image2 from "./assets/2.png";
-import image4 from "./assets/4.png";
-import image5 from "./assets/5.png";
-import image6 from "./assets/6.png";
 import './main.css';
 
 const Main = () => {
-  const items = [
-    { title: "Education", image: image1, path: "/non-profit/bawri-school" },
-    { title: "Knowledge", image: image2, path: "/non-profit/ideopedia" },
-    { title: "Economic Growth", image: image6, path: "/non-profit/growth" },
-    { title: "National Unity", image: image4, path: "/non-profit/unity" },
-    { title: "Healthcare", image: image5, path: "/non-profit/bawri-eye-hospital" }
-  ];
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/non-profit-companies.json');
+        const data = await response.json();
+        const sortedData = data.nonProfit.sort((a, b) => parseInt(a.year) - parseInt(b.year));
+        setItems(sortedData);
+      } catch (error) {
+        console.error('Error fetching the data', error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <div className="page">
@@ -32,13 +36,13 @@ const Main = () => {
         </div>
         <div className="circle-container">
           {items.map((item, index) => (
-            <Link to={item.path} style={{ textDecoration: 'none' }} key={index}>
+            <Link to={`/non-profit/${item.id}`} style={{ textDecoration: 'none' }} key={index}>
               <div className={`child ${index % 2 === 0 ? 'left-child' : 'right-child'}`}>
                 <div className={`image-div ${index % 2 === 0 ? 'left-image-div' : 'right-image-div'}`}>
-                  <img className="image" src={item.image} alt={item.title} />
+                  <img className="image" src={item.categoryImage} alt={item.categoryName} />
                 </div>
                 <div className={`content-div ${index % 2 === 0 ? 'left-content-div' : 'right-content-div'}`}>
-                  <div className="text-center poppins-regular">{item.title}</div>
+                  <div className="text-center poppins-regular">{item.categoryName}</div>
                 </div>
               </div>
             </Link>
