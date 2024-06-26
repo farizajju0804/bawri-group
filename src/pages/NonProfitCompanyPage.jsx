@@ -8,7 +8,7 @@ import AboutCompanyNp from '../components/About-company-np/aboutCompanynp';
 import TitleAndYearNp from '../components/titleAndYearNp/titleAndYearNp';
 import HighlightMomentNonprofit from '../components/highlight-moment-2/highlightMomentNonprofit';
 import Pagination from '../components/Pagination/Pagination';
-
+import Breadcrumb from '../components/Breadcrumb/Breadcrumb'; // Import Breadcrumb
 
 const NonProfitCompanyPage = () => {
   const { id } = useParams();
@@ -41,6 +41,7 @@ const NonProfitCompanyPage = () => {
 
   return (
     <div style={overflow}>
+      <Breadcrumb type="non-profit" categoryName={company.categoryName} /> {/* Add Breadcrumb */}
       <CompanyImageHeader
         categoryName={company.categoryName}
         bgImageUrl={company.bgImageUrl}

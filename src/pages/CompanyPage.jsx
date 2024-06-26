@@ -8,6 +8,7 @@ import HowWeStarted from '../components/how-we-started/howWeStarted';
 import AboutCompany from '../components/About-company/aboutCompany';
 import HighlightMomentprofit from '../components/highlight-moment-1/highlightMomentprofit';
 import Pagination from '../components/Pagination/Pagination';
+import Breadcrumb from '../components/Breadcrumb/Breadcrumb'; // Import Breadcrumb
 
 const CompanyPage = () => {
   const { id } = useParams();
@@ -35,6 +36,7 @@ const CompanyPage = () => {
 
   return (
     <div>
+      <Breadcrumb type="profit" companyName={company.companyName} /> {/* Add Breadcrumb */}
       <CompanyImageHeader
         categoryName={company.categoryName}
         bgImageUrl={company.bgImageUrl}

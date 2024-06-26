@@ -1,0 +1,25 @@
+.breadcrumb {
+  position: absolute;
+  top: 10vh;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  z-index: 1000;
+}
+
+.breadcrumb-home {
+  color: #3b4cff;
+  cursor: pointer;
+}
+
+.breadcrumb-home:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  margin: 0 5px;
+  color: #555;
+}
