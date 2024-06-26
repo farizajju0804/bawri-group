@@ -32,12 +32,12 @@ const HighlightMomentNonprofit = ({ highlightImg, momentName, content, year, loc
             <div className='highlight-np-main'>
                 <img className='highlight-np-img'ref={highlightMomentRef} src={highlightImg} alt='highlight'/>
                     <div className='highlight-np-content-wrapper' >
-                        <p className='highlight-np-content-moment-tilte'>Moment Name</p>
+                        <p className='highlight-np-content-moment-tilte'>{momentName}</p>
                     <div className='highlight-np-content-metadata-box'>
-                        <div className='highlight-np-content-metadata'>2012 - Kolkata, India</div>
+                        <div className='highlight-np-content-metadata poppins-regular'>{year} - {location}</div>
                     </div>
-                        <p className='highlight-np-content-text'>
-                        Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta.                         </p>
+                        <p className='highlight-np-content-text poppins-regular'>
+                        {content}</p>
                     </div>
                    
 

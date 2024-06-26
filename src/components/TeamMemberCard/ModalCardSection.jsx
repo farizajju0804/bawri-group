@@ -16,7 +16,7 @@ const ModalCardSection = ({ member, onClose }) => {
           </div>
         </div>
         <div className="modal-text-content">
-          <h3 className='other-roles'>{member.otherRoles}</h3>
+          <h3 className='other-roles poppins-regular'>{member.otherRoles}</h3>
           <p>{member.bio}</p>
         </div>
       </div>

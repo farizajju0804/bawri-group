@@ -3,7 +3,7 @@ import '../Component2/Component2.css'
 const Component2 = () => {
   return (
     <div className='about-div2'>
-        <p className='about-content2'>Welcome to Bawri Group, a multifaceted conglomerate dedicated to excellence, innovation, and social responsibility. Since our inception, we have grown to become a leader in various industries, including construction, manufacturing, healthcare, education, and technology. Our diverse portfolio showcases our commitment to delivering high-quality products and services that enhance the lives of people around the world.<br/><br/>
+        <p className='about-content2 poppins-regular'>Welcome to Bawri Group, a multifaceted conglomerate dedicated to excellence, innovation, and social responsibility. Since our inception, we have grown to become a leader in various industries, including construction, manufacturing, healthcare, education, and technology. Our diverse portfolio showcases our commitment to delivering high-quality products and services that enhance the lives of people around the world.<br/><br/>
 
 At Bawri Group, we believe in the power of innovation to drive progress and create sustainable value. Our team of dedicated professionals works tirelessly to develop cutting-edge solutions that address the evolving needs of our customers and communities. We are proud of our legacy of integrity, excellence, and social impact, which has been built on a foundation of strong ethical principles and a commitment to doing what is right.<br/><br/>
 

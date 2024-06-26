@@ -14,7 +14,7 @@ const PartsPage = () => {
       <div className="parts-selection">
         {Object.keys(storyData).map((key, index) => (
           <Link key={index} to={`/our-story/${key}`} className="part-link">
-            <div className="part">
+            <div className="part poppins-regular">
               <img src={storyData[key].imageUrl} alt={storyData[key].name} />
               <h3>{storyData[key].name}</h3>
               <p>{storyData[key].year}</p>

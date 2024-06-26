@@ -8,7 +8,7 @@ const TeamMemberCard = ({ member, onLearnMore }) => {
         <img src={member.blackImage} alt={`${member.name}`} className="profile-pic" />
         <div className="name-role">
           <h2 className="member-name">{member.name}</h2>
-          <h3 className="member-role">{member.role}</h3>
+          <h3 className="member-role poppins-regular">{member.role}</h3>
         </div>
       </div>
     </div>

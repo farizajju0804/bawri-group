@@ -33,7 +33,7 @@ const AboutCompany = ({ aboutImg, companyName, content }) => {
           <img ref={aboutCompanyRef} src={aboutImg} className='about-Company-img' alt='about' />
           <div className='about-company-content-box'>
             {content.map((content, index) => (
-              <p key={index} className='about-company-content'>{content}</p>
+              <p key={index} className='about-company-content poppins-regular'>{content}</p>
             ))}
           </div>
   

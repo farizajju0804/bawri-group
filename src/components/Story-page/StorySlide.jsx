@@ -12,7 +12,7 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
   };
 
   const isMobile = window.innerWidth < 768;
-  const textClass = 'story-content-text';
+  const textClass = 'story-content-text poppins-regular';
 
   useEffect(() => {
     const handleResize = () => {

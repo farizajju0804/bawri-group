@@ -50,7 +50,7 @@ const TestimonialCompany = ({ testimonialContent, authorName }) => {
         <p className='testimonial-heading'>Testimonial</p>
         <div className='testimonial-content-box'>
           {testimonialContent.map((content, index) => (
-            <p key={index} className='testimonial-content'>{content}</p>
+            <p key={index} className='testimonial-content poppins-regular'>{content}</p>
           ))}
         </div>
       </div>

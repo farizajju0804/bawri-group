@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className='poppins-regular'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -57,7 +57,7 @@ function App() {
         <Route path='/non-profit/:id' element={<NonProfitCompanyPage />} />
       </Routes>
       {shouldShowFooter() && <Footer />}
-    </>
+    </div>
   );
 }
 

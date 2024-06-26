@@ -45,7 +45,6 @@ const Testimonial = () => {
   };
 
   const Lato = {
-    fontFamily: 'Lato',
     color: "#262626"
   };
 
@@ -87,7 +86,7 @@ const Testimonial = () => {
                     {/* <span className="absolute inset-0  bg-yellow-300 rounded-lg transform -skew-x-3 z-0"></span> */}
                   </h3>
                   {testimonials[currentSlide].text.map((paragraph, index) => (
-                    <p key={index} className="mb-8 text-lg">{paragraph}</p>
+                    <p key={index} className="mb-8 poppins-regular text-lg">{paragraph}</p>
                   ))}
                 </div>
                 <div className="w-full">

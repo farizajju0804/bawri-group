@@ -58,7 +58,7 @@ const Road = () => {
           <div key={section.id} id={`section-${section.id}`} className={`road-section ${index % 2 === 0 ? 'left' : 'right'}`}>
             <div id={`board-${section.id}`} className="road-board">
               <a href={section.link}>
-              <p className='fp-category-title'>{section.title}</p>
+              <p className='fp-category-title poppins-regular'>{section.title}</p>
                 <img src={require(`./assets/${section.image}`)} alt={section.title} />
               </a>
             </div>

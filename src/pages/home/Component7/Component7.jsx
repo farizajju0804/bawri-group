@@ -4,7 +4,7 @@ const Component7 = ({caption,stat,img}) => {
   return (
         
     <div className='home-Component7-div'>
-        <div className='home-Component7-heading'>
+        <div className='home-Component7-heading poppins-regular'>
           {
             caption && (
             <p className='home-Component7-text1'>{caption}</p>

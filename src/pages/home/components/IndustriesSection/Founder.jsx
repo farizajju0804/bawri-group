@@ -11,7 +11,6 @@ const Founder = () => {
   };
 
   const Lato = {
-    fontFamily: 'Lato',
     color: "#262626",
     fontWeight: 'normal'
   };
@@ -58,10 +57,10 @@ const Founder = () => {
           </svg> */}
           <img className='hidden lg:block absolute lg:top-2 lg:left-2 w-6' src={quoteleft} alt="Quote Left" />
           <img className='hidden lg:block absolute lg:bottom-2 lg:right-2 w-6' src={quoteright} alt="Quote Right" />
-          <p style={Lato} className='px-2 mt-4 text-base'>
+          <p style={Lato} className='px-2 mt-4  poppins-regular text-base'>
             Lorem ipsum dolor sit amet consectetur. Facilisi elit nam id nulla phasellus ac elementum ullamcorper posuere. Amet sollicitudin phasellus arcu ante justo mauris id. Massa eget viverra varius tellus neque. Id ut elementum pellentesque vel in. In sodales facilisis vitae magnis sed convallis. Elit quis in phasellus cum nec. A est in sapien ullamcorper purus facilisi. Adipiscing amet platea tempor nibh.
           </p>
-          <p style={Lato} className='px-2 mt-4 text-base'>
+          <p style={Lato} className='px-2 poppins-regular mt-4 text-base'>
             Id ut elementum pellentesque vel in. In sodales facilisis vitae magnis sed convallis. Elit quis in phasellus cum nec. A est in sapien ullamcorper purus facilisi. Adipiscing amet platea tempor nibh.
           </p>
           <div className='w-fit p-2 text-xl bg-white mt-8'>

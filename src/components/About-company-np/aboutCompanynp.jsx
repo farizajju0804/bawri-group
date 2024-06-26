@@ -34,7 +34,7 @@ const AboutCompanyNp = ({ aboutImg, companyName, content }) => {
       <div className='about-np-content-box'>
           {
             content.map((content, index) => (
-              <p key={index} className='about-np-content'>{content}</p>
+              <p key={index} className='about-np-content poppins-regular'>{content}</p>
             ))
           }
       </div>

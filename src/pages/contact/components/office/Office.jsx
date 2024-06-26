@@ -30,6 +30,14 @@ const Office = () => {
       addressLine1: "3A 7th Floor, Ecospace,",
       addressLine2: "New Town, Kolkata - 700156",
     },
+    {
+      id: 3,
+      name: "Option 4",
+      imageUrl: sanfranscisco,
+      title: "Bangalore, India",
+      addressLine1: "3A 7th Floor, Ecospace,",
+      addressLine2: "New Town, Kolkata - 700156",
+    },
   ];
 
   const [selectedOption, setSelectedOption] = useState(0);
@@ -63,7 +71,7 @@ const Office = () => {
             >
               <div className="address-info">
                 <p className="city-name">{option.title}</p>
-                <div className="address-lines-container">
+                <div className="address-lines-container poppins-regular">
                   <p className="city-address">{option.addressLine1}</p>
                   <p className="city-address">{option.addressLine2}</p>
                 </div>

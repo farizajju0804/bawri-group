@@ -23,7 +23,7 @@ const HeroVideo = () => {
         <div className="py-2 mb-4 text-[#fddb60] year-desc ">
           A Legacy of Fortitude, Resilience, and Triumph
         </div>
-        <div className="py-2 bg-[#fddb60] text-[#262626] mx-auto px-4 year-caption w-fit">
+        <div className="py-2 bg-[#fddb60] text-[#262626] mx-auto px-4 year-caption poppins-regular w-fit">
           Established 1874
         </div>
       </div>

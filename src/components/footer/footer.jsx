@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer-parent-container">
       <div className="footer-content-div">
         <div className="footer-links-div">
-          <div className="footer-links-left-div">
+          <div className="footer-links-left-div poppins-regular">
             {/* <a className="footer-link" href="/profit">
               Our Companies
             </a> */}
@@ -29,11 +29,11 @@ const Footer = () => {
           </div>
         </div>
         <hr className="hr"/>
-        <div className="footer-company-container">
+        <div className="footer-company-container poppins-regular">
         <a className="footer-link" href="/">
           <p className="footer-name">Bawri Group</p>
           </a>
-          <p className="footer-copyright">© 2024 Bawri Group. All rights reserved.</p>
+          <p className="footer-copyright poppins-regular">© 2024 Bawri Group. All rights reserved.</p>
         </div>
       </div>
     </div>

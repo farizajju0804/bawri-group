@@ -101,7 +101,7 @@ const Mail = () => {
                 </div>
               </div>
 
-              <button className='submit-button' type="submit">Submit</button>
+              <button className='submit-button poppins-regular' type="submit">Submit</button>
             </form>
           </>
         )}

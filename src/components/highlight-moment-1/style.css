@@ -76,7 +76,7 @@
 
 .highlight-moment-content-text{
     font-size: 18px;
-    font-family: "Lato";
+
     color: var(--white, #FFF);
     font-weight: 200;
     line-height: 1.5;
@@ -89,14 +89,14 @@
     align-items: center;
     color: white;
     /* width: 30%; */
-    font-family: "Lato";
+
 
 }
 
 .fp-metadata-box-year{
     color: var(--white, #FFF);
     text-align: center;
-    font-family: 'Lato';
+ 
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -105,7 +105,7 @@
 .fp-metadata-box-location{
     color: var(--white, #FFF);
     text-align: center;
-    font-family: Lato;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 400;

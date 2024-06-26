@@ -35,12 +35,12 @@ const HighlightMomentprofit = ({ highlightImg, momentName, content, year, locati
           <div className='highlight-moment-fp-para-content'>
             <p className='highlight-moment-fp-moment-name'>{momentName}</p>
             {content.map((item, index) => (
-              <p key={index} className='highlight-moment-content-text'>{item}</p>
+              <p key={index} className='highlight-moment-content-text poppins-regular'>{item}</p>
             ))}
           </div>
           <div className='fp-metadata-box'>
-            <div className='fp-metadata-box-year'>{year}</div>
-            <div className='fp-metadata-box-location'>{location}</div>
+            <div className='fp-metadata-box-year poppins-regular'>{year}</div>
+            <div className='fp-metadata-box-location poppins-regular'>{location}</div>
           </div>
         </div>
       </div>

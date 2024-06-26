@@ -67,7 +67,6 @@
 .highlight-np-content-text{
     color: black;
     text-align: left;
-    font-family: 'Lato';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -92,7 +91,6 @@
 .highlight-np-content-metadata{
     color: black;
     text-align: center;
-    font-family: 'Lato';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -124,7 +122,6 @@
 
     .highlight-np-content-text{
         color: black;
-        font-family: 'Lato';
         font-size: 14px;
         font-style: normal;
         font-weight: 400;

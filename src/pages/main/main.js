@@ -38,7 +38,7 @@ const Main = () => {
                   <img className="image" src={item.image} alt={item.title} />
                 </div>
                 <div className={`content-div ${index % 2 === 0 ? 'left-content-div' : 'right-content-div'}`}>
-                  <div className="content">{item.title}</div>
+                  <div className="text-center poppins-regular">{item.title}</div>
                 </div>
               </div>
             </Link>

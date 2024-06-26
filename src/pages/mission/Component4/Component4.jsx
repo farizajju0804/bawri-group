@@ -7,7 +7,7 @@ const Component4 = () => {
             <p className='vision-Component4-heading'>
                 Vision
             </p>
-            <p className='vision-Component4-content'>
+            <p className='vision-Component4-content poppins-regular'>
             Our vision is to be a global leader in diverse sectors, pioneering transformative solutions that inspire positive change and sustainable growth. We aspire to foster a future where our initiatives contribute to the well-being and progress of society, creating a more inclusive and equitable world. Through strategic innovation and collaboration, we aim to set new standards of excellence, driving forward-thinking approaches that benefit both people and the planet.
             </p>
         </div>

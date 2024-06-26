@@ -122,11 +122,11 @@ const Gallery3d = () => {
                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
               }}
             >
-              <AiOutlineClose />
+              <AiOutlineClose size={14} />
             </button>
             <img src={selectedImage} alt="Selected" className="object-cover w-full h-[90%] max-h-[80vh]" />
             <div className="p-4">
-              <p className="text-gray-700 text-base">{selectedText}</p>
+              <p className="text-gray-700 text-base poppins-regular">{selectedText}</p>
             </div>
           </div>
         </div>

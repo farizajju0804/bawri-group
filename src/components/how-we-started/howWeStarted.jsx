@@ -57,7 +57,7 @@ const HowWeStarted = ({ content, leftImageUrl, rightImageUrl, bgImageUrl, headin
       <p className='how-we-started-heading' style={colorStyle}>How We Started?</p>
       <div className='how-we-started-content-box'>
         {content.map((content, index) => (
-          <p key={index} className='how-We-started-content'>{content}</p>
+          <p key={index} className='how-We-started-content poppins-regular'>{content}</p>
         ))}
       </div>
       <div className='side-images-box'>

@@ -19,7 +19,7 @@ const TeamPage = () => {
     <div className="team-page">
       <div className="intro-section">
         <h1 className="team-title">Our Team</h1>
-        <p className="team-description">
+        <p className="team-description poppins-regular">
         At Bawri Group, our strength lies in our people. From pioneering leaders to dedicated team members, each individual contributes to our shared vision of excellence, innovation, and growth. Our team embodies a rich tapestry of diverse talents, united by a commitment to pushing boundaries and achieving remarkable milestones.
         </p>
       </div>
