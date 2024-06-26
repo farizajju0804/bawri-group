@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './StorySlide.css';
 import Timeline from './Timeline'; // Adjust the import path accordingly
+import {MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 
 const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotClick, storyIndex, years, bgPosition, partId }) => {
   const bgStyle = {
@@ -39,10 +40,10 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
           return (
             <>
               <button className='nav-button' onClick={() => handleNavigation('/our-story')}>
-                &larr; Home
+                <MdArrowBackIos/> Home
               </button>
-              <button className='nav-button' onClick={() => handleNavigation('/our-story/part2')}>
-                Part 2 &rarr;
+              <button className='nav-button-1' onClick={() => handleNavigation('/our-story/part2')}>
+                Part 2 <MdArrowForwardIos/>
               </button>
             </>
           );
@@ -50,10 +51,10 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
           return (
             <>
               <button className='nav-button' onClick={() => handleNavigation('/our-story/part1')}>
-                &larr; Part 1
+              <MdArrowBackIos/> Part 1
               </button>
-              <button className='nav-button' onClick={() => handleNavigation('/our-story/part3')}>
-                Part 3 &rarr;
+              <button className='nav-button-1' onClick={() => handleNavigation('/our-story/part3')}>
+                Part 3 <MdArrowForwardIos/>
               </button>
             </>
           );
@@ -61,10 +62,10 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
           return (
             <>
               <button className='nav-button' onClick={() => handleNavigation('/our-story/part2')}>
-                &larr; Part 2
+              <MdArrowBackIos/> Part 2
               </button>
-              <button className='nav-button' onClick={() => handleNavigation('/our-story')}>
-                Home &rarr;
+              <button className='nav-button-1' onClick={() => handleNavigation('/our-story')}>
+                Home <MdArrowForwardIos/>
               </button>
             </>
           );

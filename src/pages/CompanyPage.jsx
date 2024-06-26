@@ -36,7 +36,7 @@ const CompanyPage = () => {
 
   return (
     <div>
-      <Breadcrumb type="profit" companyName={company.companyName} /> {/* Add Breadcrumb */}
+      <Breadcrumb type="For-Profit Companies" companyName={company.companyName} path='profit' /> {/* Add Breadcrumb */}
       <CompanyImageHeader
         categoryName={company.categoryName}
         bgImageUrl={company.bgImageUrl}

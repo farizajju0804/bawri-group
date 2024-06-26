@@ -1,17 +1,17 @@
 .breadcrumb {
   position: absolute;
   top: 10vh;
-  left: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px 20px;
+  left: 2%;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  font-size: 1rem;
+  font-size: 14px;
   z-index: 1000;
 }
 
 .breadcrumb-home {
-  color: #3b4cff;
+  color: #555;
   cursor: pointer;
 }
 
@@ -22,4 +22,15 @@
 .breadcrumb-separator {
   margin: 0 5px;
   color: #555;
+}
+
+.breadcrumb-item{
+  color:#000000;
+  font-weight: 500
+}
+
+@media screen and (max-width:767px) {
+  .breadcrumb{
+    top:9vh;
+  }
 }

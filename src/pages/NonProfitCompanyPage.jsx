@@ -41,7 +41,7 @@ const NonProfitCompanyPage = () => {
 
   return (
     <div style={overflow}>
-      <Breadcrumb type="non-profit" categoryName={company.categoryName} /> {/* Add Breadcrumb */}
+      <Breadcrumb type="Non-Profit Companies" path='non-profit' categoryName={company.categoryName} /> {/* Add Breadcrumb */}
       <CompanyImageHeader
         categoryName={company.categoryName}
         bgImageUrl={company.bgImageUrl}
