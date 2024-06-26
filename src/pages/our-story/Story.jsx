@@ -11,7 +11,7 @@ const StoryPage = () => {
   const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
   const targetRef = useRef(null);
   const [height, setHeight] = useState(window.innerHeight);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
 
   useEffect(() => {
     const handleResize = () => {
@@ -24,6 +24,11 @@ const StoryPage = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
+  useEffect(() => {
+    // Reset scroll position on part change
+    window.scrollTo(0, 0);
+  }, [partId]);
 
   const getWidthCal = (part, isMobile) => {
     if (isMobile) {
@@ -59,6 +64,7 @@ const StoryPage = () => {
   const handleScroll = () => {
     const elements = part.stories.map((_, index) => document.getElementById(`story-${index}`));
     const currentIndex = elements.findIndex((element) => {
+      if (!element) return false;
       const rect = element.getBoundingClientRect();
       return rect.left >= 0 && rect.left <= window.innerWidth;
     });
@@ -99,6 +105,7 @@ const StoryPage = () => {
                 storyIndex={index}
                 years={years}
                 bgPosition={story.bgPosition}
+                partId={partId}
               />
             </div>
           ))}
@@ -119,6 +126,7 @@ const StoryPage = () => {
                     onDotClick={handleDotClick}
                     storyIndex={index}
                     years={years}
+                    partId={partId}
                   />
                 </div>
               ))}

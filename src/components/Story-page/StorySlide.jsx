@@ -1,18 +1,26 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './StorySlide.css';
 import Timeline from './Timeline'; // Adjust the import path accordingly
 
-const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotClick, storyIndex, years,bgPosition }) => {
+const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotClick, storyIndex, years, bgPosition, partId }) => {
   const bgStyle = {
     backgroundImage: `url(${bgImage})`
   };
   const bgStyle2 = {
     backgroundImage: `url(${image})`,
-    backgroundPosition : bgPosition
+    backgroundPosition: bgPosition
   };
-
+ 
+  const longYears = ['1986']
   const isMobile = window.innerWidth < 768;
-  const textClass = 'story-content-text poppins-regular';
+  const textClass = longYears.includes[year] ? 'story-content-text poppins-regular' : 'story-content-text poppins-regular' ;
+
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -23,6 +31,49 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
+  const renderButtons = () => {
+    if (storyIndex === totalStories - 1) {
+      switch (partId) {
+        case 'part1':
+          return (
+            <>
+              <button className='nav-button' onClick={() => handleNavigation('/our-story')}>
+                &larr; Home
+              </button>
+              <button className='nav-button' onClick={() => handleNavigation('/our-story/part2')}>
+                Part 2 &rarr;
+              </button>
+            </>
+          );
+        case 'part2':
+          return (
+            <>
+              <button className='nav-button' onClick={() => handleNavigation('/our-story/part1')}>
+                &larr; Part 1
+              </button>
+              <button className='nav-button' onClick={() => handleNavigation('/our-story/part3')}>
+                Part 3 &rarr;
+              </button>
+            </>
+          );
+        case 'part3':
+          return (
+            <>
+              <button className='nav-button' onClick={() => handleNavigation('/our-story/part2')}>
+                &larr; Part 2
+              </button>
+              <button className='nav-button' onClick={() => handleNavigation('/our-story')}>
+                Home &rarr;
+              </button>
+            </>
+          );
+        default:
+          return null;
+      }
+    }
+    return null;
+  };
 
   return (
     <div className='story-outer-div'>
@@ -40,16 +91,11 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
             <p key={index} className={textClass}>{item}</p>
           ))}
         </div>
-        {/* {
-          !isMobile && (
-            <Timeline 
-              totalStories={totalStories} 
-              currentStoryIndex={storyIndex} 
-              onDotClick={onDotClick} 
-              years={years}
-            />
-          )
-        } */}
+        {storyIndex === totalStories - 1 && (
+          <div className='navigation-buttons'>
+            {renderButtons()}
+          </div>
+        )}
       </div>
     </div>
   );

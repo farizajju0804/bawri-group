@@ -1,12 +1,5 @@
 import { useLocation, matchPath, Routes, Route } from 'react-router-dom';
-import Timber from "./pages/timber/Timber";
-import Antiques from "./pages/antiques/Antiques";
 
-import Retail from "./pages/retail/Retail";
-
-import Quantta from "./pages/quantta/Quantta";
-
-import Cijen from "./pages/cijen/Cijen";
 
 import Road from "./pages/road/Road";
 import Home from "./pages/home/Home";
