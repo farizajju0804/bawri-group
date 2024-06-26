@@ -50,7 +50,7 @@
 
 .road-container {
   position: relative;
-  min-height: 100vh; 
+  min-height: 100lvh; 
 }
 
 .road-image {
@@ -63,7 +63,7 @@
 
 .road-section {
   position: relative;
-  min-height: 100vh;
+  min-height: 100lvh;
   display: flex;
   align-items: center;
   justify-content: center;
