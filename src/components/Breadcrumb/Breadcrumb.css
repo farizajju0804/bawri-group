@@ -32,5 +32,6 @@
 @media screen and (max-width:767px) {
   .breadcrumb{
     top:9vh;
+    font-size: 12px;
   }
 }
