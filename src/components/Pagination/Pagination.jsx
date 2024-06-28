@@ -18,7 +18,7 @@ const Pagination = ({ currentCompany, prevCompany, nextCompany, basePath }) => {
         className="pagination-button-1 flex items-center justify-center gap-2"
       >
         <MdArrowBackIos />
-        {prevCompany ? ` ${prevCompany.companyName}, ${prevCompany.year}` : ' Home'}
+        {prevCompany ? ` ${prevCompany.companyName}, ${prevCompany.year}` : 'Back'}
       </button>
       {/* <div className="current-company">
         {`${currentCompany.companyName} - ${currentCompany.year}`}
@@ -27,7 +27,7 @@ const Pagination = ({ currentCompany, prevCompany, nextCompany, basePath }) => {
         onClick={() => handleNavigation(nextCompany ? `${basePath}/${nextCompany.id}` : basePath)}
         className="pagination-button flex items-center justify-center gap-2"
       >
-        {nextCompany ? `${nextCompany.companyName}, ${nextCompany.year} ` : 'Home '}
+        {nextCompany ? `${nextCompany.companyName}, ${nextCompany.year} ` : 'Start Over'}
         <MdArrowForwardIos />
       </button>
     </div>

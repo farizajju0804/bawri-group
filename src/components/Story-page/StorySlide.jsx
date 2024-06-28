@@ -40,7 +40,7 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
           return (
             <>
               <button className='nav-button' onClick={() => handleNavigation('/our-story')}>
-                <MdArrowBackIos/> Home
+                <MdArrowBackIos/> Back
               </button>
               <button className='nav-button-1' onClick={() => handleNavigation('/our-story/part2')}>
                 Part 2 <MdArrowForwardIos/>
@@ -65,7 +65,7 @@ const StorySlide = ({ year, name, image, content, bgImage, totalStories, onDotCl
               <MdArrowBackIos/> Part 2
               </button>
               <button className='nav-button-1' onClick={() => handleNavigation('/our-story')}>
-                Home <MdArrowForwardIos/>
+                Start Over <MdArrowForwardIos/>
               </button>
             </>
           );
